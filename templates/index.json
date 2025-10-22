@@ -1,1 +1,601 @@
-{"sections":{"slideshow_yhq8kb":{"type":"slideshow","blocks":{"image_rw94FY":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/kosmobox_website_banners_2_1_1_1.jpg","overlay_opacity":26,"highlight_text":"","highlight_text_icon":"none","background_color":"#fed3dc","text_color":"#1d1d1f","subheading":"","heading":"<h2>Your Journey to Radiant<\/h2><h2>Skin Starts Here!<\/h2>","heading_size":"h1","drawn_underline":true,"drawn_underline_type":"squiggle_underline","drawn_underline_color":"#ffb005","description":"","first_button_label":"Shop Now","first_button_link":"shopify:\/\/collections\/all","first_button_type":"primary","desktop_content_position":"middle-left","text_alignment":"left","content_position_mobile":"end","text_alignment_mobile":"center"}}},"block_order":["image_rw94FY"],"settings":{"section_width":"full_width","color_scheme":"scheme-b057792d-f0df-4ed0-973f-3dd88bca67d5","background_color_loading":"#695943","show_navigation":true,"show_pagination":true,"slide_auto_change":true,"change_slide_every":9,"slide_height":"full_screen","padding_top":0,"padding_bottom":0}},"rich_text_xKpLz9":{"type":"rich-text","blocks":{"heading_YecYjE":{"type":"heading","settings":{"heading":"Welcome to Kosmobox!","width":"fit","type_preset":"h2","enable_background":false,"background_color":"#000000","border_radius":0,"padding_top":0,"padding_bottom":10},"blocks":{}},"description_eJkrxK":{"type":"description","settings":{"description":"<p>While our online shop is still brewing, we're thrilled to invite you to our physical store at <span style=\"text-decoration:underline\">1 Albert Road, Southsea, PO5 2SE<\/span>. Step inside and discover a curated selection of Korean skincare essentials. We're constantly adding new and exciting brands to our collection, and you'll find a wide range of products tailored to every skin need.<\/p><p>​<\/p><p>At KosmoBox, we believe skincare isn't a one-size-fits-all journey. Forget product lines and rigid routines – we're all about what's right for your unique skin. We meticulously combine different brands and product lines to craft the perfect regimen that your skin truly needs. Our approach ensures you get personalised solutions, not just generic recommendations.<\/p>","width":"full","type_preset":"","enable_background":false,"background_color":"#000000","border_radius":0,"padding_top":0,"padding_bottom":20},"blocks":{}}},"block_order":["heading_YecYjE","description_eJkrxK"],"name":"t:sections.rich-text.name","settings":{"section_width":"fix_width","color_scheme":"","text_alignment":"center","max_width":100,"padding_top":48,"padding_bottom":48}},"rich_text_ndN9UC":{"type":"rich-text","blocks":{"heading_DadRVG":{"type":"heading","settings":{"heading":"Kosmobox Featured Brands","width":"fit","type_preset":"h2","enable_background":false,"background_color":"#000000","border_radius":0,"padding_top":0,"padding_bottom":10},"blocks":{}},"description_KdQcek":{"type":"description","settings":{"description":"<p>Bringing to You the Best Korean Skincare Brands<\/p>","width":"fit","type_preset":"","enable_background":false,"background_color":"#000000","border_radius":0,"padding_top":0,"padding_bottom":20},"blocks":{}}},"block_order":["heading_DadRVG","description_KdQcek"],"name":"t:sections.rich-text.name","settings":{"section_width":"fix_width","color_scheme":"","text_alignment":"center","max_width":100,"padding_top":48,"padding_bottom":0}},"scrolling_text_ALPEjp":{"type":"scrolling-text","blocks":{"image_rYDJLb":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/AXIS-Y_LOGO.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":5,"show_divider":false}},"image_NCydqg":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/Beauty_of_Joseon.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":5,"show_divider":false}},"image_HTip9X":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/Biodance.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":5,"show_divider":false}},"image_Jdh8HG":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/COSRX.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":5,"show_divider":false}},"image_93W7TF":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/dr._Melaxin.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":5,"show_divider":false}},"image_tdJ3EP":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/fwee.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":5,"show_divider":false}},"image_gibexH":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/G9SKIN.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":5,"show_divider":false}},"image_iagPAY":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/Haruharu.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":5,"show_divider":false}},"image_ma84wD":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/hemish.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_itLdnU":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/Iunik.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_G9btcU":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/Hur.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_CgLXaC":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/laneige.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_EGY9zF":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/Mary_May.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_BEWDYi":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/medicube.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_XeYwbn":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/Nineless.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_KytMpj":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/numbuzin.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_DTBBBU":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/pyunkang_yul.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_jVnqXE":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/Roundlab.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_nGnCEJ":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/skin1004.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_7Jtz78":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/some_by_mi.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_Y3V7WL":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/Tocobo.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_yiKRjt":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/Tirtir.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_AeqecU":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/VT_Cosmetics.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_cGeAY3":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/by_wishtrend.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_YnGLgg":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/dr_althea.png","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_8YqtAD":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/instree_logo.webp","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_TMKAiC":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/LOGO_mixsoon_high_resolution_1.webp","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}},"image_xpfCXf":{"type":"image","settings":{"image_block":"shopify:\/\/shop_images\/images.jpg","image_width":120,"icon_svg":"none","link_image":"","image_width_mb":80,"show_divider":false}}},"block_order":["image_rYDJLb","image_NCydqg","image_HTip9X","image_Jdh8HG","image_93W7TF","image_tdJ3EP","image_gibexH","image_iagPAY","image_ma84wD","image_itLdnU","image_G9btcU","image_CgLXaC","image_EGY9zF","image_BEWDYi","image_XeYwbn","image_KytMpj","image_DTBBBU","image_jVnqXE","image_nGnCEJ","image_7Jtz78","image_Y3V7WL","image_yiKRjt","image_AeqecU","image_cGeAY3","image_YnGLgg","image_8YqtAD","image_TMKAiC","image_xpfCXf"],"name":"t:sections.scrolling_text.name","settings":{"section_width":"full_width","color_scheme":"color-scheme-2","direction":"left","speed":50,"space_between":80,"heading_size":"base","uppercase":false,"rounded_image":50,"padding_top":10,"padding_bottom":20}},"newsletter_KdfjTm":{"type":"newsletter","name":"t:sections.newsletter.name","settings":{"section_width":"fix_width","color_scheme":"","heading":"<h2>Subscibe and become Kosmobox Member<\/h2>","drawn_underline":true,"drawn_underline_type":"simple_underline","drawn_underline_color":"#ffb005","description":"","heading_size":"medium","text_alignment":"center","email_placeholder":"Enter your email","button_label":"Subscribe","padding_top":48,"padding_bottom":64,"show_divider":false}},"image_with_text_BHk7ME":{"type":"image-with-text","blocks":{"heading_emFG6c":{"type":"heading","settings":{"heading":"Unsure Where to Start?","width":"full","type_preset":"h2","enable_background":false,"background_color":"#000000","border_radius":0,"padding_top":0,"padding_bottom":20},"blocks":{}},"description_q8zj63":{"type":"description","settings":{"description":"<p>Let us guide you! Take our quick and easy skin quiz to discover your skin type and current concerns. It's the first step towards unlocking your skin's full potential.<\/p>","width":"fit-content","type_preset":"rte","enable_background":false,"background_color":"#000000","border_radius":0,"padding_top":0,"padding_bottom":40},"blocks":{}},"button_tUrbEB":{"type":"button","settings":{"first_button_label":"Start Now","first_button_link":"","first_button_type":"outline","blank_first_button":false,"second_button_label":"","second_button_link":"","second_button_type":"outline","blank_second_button":false,"spacing_bottom":0},"blocks":{}}},"block_order":["heading_emFG6c","description_q8zj63","button_tUrbEB"],"settings":{"section_width":"fix_width","color_scheme":"","image":"shopify:\/\/shop_images\/kosmobox_website_banners_1_1_1_1.jpg","desktop_image_width":50,"image_desktop_position":"left","background_color":"#efb8b8","desktop_vertical_alignment":"center","text_alignment":"center","column_gap":"no_gap","padding_top":0,"padding_bottom":50,"show_divider":false}}},"order":["slideshow_yhq8kb","rich_text_xKpLz9","rich_text_ndN9UC","scrolling_text_ALPEjp","newsletter_KdfjTm","image_with_text_BHk7ME"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_yhq8kb": {
+      "type": "slideshow",
+      "blocks": {
+        "image_rw94FY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kosmobox_website_banners_2_1_1_1.jpg",
+            "overlay_opacity": 26,
+            "highlight_text": "",
+            "highlight_text_icon": "none",
+            "background_color": "#fed3dc",
+            "text_color": "#1d1d1f",
+            "subheading": "",
+            "heading": "<h2>Your Journey to Radiant</h2><h2>Skin Starts Here!</h2>",
+            "heading_size": "h1",
+            "drawn_underline": true,
+            "drawn_underline_type": "squiggle_underline",
+            "drawn_underline_color": "#ffb005",
+            "description": "",
+            "first_button_label": "Shop Now",
+            "first_button_link": "shopify://collections/all",
+            "first_button_type": "primary",
+            "desktop_content_position": "middle-left",
+            "text_alignment": "left",
+            "content_position_mobile": "end",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_rw94FY"
+      ],
+      "settings": {
+        "section_width": "full_width",
+        "color_scheme": "scheme-b057792d-f0df-4ed0-973f-3dd88bca67d5",
+        "background_color_loading": "#695943",
+        "show_navigation": true,
+        "show_pagination": true,
+        "slide_auto_change": true,
+        "change_slide_every": 9,
+        "slide_height": "full_screen",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_xKpLz9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YecYjE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Kosmobox!",
+            "width": "fit",
+            "type_preset": "h2",
+            "enable_background": false,
+            "background_color": "#000000",
+            "border_radius": 0,
+            "padding_top": 0,
+            "padding_bottom": 10
+          },
+          "blocks": {}
+        },
+        "description_eJkrxK": {
+          "type": "description",
+          "settings": {
+            "description": "<p>While our online shop is still brewing, we're thrilled to invite you to our physical store at <span style=\"text-decoration:underline\">1 Albert Road, Southsea, PO5 2SE</span>. Step inside and discover a curated selection of Korean skincare essentials. We're constantly adding new and exciting brands to our collection, and you'll find a wide range of products tailored to every skin need.</p><p>​</p><p>At KosmoBox, we believe skincare isn't a one-size-fits-all journey. Forget product lines and rigid routines – we're all about what's right for your unique skin. We meticulously combine different brands and product lines to craft the perfect regimen that your skin truly needs. Our approach ensures you get personalised solutions, not just generic recommendations.</p>",
+            "width": "full",
+            "type_preset": "",
+            "enable_background": false,
+            "background_color": "#000000",
+            "border_radius": 0,
+            "padding_top": 0,
+            "padding_bottom": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_YecYjE",
+        "description_eJkrxK"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "text_alignment": "center",
+        "max_width": 100,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "rich_text_ndN9UC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DadRVG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kosmobox Featured Brands",
+            "width": "fit",
+            "type_preset": "h2",
+            "enable_background": false,
+            "background_color": "#000000",
+            "border_radius": 0,
+            "padding_top": 0,
+            "padding_bottom": 10
+          },
+          "blocks": {}
+        },
+        "description_KdQcek": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Bringing to You the Best Korean Skincare Brands</p>",
+            "width": "fit",
+            "type_preset": "",
+            "enable_background": false,
+            "background_color": "#000000",
+            "border_radius": 0,
+            "padding_top": 0,
+            "padding_bottom": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_DadRVG",
+        "description_KdQcek"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "text_alignment": "center",
+        "max_width": 100,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "scrolling_text_ALPEjp": {
+      "type": "scrolling-text",
+      "blocks": {
+        "image_rYDJLb": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/AXIS-Y_LOGO.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_NCydqg": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/Beauty_of_Joseon.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_HTip9X": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/Biodance.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_Jdh8HG": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/COSRX.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_93W7TF": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/dr._Melaxin.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_tdJ3EP": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/fwee.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_gibexH": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/G9SKIN.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_iagPAY": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/Haruharu.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_ma84wD": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/hemish.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_itLdnU": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/Iunik.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_G9btcU": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/Hur.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_CgLXaC": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/laneige.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_EGY9zF": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/Mary_May.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_BEWDYi": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/medicube.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_XeYwbn": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/Nineless.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_KytMpj": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/numbuzin.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_DTBBBU": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/pyunkang_yul.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_jVnqXE": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/Roundlab.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_nGnCEJ": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/skin1004.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_7Jtz78": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/some_by_mi.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_Y3V7WL": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/Tocobo.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_yiKRjt": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/Tirtir.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_AeqecU": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/VT_Cosmetics.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_cGeAY3": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/by_wishtrend.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_YnGLgg": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/dr_althea.png",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_8YqtAD": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/instree_logo.webp",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_TMKAiC": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/LOGO_mixsoon_high_resolution_1.webp",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        },
+        "image_xpfCXf": {
+          "type": "image",
+          "settings": {
+            "image_block": "shopify://shop_images/images.jpg",
+            "image_width": 120,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 80,
+            "show_divider": false
+          }
+        }
+      },
+      "block_order": [
+        "image_rYDJLb",
+        "image_NCydqg",
+        "image_HTip9X",
+        "image_Jdh8HG",
+        "image_93W7TF",
+        "image_tdJ3EP",
+        "image_gibexH",
+        "image_iagPAY",
+        "image_ma84wD",
+        "image_itLdnU",
+        "image_G9btcU",
+        "image_CgLXaC",
+        "image_EGY9zF",
+        "image_BEWDYi",
+        "image_XeYwbn",
+        "image_KytMpj",
+        "image_DTBBBU",
+        "image_jVnqXE",
+        "image_nGnCEJ",
+        "image_7Jtz78",
+        "image_Y3V7WL",
+        "image_yiKRjt",
+        "image_AeqecU",
+        "image_cGeAY3",
+        "image_YnGLgg",
+        "image_8YqtAD",
+        "image_TMKAiC",
+        "image_xpfCXf"
+      ],
+      "name": "t:sections.scrolling_text.name",
+      "settings": {
+        "section_width": "full_width",
+        "color_scheme": "color-scheme-2",
+        "direction": "left",
+        "speed": 50,
+        "space_between": 80,
+        "heading_size": "base",
+        "uppercase": false,
+        "rounded_image": 50,
+        "padding_top": 10,
+        "padding_bottom": 20
+      }
+    },
+    "newsletter_KdfjTm": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "heading": "<h2>Subscibe and become Kosmobox Member</h2>",
+        "drawn_underline": true,
+        "drawn_underline_type": "simple_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "center",
+        "email_placeholder": "Enter your email",
+        "button_label": "Subscribe",
+        "padding_top": 48,
+        "padding_bottom": 64,
+        "show_divider": false
+      }
+    },
+    "image_with_text_BHk7ME": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_emFG6c": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unsure Where to Start?",
+            "width": "full",
+            "type_preset": "h2",
+            "enable_background": false,
+            "background_color": "#000000",
+            "border_radius": 0,
+            "padding_top": 0,
+            "padding_bottom": 20
+          },
+          "blocks": {}
+        },
+        "description_q8zj63": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Let us guide you! Take our quick and easy skin quiz to discover your skin type and current concerns. It's the first step towards unlocking your skin's full potential.</p>",
+            "width": "fit-content",
+            "type_preset": "rte",
+            "enable_background": false,
+            "background_color": "#000000",
+            "border_radius": 0,
+            "padding_top": 0,
+            "padding_bottom": 40
+          },
+          "blocks": {}
+        },
+        "button_tUrbEB": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "Start Now",
+            "first_button_link": "",
+            "first_button_type": "outline",
+            "blank_first_button": false,
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_type": "outline",
+            "blank_second_button": false,
+            "spacing_bottom": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_emFG6c",
+        "description_q8zj63",
+        "button_tUrbEB"
+      ],
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "image": "shopify://shop_images/kosmobox_website_banners_1_1_1_1.jpg",
+        "desktop_image_width": 50,
+        "image_desktop_position": "left",
+        "background_color": "#efb8b8",
+        "desktop_vertical_alignment": "center",
+        "text_alignment": "center",
+        "column_gap": "no_gap",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "show_divider": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_yhq8kb",
+    "rich_text_xKpLz9",
+    "rich_text_ndN9UC",
+    "scrolling_text_ALPEjp",
+    "newsletter_KdfjTm",
+    "image_with_text_BHk7ME"
+  ]
+}
