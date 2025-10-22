@@ -288,7 +288,7 @@ summary::-webkit-details-marker {
 }
 
 .rte :where(ul, ol) {
-  list-style-position: inside;
+  /* list-style-position: inside; */
   padding-left: 2rem;
 }
 
