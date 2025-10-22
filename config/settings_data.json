@@ -193,12 +193,12 @@
     "blocks": {
       "13017476918150166000": {
         "type": "shopify://apps/whatsapp-chat-button/blocks/whatsapp/f4d01795-3d1a-4ac7-bca7-9d0d178df50e",
-        "disabled": true,
+        "disabled": false,
         "settings": {}
       },
       "10025992882218306672": {
         "type": "shopify://apps/ctx-whatsapp-chat-marketing/blocks/app-embed/7bea84d9-a54b-47f1-9ebf-40f235a03c1c",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     },
