@@ -1,0 +1,41 @@
+.hotspot.group-lookbook_product__item .icon-dot {
+  --color-text: #1F473E;
+}
+.hotspot .icon-dot::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-text);
+}
+.hotspot.group-lookbook_product__item .icon-dot.active {
+  background: var(--color-dark);
+  --color-text: rgb(var(--color-white));
+}
+shopable-image {
+  left: var(--left);
+  top: var(--top);
+  transform: var(--transform);
+  --shopable-image-product: translate(-50%) translateY(40px);
+  --shopable-image-product-hover: translate(-50%) translateY(20px);
+}
+.product-tooltip {
+  position: absolute;
+  z-index: 1;
+  margin-top: 5px;
+  max-width: 30rem;
+}
+.group-lookbook__item-product::after {
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 0;
+  top: 0px;
+  left: 26px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  border: solid transparent;
+  border-width: 7px;
+  border-bottom-color: rgb(var(--color-white));
+  will-change: transform;
+}
