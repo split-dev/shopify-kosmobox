@@ -14,6 +14,7 @@
       "blocks": {
         "trust_badges_BG6KhG": {
           "type": "trust-badges",
+          "disabled": true,
           "settings": {
             "icon_type": "svg",
             "icon_svg": "privacy-protection",
@@ -24,6 +25,7 @@
         },
         "trust_badges_NrjAGd": {
           "type": "trust-badges",
+          "disabled": true,
           "settings": {
             "icon_type": "svg",
             "icon_svg": "secure-shopping",
@@ -34,6 +36,7 @@
         },
         "trust_badges_HwFp4D": {
           "type": "trust-badges",
+          "disabled": true,
           "settings": {
             "icon_type": "svg",
             "icon_svg": "guarantee",
@@ -53,7 +56,7 @@
         "color_scheme": "",
         "show_free_shipping_message": true,
         "show_gift_wrap": true,
-        "show_estimate_shipping": true,
+        "show_estimate_shipping": false,
         "show_discount": true,
         "show_cart_note": true,
         "hide_icon_with_text_on_mobile": false,
@@ -69,6 +72,9 @@
         "section_width": "fix_width",
         "color_scheme": "",
         "title": "<p>Recently Viewed</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
         "description": "<p>Take another look at items you've recently explored. Easily return to your favorites.</p>",
         "heading_size": "medium",
         "text_alignment": "center",
