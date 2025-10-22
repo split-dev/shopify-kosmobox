@@ -29,6 +29,23 @@
     .logo-center{
       --header-grid-template: 'menu logo icon' / minmax(0, 1fr) minmax(50px, var(--logo-width))  minmax(0,1fr);
     }
+
+    {% if section_st.logo_position == "bottom" %}
+      nav.header__menu {
+        grid-column: 1 / -1; 
+        grid-row: 2;         
+      }
+      nav.header__menu > ul.list-menu {
+        justify-content: center;
+        gap: 12px;        
+      }
+      h1.header__logo {
+        justify-content: center;
+      }
+      .submenu {
+        margin-top: calc((var(--section-pb, 20) * 1px) + 0px);  
+      }
+    {% endif %}
   }
   {% if section_st.mobile_menu_position == "right" %}
     @media only screen and (max-width: 1024.98px) {
@@ -87,6 +104,7 @@
       }
     }
   {% endif %}
+
 {% endstyle %}
 
 {%- for block in section.blocks -%}
@@ -1147,6 +1165,10 @@
         {
           "value": "center",
           "label": "t:sections.header.settings.logo_position.options__2.label"
+        },
+        {
+          "value": "bottom",
+          "label": "Logo center, menu bottom"
         }
       ],
       "default": "left",
