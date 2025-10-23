@@ -1,1 +1,72 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"contact_bar_block_kqGCi9":{"type":"contact_bar_block","settings":{"store_heading":"Get in touch","store_address":"","store_phone":"","store_email":"nfo@kosmobox.co.uk","show_social":true,"store_description":"","width":"25%"}},"menu_block_qa9CXD":{"type":"menu_block","settings":{"heading":"Useful links","menu":"useful-links","width":"25%"}},"newsletter_block_UgCAQJ":{"type":"newsletter_block","settings":{"heading":"Sign up to be the first to know about products, offers and tips","description":"<p><\/p><p><\/p>","email_placeholder":"Enter your email...","button_label":"Subscribe","note":"","width":"50%"}}},"block_order":["contact_bar_block_kqGCi9","menu_block_qa9CXD","newsletter_block_UgCAQJ"],"settings":{"section_width":"fix_width","color_scheme":"default","enable_back_top":true,"enable_country_selector":true,"enable_language_selector":false,"enable_follow_on_shop":false,"payment_enable":true,"menu_store_policies":"","show_policy":false,"padding_top":100,"padding_bottom":60}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "contact_bar_block_kqGCi9": {
+          "type": "contact_bar_block",
+          "settings": {
+            "store_heading": "Get in touch",
+            "store_address": "",
+            "store_phone": "",
+            "store_email": "nfo@kosmobox.co.uk",
+            "show_social": true,
+            "store_description": "",
+            "width": "25%"
+          }
+        },
+        "menu_block_qa9CXD": {
+          "type": "menu_block",
+          "settings": {
+            "heading": "Useful links",
+            "menu": "useful-links",
+            "width": "25%"
+          }
+        },
+        "newsletter_block_UgCAQJ": {
+          "type": "newsletter_block",
+          "settings": {
+            "heading": "Sign up to be the first to know about products, offers and tips",
+            "description": "<p></p><p></p>",
+            "email_placeholder": "Enter your email...",
+            "button_label": "Subscribe",
+            "note": "",
+            "width": "50%"
+          }
+        }
+      },
+      "block_order": [
+        "contact_bar_block_kqGCi9",
+        "menu_block_qa9CXD",
+        "newsletter_block_UgCAQJ"
+      ],
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "default",
+        "enable_back_top": false,
+        "enable_country_selector": true,
+        "enable_language_selector": false,
+        "enable_follow_on_shop": false,
+        "payment_enable": true,
+        "menu_store_policies": "",
+        "show_policy": false,
+        "padding_top": 100,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
