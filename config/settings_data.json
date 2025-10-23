@@ -191,13 +191,18 @@
     },
     "content_for_index": [],
     "blocks": {
-      "13017476918150166000": {
-        "type": "shopify://apps/whatsapp-chat-button/blocks/whatsapp/f4d01795-3d1a-4ac7-bca7-9d0d178df50e",
+      "10025992882218306672": {
+        "type": "shopify://apps/ctx-whatsapp-chat-marketing/blocks/app-embed/7bea84d9-a54b-47f1-9ebf-40f235a03c1c",
+        "disabled": true,
+        "settings": {}
+      },
+      "14900259222037449619": {
+        "type": "shopify://apps/chaty-whatsapp-chat-buttons/blocks/chaty/0aaf5812-760f-4dd7-be9b-cca564d8200b",
         "disabled": false,
         "settings": {}
       },
-      "10025992882218306672": {
-        "type": "shopify://apps/ctx-whatsapp-chat-marketing/blocks/app-embed/7bea84d9-a54b-47f1-9ebf-40f235a03c1c",
+      "13017476918150166000": {
+        "type": "shopify://apps/whatsapp-chat-button/blocks/whatsapp/f4d01795-3d1a-4ac7-bca7-9d0d178df50e",
         "disabled": true,
         "settings": {}
       }
