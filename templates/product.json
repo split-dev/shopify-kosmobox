@@ -175,6 +175,7 @@
         "ask_question_product_aHy4Ed": {
           "type": "_ask-question-product",
           "name": "t:sections.all.product_setting.ask_question.name",
+          "disabled": true,
           "settings": {
             "heading": "Help Center?",
             "description": "Book an appointment with our virtual stylists!"
@@ -183,6 +184,7 @@
         },
         "share_product_hjUAFY": {
           "type": "_share-product",
+          "disabled": true,
           "settings": {
             "title": "Share"
           },
@@ -191,6 +193,7 @@
         "text_product_pteFxD": {
           "type": "_text-product",
           "name": "t:sections.all.text.label",
+          "disabled": true,
           "settings": {
             "text": "<p>* This is a demonstration store — no orders shall be fulfilled.</p>"
           },
@@ -465,62 +468,6 @@
         "padding_bottom": 50
       }
     },
-    "video_with_text_overlay_pg4Hxb": {
-      "type": "video-with-text-overlay",
-      "blocks": {
-        "heading_FHDG6b": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Inside <br> Out Glow You Crave",
-            "width": "fit-content",
-            "type_preset": "h1",
-            "enable_background": false,
-            "background_color": "#000000",
-            "border_radius": 0,
-            "padding_top": 0,
-            "padding_bottom": 24
-          },
-          "blocks": {}
-        },
-        "description_7TdnMT": {
-          "type": "description",
-          "settings": {
-            "description": "<p>Everything your skin needs, shown in every touch — tailored to your daily care.</p>",
-            "width": "fit-content",
-            "type_preset": "",
-            "enable_background": false,
-            "background_color": "#000000",
-            "border_radius": 0,
-            "padding_top": 0,
-            "padding_bottom": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "heading_FHDG6b",
-        "description_7TdnMT"
-      ],
-      "name": "t:sections.video-with-text-overlay.name",
-      "settings": {
-        "section_width": "fix_width",
-        "color_scheme": "scheme-b057792d-f0df-4ed0-973f-3dd88bca67d5",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "video_alt_text": "Video alt text",
-        "overlay_opacity": 20,
-        "video_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "text_alignment": "center",
-        "max_width": 100,
-        "padding_content_inline": 30,
-        "padding_content_block": 125,
-        "show_text_bellow_mobile": false,
-        "text_alignment_mobile": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_divider": false
-      }
-    },
     "icon_box_Dme99B": {
       "type": "icon-box",
       "blocks": {
@@ -793,7 +740,6 @@
     "bought_together_product_PRpMjH",
     "multi_content_BJbX78",
     "info_gallery_products_GxEcYn",
-    "video_with_text_overlay_pg4Hxb",
     "icon_box_Dme99B",
     "scrolling_text_CAKxn7",
     "compare_products_Hdn6Hx",
