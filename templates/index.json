@@ -951,7 +951,7 @@
               "settings": {
                 "heading": "Kosmobox Store",
                 "width": "fit",
-                "type_preset": "h4",
+                "type_preset": "h3",
                 "enable_background": false,
                 "background_color": "#000000",
                 "border_radius": 0,
