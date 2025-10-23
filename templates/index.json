@@ -963,10 +963,10 @@
             "description_KaPXtm": {
               "type": "description",
               "settings": {
-                "description": "<p><strong>1 Albert Road, Southsea, Portsmouth, PO5 2SB</strong></p><p>&nbsp;</p><p><strong>Opening Hours:</strong></p><ul><li>Mon  -  closed</li><li>Tue  -  10 am - 6 pm</li><li>Wed  -  10 am - 6 pm</li><li>Thu  -  10 am - 6 pm</li><li>Fri  -  10 am - 6 pm</li><li>Sut  -  10 am - 6 pm</li><li>Sun  -  closed</li></ul>",
+                "description": "<p><strong>1 Albert Road, Southsea, Portsmouth, PO5 2SB</strong></p><p> </p><p><strong>Opening Hours:</strong></p><ul><li>Mon  -  closed</li><li>Tue  -  10 am - 6 pm</li><li>Wed  -  10 am - 6 pm</li><li>Thu  -  10 am - 6 pm</li><li>Fri  -  10 am - 6 pm</li><li>Sut  -  10 am - 6 pm</li><li>Sun  -  closed</li></ul>",
                 "width": "fit",
                 "type_preset": "",
-                "enable_background": true,
+                "enable_background": false,
                 "background_color": "#fff0f4",
                 "border_radius": 20,
                 "padding_top": 0,
