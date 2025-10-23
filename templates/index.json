@@ -934,16 +934,6 @@
     "flexible_section_CVEbHR": {
       "type": "flexible-section",
       "blocks": {
-        "form_subscribe_qkYinn": {
-          "type": "form-subscribe",
-          "name": "t:sections.custom_section.blocks.email_subscription.name",
-          "settings": {
-            "email_placeholder": "Enter your email...",
-            "btn_label": "Subscribe",
-            "spacing_bottom": 15
-          },
-          "blocks": {}
-        },
         "group_text_ai9FzW": {
           "type": "group-text",
           "name": "t:sections.all.text.label",
@@ -989,11 +979,21 @@
             "heading_M3TUtM",
             "description_KaPXtm"
           ]
+        },
+        "form_subscribe_qkYinn": {
+          "type": "form-subscribe",
+          "name": "t:sections.custom_section.blocks.email_subscription.name",
+          "settings": {
+            "email_placeholder": "Enter your email...",
+            "btn_label": "Subscribe",
+            "spacing_bottom": 15
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "form_subscribe_qkYinn",
-        "group_text_ai9FzW"
+        "group_text_ai9FzW",
+        "form_subscribe_qkYinn"
       ],
       "name": "t:sections.custom_section.name",
       "settings": {
