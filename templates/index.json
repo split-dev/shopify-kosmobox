@@ -41,6 +41,7 @@
       "block_order": [
         "image_rw94FY"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "full_width",
         "color_scheme": "scheme-b057792d-f0df-4ed0-973f-3dd88bca67d5",
@@ -90,6 +91,7 @@
         "heading_YecYjE",
         "description_eJkrxK"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.name",
       "settings": {
         "section_width": "fix_width",
@@ -136,6 +138,7 @@
         "heading_DadRVG",
         "description_KdQcek"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.name",
       "settings": {
         "section_width": "fix_width",
@@ -488,6 +491,7 @@
         "image_TMKAiC",
         "image_xpfCXf"
       ],
+      "disabled": true,
       "name": "t:sections.scrolling_text.name",
       "settings": {
         "section_width": "full_width",
@@ -574,6 +578,7 @@
         "description_q8zj63",
         "button_tUrbEB"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "",
@@ -588,6 +593,40 @@
         "padding_bottom": 50,
         "show_divider": false
       }
+    },
+    "blog_posts_d6M4aX": {
+      "type": "blog-posts",
+      "name": "t:sections.blog-posts.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "title": "<p>Kosmobox Blog</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#FFB005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "center",
+        "blog": "news",
+        "image_ratio": "square",
+        "items_to_show": 3,
+        "items_per_row": 3,
+        "column_gap": "medium",
+        "show_category": false,
+        "show_tags": false,
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": false,
+        "enable_carousel": true,
+        "show_navigation": true,
+        "show_pagination": false,
+        "reveal_slide": true,
+        "items_per_row_mobile": 1,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "show_divider": false
+      }
     }
   },
   "order": [
@@ -596,6 +635,7 @@
     "rich_text_ndN9UC",
     "scrolling_text_ALPEjp",
     "newsletter_KdfjTm",
-    "image_with_text_BHk7ME"
+    "image_with_text_BHk7ME",
+    "blog_posts_d6M4aX"
   ]
 }
