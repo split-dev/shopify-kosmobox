@@ -427,6 +427,7 @@
         "group_image_with_text_CHAkKe",
         "group_image_with_text_JdkfQV"
       ],
+      "disabled": true,
       "name": "t:sections.multi_content.name",
       "settings": {
         "section_width": "fix_width",
@@ -449,6 +450,7 @@
     },
     "info_gallery_products_GxEcYn": {
       "type": "info-gallery-products",
+      "disabled": true,
       "name": "t:sections.info-gallery-products.name",
       "settings": {
         "section_width": "fix_width",
@@ -501,6 +503,7 @@
         "icon_box_aaDXtf",
         "icon_box_BbHLBN"
       ],
+      "disabled": true,
       "name": "t:sections.icon-box.name",
       "settings": {
         "section_width": "fix_width",
@@ -569,6 +572,7 @@
         "text_9G98mn",
         "image_aFVaHq"
       ],
+      "disabled": true,
       "name": "t:sections.scrolling_text.name",
       "settings": {
         "section_width": "full_width",
@@ -585,6 +589,7 @@
     },
     "compare_products_Hdn6Hx": {
       "type": "compare-products",
+      "disabled": true,
       "name": "t:sections.compare-products.name",
       "settings": {
         "section_width": "fix_width",
@@ -612,6 +617,7 @@
     },
     "17458090166c9811ff": {
       "type": "apps",
+      "disabled": true,
       "custom_css": [
         ".jdgm-review-widget {margin-top: 10rem;}"
       ],
@@ -660,6 +666,7 @@
         "item_faq_G84dy6",
         "item_faq_z3x9Xf"
       ],
+      "disabled": true,
       "name": "t:sections.faq.name",
       "settings": {
         "section_width": "fix_width",
@@ -684,6 +691,7 @@
     },
     "related_products_VRXcGa": {
       "type": "related-products",
+      "disabled": true,
       "name": "t:sections.related-products.name",
       "settings": {
         "section_width": "fix_width",
