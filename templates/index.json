@@ -138,11 +138,10 @@
         "heading_DadRVG",
         "description_KdQcek"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.name",
       "settings": {
         "section_width": "fix_width",
-        "color_scheme": "",
+        "color_scheme": "default",
         "text_alignment": "center",
         "max_width": 100,
         "padding_top": 48,
@@ -491,7 +490,6 @@
         "image_TMKAiC",
         "image_xpfCXf"
       ],
-      "disabled": true,
       "name": "t:sections.scrolling_text.name",
       "settings": {
         "section_width": "full_width",
@@ -504,26 +502,6 @@
         "rounded_image": 50,
         "padding_top": 10,
         "padding_bottom": 20
-      }
-    },
-    "newsletter_KdfjTm": {
-      "type": "newsletter",
-      "name": "t:sections.newsletter.name",
-      "settings": {
-        "section_width": "fix_width",
-        "color_scheme": "",
-        "heading": "<h2>Subscibe and become Kosmobox Member</h2>",
-        "drawn_underline": true,
-        "drawn_underline_type": "simple_underline",
-        "drawn_underline_color": "#ffb005",
-        "description": "",
-        "heading_size": "medium",
-        "text_alignment": "center",
-        "email_placeholder": "Enter your email",
-        "button_label": "Subscribe",
-        "padding_top": 48,
-        "padding_bottom": 64,
-        "show_divider": false
       }
     },
     "image_with_text_BHk7ME": {
@@ -627,6 +605,56 @@
         "padding_bottom": 48,
         "show_divider": false
       }
+    },
+    "newsletter_KdfjTm": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "heading": "<h2>Subscibe and become Kosmobox Member</h2>",
+        "drawn_underline": true,
+        "drawn_underline_type": "simple_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "center",
+        "email_placeholder": "Enter your email",
+        "button_label": "Subscribe",
+        "padding_top": 48,
+        "padding_bottom": 64,
+        "show_divider": false
+      }
+    },
+    "featured_collection_EFKPec": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "<p>Hot sellers </p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#FFB005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "start",
+        "show_view_all_button": true,
+        "view_all_button_label": "View all",
+        "collection": "best-sellers",
+        "items_to_show": 12,
+        "items_per_row": 4,
+        "column_gap": "medium",
+        "enable_carousel": true,
+        "show_navigation": true,
+        "show_pagination": false,
+        "reveal_slide": false,
+        "items_per_row_mobile": 1.5,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "show_divider": false
+      }
     }
   },
   "order": [
@@ -634,8 +662,9 @@
     "rich_text_xKpLz9",
     "rich_text_ndN9UC",
     "scrolling_text_ALPEjp",
-    "newsletter_KdfjTm",
     "image_with_text_BHk7ME",
-    "blog_posts_d6M4aX"
+    "blog_posts_d6M4aX",
+    "newsletter_KdfjTm",
+    "featured_collection_EFKPec"
   ]
 }
