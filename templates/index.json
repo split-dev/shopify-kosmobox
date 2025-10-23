@@ -930,6 +930,92 @@
         "padding_bottom": 50,
         "show_divider": false
       }
+    },
+    "flexible_section_CVEbHR": {
+      "type": "flexible-section",
+      "blocks": {
+        "form_subscribe_qkYinn": {
+          "type": "form-subscribe",
+          "name": "t:sections.custom_section.blocks.email_subscription.name",
+          "settings": {
+            "email_placeholder": "Enter your email...",
+            "btn_label": "Subscribe",
+            "spacing_bottom": 15
+          },
+          "blocks": {}
+        },
+        "group_text_ai9FzW": {
+          "type": "group-text",
+          "name": "t:sections.all.text.label",
+          "settings": {
+            "color_scheme": "",
+            "vertical_alignment": "start",
+            "width": "50%",
+            "text_alignment": "start",
+            "padding_content_inline": 30,
+            "padding_content_block": 30
+          },
+          "blocks": {
+            "heading_M3TUtM": {
+              "type": "heading",
+              "settings": {
+                "heading": "Kosmobox Store",
+                "width": "fit",
+                "type_preset": "h4",
+                "enable_background": false,
+                "background_color": "#000000",
+                "border_radius": 0,
+                "padding_top": 0,
+                "padding_bottom": 10
+              },
+              "blocks": {}
+            },
+            "description_KaPXtm": {
+              "type": "description",
+              "settings": {
+                "description": "<p><strong>1 Albert Road, Southsea, Portsmouth, PO5 2SB</strong></p><p><strong>Opening Hours:</strong></p><ul><li>Mon - closed</li><li>Tue - 10 am - 6 pm</li><li>Wed - 10 am - 6 pm</li><li>Thu - 10 am - 6 pm</li><li>Fri - 10 am - 6 pm</li><li>Sut - 10 am - 6 pm</li><li>Sun - closed</li></ul>",
+                "width": "fit",
+                "type_preset": "",
+                "enable_background": true,
+                "background_color": "#fff0f4",
+                "border_radius": 20,
+                "padding_top": 0,
+                "padding_bottom": 20
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_M3TUtM",
+            "description_KaPXtm"
+          ]
+        }
+      },
+      "block_order": [
+        "form_subscribe_qkYinn",
+        "group_text_ai9FzW"
+      ],
+      "name": "t:sections.custom_section.name",
+      "settings": {
+        "section_width": "fix_width",
+        "custom_layout": "horizontal",
+        "vertical_on_mobile": false,
+        "horizontal_position": "top",
+        "content_alignment": "center",
+        "column_gap": "medium",
+        "color_scheme": "",
+        "background_media": "none",
+        "borders": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "enable_background_overlay": false,
+        "background_overlay_color": "#000000",
+        "background_overlay_style": "solid",
+        "background_overlay_gradient_direction": "to top",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     }
   },
   "order": [
@@ -945,6 +1031,7 @@
     "newsletter_KdfjTm",
     "slideshow_yhq8kb",
     "rich_text_xKpLz9",
-    "image_with_text_BHk7ME"
+    "image_with_text_BHk7ME",
+    "flexible_section_CVEbHR"
   ]
 }
