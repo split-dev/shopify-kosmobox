@@ -9,6 +9,36 @@
  */
 {
   "sections": {
+    "featured_collection_EFKPec": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "<p>Hot sellers </p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#FFB005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "start",
+        "show_view_all_button": true,
+        "view_all_button_label": "View all",
+        "collection": "best-sellers",
+        "items_to_show": 12,
+        "items_per_row": 4,
+        "column_gap": "medium",
+        "enable_carousel": true,
+        "show_navigation": true,
+        "show_pagination": false,
+        "reveal_slide": false,
+        "items_per_row_mobile": 1.5,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "show_divider": false
+      }
+    },
     "slideshow_yhq8kb": {
       "type": "slideshow",
       "blocks": {
@@ -625,46 +655,16 @@
         "padding_bottom": 64,
         "show_divider": false
       }
-    },
-    "featured_collection_EFKPec": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.name",
-      "settings": {
-        "section_width": "fix_width",
-        "color_scheme": "",
-        "subheading": "",
-        "heading": "<p>Hot sellers </p>",
-        "drawn_underline": true,
-        "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#FFB005",
-        "description": "",
-        "heading_size": "medium",
-        "text_alignment": "start",
-        "show_view_all_button": true,
-        "view_all_button_label": "View all",
-        "collection": "best-sellers",
-        "items_to_show": 12,
-        "items_per_row": 4,
-        "column_gap": "medium",
-        "enable_carousel": true,
-        "show_navigation": true,
-        "show_pagination": false,
-        "reveal_slide": false,
-        "items_per_row_mobile": 1.5,
-        "padding_top": 48,
-        "padding_bottom": 48,
-        "show_divider": false
-      }
     }
   },
   "order": [
+    "featured_collection_EFKPec",
     "slideshow_yhq8kb",
     "rich_text_xKpLz9",
     "rich_text_ndN9UC",
     "scrolling_text_ALPEjp",
     "image_with_text_BHk7ME",
     "blog_posts_d6M4aX",
-    "newsletter_KdfjTm",
-    "featured_collection_EFKPec"
+    "newsletter_KdfjTm"
   ]
 }
