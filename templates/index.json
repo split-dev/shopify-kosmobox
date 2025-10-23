@@ -31,7 +31,7 @@
         "column_gap": "medium",
         "enable_carousel": true,
         "show_navigation": true,
-        "show_pagination": false,
+        "show_pagination": true,
         "reveal_slide": false,
         "items_per_row_mobile": 1.5,
         "padding_top": 48,
