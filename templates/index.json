@@ -604,7 +604,7 @@
         "title": "<p>Kosmobox Blog</p>",
         "drawn_underline": true,
         "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#FFB005",
+        "drawn_underline_color": "#ffb005",
         "description": "",
         "heading_size": "medium",
         "text_alignment": "center",
@@ -678,6 +678,18 @@
           "settings": {
             "link_image": ""
           }
+        },
+        "image_rgfjhg": {
+          "type": "image",
+          "settings": {
+            "link_image": ""
+          }
+        },
+        "image_7wLzVg": {
+          "type": "image",
+          "settings": {
+            "link_image": ""
+          }
         }
       },
       "block_order": [
@@ -688,7 +700,9 @@
         "image_QD9c7y",
         "image_nHLCKN",
         "image_t6a4mR",
-        "image_9KpkFc"
+        "image_9KpkFc",
+        "image_rgfjhg",
+        "image_7wLzVg"
       ],
       "name": "t:sections.scrolling_image.name",
       "settings": {
@@ -704,7 +718,7 @@
         "title": "<p>Heading</p>",
         "drawn_underline": true,
         "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#FFB005",
+        "drawn_underline_color": "#ffb005",
         "description": "",
         "heading_size": "medium",
         "text_alignment": "center",
