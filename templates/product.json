@@ -163,8 +163,26 @@
           },
           "blocks": {}
         },
+        "icon_with_text_product_j8xicG": {
+          "type": "_icon-with-text-product",
+          "name": "t:sections.all.product_setting.icon_with_text.name",
+          "settings": {
+            "svg_icon_1": "free_shipping",
+            "content_1": "<p>Icon with text</p>",
+            "svg_icon_2": "check_badge",
+            "content_2": "<p>Icon with text</p>",
+            "svg_icon_3": "message_communications",
+            "content_3": "<p>Icon with text</p>",
+            "svg_icon_4": "none",
+            "content_4": "",
+            "svg_icon_5": "none",
+            "content_5": ""
+          },
+          "blocks": {}
+        },
         "complementary_w4ymBE": {
           "type": "_complementary",
+          "disabled": true,
           "settings": {
             "block_heading": "Pairs well With",
             "product_list_limit": 10,
@@ -217,6 +235,7 @@
         "collapsible_row_8Nf3rK",
         "collapsible_row_ntzAL8",
         "collapsible_row_RNg6W7",
+        "icon_with_text_product_j8xicG",
         "complementary_w4ymBE",
         "ask_question_product_aHy4Ed",
         "share_product_hjUAFY",
