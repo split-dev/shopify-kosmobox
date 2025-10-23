@@ -202,97 +202,34 @@
         "show_divider": false
       }
     },
-    "slideshow_yhq8kb": {
-      "type": "slideshow",
-      "blocks": {
-        "image_rw94FY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/kosmobox_website_banners_2_1_1_1.jpg",
-            "overlay_opacity": 26,
-            "highlight_text": "",
-            "highlight_text_icon": "none",
-            "background_color": "#fed3dc",
-            "text_color": "#1d1d1f",
-            "subheading": "",
-            "heading": "<h2>Your Journey to Radiant</h2><h2>Skin Starts Here!</h2>",
-            "heading_size": "h1",
-            "drawn_underline": true,
-            "drawn_underline_type": "squiggle_underline",
-            "drawn_underline_color": "#ffb005",
-            "description": "",
-            "first_button_label": "Shop Now",
-            "first_button_link": "shopify://collections/all",
-            "first_button_type": "primary",
-            "desktop_content_position": "middle-left",
-            "text_alignment": "left",
-            "content_position_mobile": "end",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_rw94FY"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_width": "full_width",
-        "color_scheme": "scheme-b057792d-f0df-4ed0-973f-3dd88bca67d5",
-        "background_color_loading": "#695943",
-        "show_navigation": true,
-        "show_pagination": true,
-        "slide_auto_change": true,
-        "change_slide_every": 9,
-        "slide_height": "full_screen",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "rich_text_xKpLz9": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_YecYjE": {
-          "type": "heading",
-          "settings": {
-            "heading": "Welcome to Kosmobox!",
-            "width": "fit",
-            "type_preset": "h2",
-            "enable_background": false,
-            "background_color": "#000000",
-            "border_radius": 0,
-            "padding_top": 0,
-            "padding_bottom": 10
-          },
-          "blocks": {}
-        },
-        "description_eJkrxK": {
-          "type": "description",
-          "settings": {
-            "description": "<p>While our online shop is still brewing, we're thrilled to invite you to our physical store at <span style=\"text-decoration:underline\">1 Albert Road, Southsea, PO5 2SE</span>. Step inside and discover a curated selection of Korean skincare essentials. We're constantly adding new and exciting brands to our collection, and you'll find a wide range of products tailored to every skin need.</p><p>​</p><p>At KosmoBox, we believe skincare isn't a one-size-fits-all journey. Forget product lines and rigid routines – we're all about what's right for your unique skin. We meticulously combine different brands and product lines to craft the perfect regimen that your skin truly needs. Our approach ensures you get personalised solutions, not just generic recommendations.</p>",
-            "width": "full",
-            "type_preset": "",
-            "enable_background": false,
-            "background_color": "#000000",
-            "border_radius": 0,
-            "padding_top": 0,
-            "padding_bottom": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "heading_YecYjE",
-        "description_eJkrxK"
-      ],
-      "disabled": true,
-      "name": "t:sections.rich-text.name",
+    "featured_collection_Tpyf6k": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.name",
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "",
-        "text_alignment": "center",
-        "max_width": 100,
+        "subheading": "",
+        "heading": "<p>New arrivals</p>",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "start",
+        "show_view_all_button": true,
+        "view_all_button_label": "View all",
+        "collection": "new",
+        "items_to_show": 12,
+        "items_per_row": 4,
+        "column_gap": "medium",
+        "enable_carousel": true,
+        "show_navigation": true,
+        "show_pagination": true,
+        "reveal_slide": false,
+        "items_per_row_mobile": 1.5,
         "padding_top": 48,
-        "padding_bottom": 48
+        "padding_bottom": 48,
+        "show_divider": false
       }
     },
     "image_with_text_iXJRJ7": {
@@ -347,23 +284,23 @@
         "show_divider": false
       }
     },
-    "featured_collection_Tpyf6k": {
+    "featured_collection_hqpDrM": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.name",
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "",
         "subheading": "",
-        "heading": "<p>New arrivals</p>",
+        "heading": "<p>Featured Sunscreen Products </p>",
         "drawn_underline": false,
         "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#ffb005",
+        "drawn_underline_color": "#FFB005",
         "description": "",
         "heading_size": "medium",
         "text_alignment": "start",
         "show_view_all_button": true,
         "view_all_button_label": "View all",
-        "collection": "new",
+        "collection": "sunscreen",
         "items_to_show": 12,
         "items_per_row": 4,
         "column_gap": "medium",
@@ -779,6 +716,153 @@
         "padding_bottom": 20
       }
     },
+    "blog_posts_d6M4aX": {
+      "type": "blog-posts",
+      "name": "t:sections.blog-posts.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "title": "<p>Kosmobox Blog</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "center",
+        "blog": "news",
+        "image_ratio": "square",
+        "items_to_show": 3,
+        "items_per_row": 3,
+        "column_gap": "medium",
+        "show_category": false,
+        "show_tags": false,
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": false,
+        "enable_carousel": true,
+        "show_navigation": true,
+        "show_pagination": false,
+        "reveal_slide": true,
+        "items_per_row_mobile": 1,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "show_divider": false
+      }
+    },
+    "newsletter_KdfjTm": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "heading": "<h2>Subscribe to our newsletter</h2>",
+        "drawn_underline": true,
+        "drawn_underline_type": "simple_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "center",
+        "email_placeholder": "Enter your email",
+        "button_label": "Subscribe",
+        "padding_top": 48,
+        "padding_bottom": 64,
+        "show_divider": false
+      }
+    },
+    "slideshow_yhq8kb": {
+      "type": "slideshow",
+      "blocks": {
+        "image_rw94FY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kosmobox_website_banners_2_1_1_1.jpg",
+            "overlay_opacity": 26,
+            "highlight_text": "",
+            "highlight_text_icon": "none",
+            "background_color": "#fed3dc",
+            "text_color": "#1d1d1f",
+            "subheading": "",
+            "heading": "<h2>Your Journey to Radiant</h2><h2>Skin Starts Here!</h2>",
+            "heading_size": "h1",
+            "drawn_underline": true,
+            "drawn_underline_type": "squiggle_underline",
+            "drawn_underline_color": "#ffb005",
+            "description": "",
+            "first_button_label": "Shop Now",
+            "first_button_link": "shopify://collections/all",
+            "first_button_type": "primary",
+            "desktop_content_position": "middle-left",
+            "text_alignment": "left",
+            "content_position_mobile": "end",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_rw94FY"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "full_width",
+        "color_scheme": "scheme-b057792d-f0df-4ed0-973f-3dd88bca67d5",
+        "background_color_loading": "#695943",
+        "show_navigation": true,
+        "show_pagination": true,
+        "slide_auto_change": true,
+        "change_slide_every": 9,
+        "slide_height": "full_screen",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_xKpLz9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YecYjE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Kosmobox!",
+            "width": "fit",
+            "type_preset": "h2",
+            "enable_background": false,
+            "background_color": "#000000",
+            "border_radius": 0,
+            "padding_top": 0,
+            "padding_bottom": 10
+          },
+          "blocks": {}
+        },
+        "description_eJkrxK": {
+          "type": "description",
+          "settings": {
+            "description": "<p>While our online shop is still brewing, we're thrilled to invite you to our physical store at <span style=\"text-decoration:underline\">1 Albert Road, Southsea, PO5 2SE</span>. Step inside and discover a curated selection of Korean skincare essentials. We're constantly adding new and exciting brands to our collection, and you'll find a wide range of products tailored to every skin need.</p><p>​</p><p>At KosmoBox, we believe skincare isn't a one-size-fits-all journey. Forget product lines and rigid routines – we're all about what's right for your unique skin. We meticulously combine different brands and product lines to craft the perfect regimen that your skin truly needs. Our approach ensures you get personalised solutions, not just generic recommendations.</p>",
+            "width": "full",
+            "type_preset": "",
+            "enable_background": false,
+            "background_color": "#000000",
+            "border_radius": 0,
+            "padding_top": 0,
+            "padding_bottom": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_YecYjE",
+        "description_eJkrxK"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "text_alignment": "center",
+        "max_width": 100,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
     "image_with_text_BHk7ME": {
       "type": "image-with-text",
       "blocks": {
@@ -846,60 +930,6 @@
         "padding_bottom": 50,
         "show_divider": false
       }
-    },
-    "blog_posts_d6M4aX": {
-      "type": "blog-posts",
-      "name": "t:sections.blog-posts.name",
-      "settings": {
-        "section_width": "fix_width",
-        "color_scheme": "",
-        "subheading": "",
-        "title": "<p>Kosmobox Blog</p>",
-        "drawn_underline": true,
-        "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#ffb005",
-        "description": "",
-        "heading_size": "medium",
-        "text_alignment": "center",
-        "blog": "news",
-        "image_ratio": "square",
-        "items_to_show": 3,
-        "items_per_row": 3,
-        "column_gap": "medium",
-        "show_category": false,
-        "show_tags": false,
-        "show_date": true,
-        "show_author": false,
-        "show_excerpt": false,
-        "enable_carousel": true,
-        "show_navigation": true,
-        "show_pagination": false,
-        "reveal_slide": true,
-        "items_per_row_mobile": 1,
-        "padding_top": 48,
-        "padding_bottom": 48,
-        "show_divider": false
-      }
-    },
-    "newsletter_KdfjTm": {
-      "type": "newsletter",
-      "name": "t:sections.newsletter.name",
-      "settings": {
-        "section_width": "fix_width",
-        "color_scheme": "",
-        "heading": "<h2>Subscribe to our newsletter</h2>",
-        "drawn_underline": true,
-        "drawn_underline_type": "simple_underline",
-        "drawn_underline_color": "#ffb005",
-        "description": "",
-        "heading_size": "medium",
-        "text_alignment": "center",
-        "email_placeholder": "Enter your email",
-        "button_label": "Subscribe",
-        "padding_top": 48,
-        "padding_bottom": 64,
-        "show_divider": false
-      }
     }
   },
   "order": [
@@ -908,6 +938,7 @@
     "collection_list_kWNgTJ",
     "featured_collection_Tpyf6k",
     "image_with_text_iXJRJ7",
+    "featured_collection_hqpDrM",
     "rich_text_ndN9UC",
     "scrolling_text_ALPEjp",
     "blog_posts_d6M4aX",
