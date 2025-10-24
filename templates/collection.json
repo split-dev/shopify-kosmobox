@@ -36,7 +36,7 @@
       ],
       "settings": {
         "section_width": "full_width",
-        "color_scheme": "default-color-scheme",
+        "color_scheme": "default",
         "image": "shopify://shop_images/52_2_1.png",
         "use_collection_image": true,
         "image_opacity": 0,
