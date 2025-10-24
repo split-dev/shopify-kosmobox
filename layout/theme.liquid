@@ -37,6 +37,17 @@
     %}
 
     {% style %}
+      {% unless settings.default_fonts %}
+        @font-face {
+          font-family: 'Ultima';
+          src: url({{ 'Ultima.woff2' | asset_url }}) format('woff2'),
+              url({{ 'Ultima.woff' | asset_url }}) format('woff');
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+        }
+      {% endunless %}
+
       {{ settings.body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
       {{ body_font_italic | font_face: font_display: 'swap' }}
@@ -89,21 +100,31 @@
         background-color: var(--color-background);
       }
       :root {
+          {% if settings.default_fonts %}
+          --body-font-family: {{ theme_st.body_font.family }}, {{ theme_st.body_font.fallback_families }};
+          --body-font-style: {{ theme_st.body_font.style }};
+          --body-font-weight: {{ theme_st.body_font.weight }};
+          --body-font-weight-bold: {{ theme_st.body_font.weight | plus: 300 | at_most: 1000 }};
+          --heading-font: {{ theme_st.heading_font.family }}, {{ theme_st.heading_font.fallback_families }};
+          --heading-font-style: {{ theme_st.heading_font.style }};
+          --heading-weight: {{ theme_st.heading_font.weight }};
+          --menu-font: {% if theme_st.menu_font == 'menu_body_font' %}{{ theme_st.body_font.family }}{% else %}{{ theme_st.heading_font.family }}{% endif %}, {{ theme_st.body_font.fallback_families }};
+        {% else %}
+          --body-font-family: 'Ultima', sans-serif;
+          --heading-font: 'Ultima', sans-serif !important; 
+          --menu-font: 'Ultima', sans-serif;
+        {% endif %}
+
+
         --body-font-size: {{ theme_st.base_size }}px;
-        --body-font-family: {{ theme_st.body_font.family }}, {{ theme_st.body_font.fallback_families }};
-        --body-font-style: {{ theme_st.body_font.style }};
-        --body-font-weight: {{ theme_st.body_font.weight }};
-        --body-font-weight-bold: {{ theme_st.body_font.weight | plus: 300 | at_most: 1000 }};
+        
         --body-line-height: 1.625;
         --img-rounded: {{ theme_st.rounded_image }}px;
         --drawer-rounded: {{ theme_st.rounded_image }}px;
 
-        --heading-font: {{ theme_st.heading_font.family }}, {{ theme_st.heading_font.fallback_families }};
-        --heading-font-style: {{ theme_st.heading_font.style }};
-        --heading-weight: {{ theme_st.heading_font.weight }};
+        
         --heading-font-scale: 1;
         --subheading-weight:{% if theme_st.subheading_weight != 'default' %}{{ theme_st.subheading_weight }}{% else %}{{ theme_st.heading_font.weight }}{% endif %};
-        --menu-font: {% if theme_st.menu_font == 'menu_body_font' %}{{ theme_st.body_font.family }}{% else %}{{ theme_st.heading_font.family }}{% endif %}, {{ theme_st.body_font.fallback_families }};
         --menu-weight: {% if theme_st.menu_font == 'menu_body_font' %}{{ theme_st.body_font.weight }}{% else %}{{ theme_st.heading_font.weight }}{% endif %};
 
         --h0: clamp(4rem,calc(4rem + (60 - 40) * var(--responsive-rate)),  6rem);

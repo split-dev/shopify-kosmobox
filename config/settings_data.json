@@ -16,6 +16,7 @@
     "favicon": "shopify://shop_images/SHORT_Logo_SVG_grey_on_white_1.svg",
     "logo": "shopify://shop_images/Logo_SVG_grey_on_white_2_-_TRANSPARENT.svg",
     "logo_width": 114,
+    "default_fonts": false,
     "body_font": "urbanist_n4",
     "heading_font": "urbanist_n4",
     "subheading_weight": "500",

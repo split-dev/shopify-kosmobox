@@ -237,6 +237,13 @@
     "name": "t:settings_schema.typography.name",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "default_fonts",
+        "label": "Default fonts",
+        "default": false,
+        "info": "Use the default fonts selected below instead of the built-in custom fonts."
+      },
+      {
         "type": "paragraph",
         "content": "t:settings_schema.typography.how_to_use.label"
       },

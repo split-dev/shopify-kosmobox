@@ -215,7 +215,7 @@ summary::-webkit-details-marker {
     .h0,
     .heading
   ) {
-  font-family: var(--heading-font);
+  font-family: var(--heading-font) !important;
   font-style: var(--heading-font-style);
   font-weight: var(--heading-weight);
   text-transform: var(--heading-text-transform);
