@@ -721,7 +721,7 @@
       "name": "t:sections.blog-posts.name",
       "settings": {
         "section_width": "fix_width",
-        "color_scheme": "",
+        "color_scheme": "default",
         "subheading": "",
         "title": "<p>Kosmobox Blog</p>",
         "drawn_underline": true,
