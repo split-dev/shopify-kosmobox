@@ -148,7 +148,7 @@
           "name": "t:sections.all.product_setting.collapsible_row.name",
           "settings": {
             "heading": "How to Use",
-            "content": "<p>Start at the base of your lashes and wiggle upward. Apply additional coats as needed for extra volume. Remove with gentle cleanser or micellar water.</p>",
+            "content": "{{ closest.product.metafields.custom.additional_info_2 | metafield_tag }}",
             "page": ""
           },
           "blocks": {}
@@ -158,7 +158,7 @@
           "name": "t:sections.all.product_setting.collapsible_row.name",
           "settings": {
             "heading": "Ingredients",
-            "content": "",
+            "content": "{{ closest.product.metafields.custom.additional_info_3 | metafield_tag }}",
             "page": ""
           },
           "blocks": {}
