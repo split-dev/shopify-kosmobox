@@ -137,8 +137,8 @@
           "type": "_collapsible-row",
           "name": "t:sections.all.product_setting.collapsible_row.name",
           "settings": {
-            "heading": "Product Info",
-            "content": "{{ closest.product.description }}",
+            "heading": "K-Targets",
+            "content": "{{ closest.product.metafields.custom.additional_info_1 | metafield_tag }}",
             "page": ""
           },
           "blocks": {}
@@ -159,6 +159,16 @@
           "settings": {
             "heading": "Ingredients",
             "content": "",
+            "page": ""
+          },
+          "blocks": {}
+        },
+        "collapsible_row_8dMWip": {
+          "type": "_collapsible-row",
+          "name": "t:sections.all.product_setting.collapsible_row.name",
+          "settings": {
+            "heading": "Shipping & Collection",
+            "content": "<p><strong>Standard Delivery: </strong>£3.99 (2-3 working days)</p><p><strong>Free Standard Delivery:</strong> On orders over £30 (2-3 working days)</p><p><strong>First Class Delivery:</strong> £5.50 (1-2 working days)</p><p><strong>Portsmouth Local Delivery (PO1-PO6):</strong> £5.50 for same-day delivery (order by 1PM). </p><p><strong>Free on orders over £30. </strong>Free Collection from Kosmobox store: 1 Albert road, Southsea PO5 2SE</p>",
             "page": ""
           },
           "blocks": {}
@@ -235,6 +245,7 @@
         "collapsible_row_8Nf3rK",
         "collapsible_row_ntzAL8",
         "collapsible_row_RNg6W7",
+        "collapsible_row_8dMWip",
         "icon_with_text_product_j8xicG",
         "complementary_w4ymBE",
         "ask_question_product_aHy4Ed",
