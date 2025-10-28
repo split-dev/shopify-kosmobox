@@ -76,27 +76,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "blocks": {
-        "promotion_wpTYUL": {
-          "type": "promotion",
-          "settings": {
-            "color_scheme": "scheme-b057792d-f0df-4ed0-973f-3dd88bca67d5",
-            "highlight_text": "",
-            "highlight_text_icon": "none",
-            "background_color": "#c03e35",
-            "text_color": "#ffffff",
-            "subheading": "",
-            "heading": "",
-            "description": "",
-            "button_label": "",
-            "promotion_link": "",
-            "promotion_position": 5
-          }
-        }
-      },
-      "block_order": [
-        "promotion_wpTYUL"
-      ],
       "settings": {
         "section_width": "fix_width",
         "products_to_show": 12,
