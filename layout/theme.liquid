@@ -46,6 +46,14 @@
           font-style: normal;
           font-display: swap;
         }
+        @font-face {
+          font-family: 'UltimaAltBold';
+          src: url({{ 'UltimaAlt-Bold.woff2' | asset_url }}) format('woff2'),
+              url({{ 'UltimaAlt-Bold.woff' | asset_url }}) format('woff');
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+        }
       {% endunless %}
 
       {{ settings.body_font | font_face: font_display: 'swap' }}
@@ -111,7 +119,7 @@
           --menu-font: {% if theme_st.menu_font == 'menu_body_font' %}{{ theme_st.body_font.family }}{% else %}{{ theme_st.heading_font.family }}{% endif %}, {{ theme_st.body_font.fallback_families }};
         {% else %}
           --body-font-family: 'Ultima', sans-serif;
-          --heading-font: 'Ultima', sans-serif !important; 
+          --heading-font: 'UltimaAltBold', sans-serif !important; 
           --menu-font: 'Ultima', sans-serif;
         {% endif %}
 

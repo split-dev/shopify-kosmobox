@@ -2677,6 +2677,9 @@ body:not(.template-index) .transparent-logo {
   font-size: var(--product-price-size, 1.4rem);
 }
 
+.card-product-price {
+  font-family: var(--heading-font);
+}
 .card-product-price .unit-price {
   flex-basis: 100%;
 }

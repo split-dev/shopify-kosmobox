@@ -350,6 +350,9 @@
         "heading_DadRVG",
         "description_KdQcek"
       ],
+      "custom_css": [
+        ".h2 {color: #e8a8b6;}"
+      ],
       "name": "t:sections.rich-text.name",
       "settings": {
         "section_width": "fix_width",
@@ -718,6 +721,9 @@
     },
     "blog_posts_d6M4aX": {
       "type": "blog-posts",
+      "custom_css": [
+        "h2 {color: #e8a8b6;}"
+      ],
       "name": "t:sections.blog-posts.name",
       "settings": {
         "section_width": "fix_width",
