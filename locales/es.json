@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "accessibility": {
     "error": "Error",
@@ -18,7 +9,7 @@
     },
     "unit_price_separator": "por",
     "badges": "Insignias",
-    "toggle_menu": "Mostrar/ocultar menú",
+    "toggle_menu": "Mostrar\/ocultar menú",
     "menu": "Menú",
     "heading_menu": "Encabezado del menú",
     "menu_item": "Elemento del menú",
@@ -34,10 +25,10 @@
     "close": "Cerrar",
     "video": "Video",
     "mute_button": {
-      "video": "Silenciar/activar sonido"
+      "video": "Silenciar\/activar sonido"
     },
     "play_button": {
-      "video": "Reproducir/pausar"
+      "video": "Reproducir\/pausar"
     },
     "discount_applied": "Código de descuento aplicado: {{ code }}",
     "remove_discount": "Eliminar descuento {{ code }}"
@@ -51,7 +42,7 @@
     "country_label": "Seleccionar ubicación",
     "language_label": "Idioma",
     "update_language": "Actualizar idioma",
-    "update_country": "Actualizar país/región"
+    "update_country": "Actualizar país\/región"
   },
   "general": {
     "breadcrumb": {
@@ -71,7 +62,7 @@
       "collections": "Colecciones",
       "more_result": "Ver todos los productos",
       "clear": "Borrar",
-      "no_results_html": "0 resultados para <span class=\"heading-color\">“{{ terms }}”<\/span>. Revisa la ortografía o prueba con otras palabras clave.",
+      "no_results_html": "0 resultados para <span class=\"heading-color\">“{{ terms }}”<\/span>. Revisa la ortografía o prueba con otras palabras clave."
     },
     "social": {
       "copy_link_success": "Enlace copiado",
@@ -95,7 +86,7 @@
         "vimeo": "Vimeo social",
         "tiktok": "TikTok social",
         "whatsapp": "WhatsApp social"
-      },
+      }
     },
     "mobile_navbar": {
       "shop": "Tienda",
@@ -113,7 +104,7 @@
     },
     "image": {
       "image_alt_default": "Imagen",
-      "image_mobile": "Imagen móvil",
+      "image_mobile": "Imagen móvil"
     },
     "continue_shopping": "Seguir comprando",
     "pagination": {
@@ -133,7 +124,7 @@
       "heading": "Encabezado",
       "description": "Descripción",
       "info": {
-        "step_html": "Paso {{ index }}",
+        "step_html": "Paso {{ index }}"
       }
     }
   },
@@ -248,7 +239,7 @@
       },
       "inventory_status": {
         "available": "En stock y listo para envío",
-        "low_stock": "Stock bajo: queda/n {{ count }}",
+        "low_stock": "Stock bajo: queda\/n {{ count }}",
         "sold_out": "Lo sentimos, este artículo está agotado",
         "pre_order": "¡Reserva este artículo ahora! Llega pronto.",
         "incoming": "Stock en tránsito",
@@ -266,7 +257,7 @@
         "model_height": "Altura:",
         "model_weight": "Peso:",
         "model_shoulder_width": "Ancho de hombros:",
-        "model_bust_waist_hips": "Busto/cintura/caderas:"
+        "model_bust_waist_hips": "Busto\/cintura\/caderas:"
       },
       "share": "Compartir este producto",
       "value_unavailable": "{{ option_value }} - No disponible",
@@ -317,7 +308,7 @@
       "sort_by_label": "Ordenar por:",
       "to": "Hasta",
       "clear_filter": "Quitar filtro",
-      "filter": "Filtros",
+      "filter": "Filtros"
     }
   },
   "customer": {
@@ -348,7 +339,7 @@
       "last_name": "Los apellidos son obligatorios.",
       "address_1": "La dirección es obligatoria.",
       "city": "La ciudad es obligatoria.",
-      "country": "El país/región es obligatorio.",
+      "country": "El país\/región es obligatorio.",
       "postal": "El código postal es obligatorio.",
       "comment": "Tu comentario es obligatorio.",
       "invalid": "Tu valor no es válido.",
@@ -471,7 +462,7 @@
       "create_account_details": "Crea una cuenta para unirte a nuestra comunidad y acceder a ofertas, recompensas y contenido exclusivo.",
       "content": "Regístrate para recibir acceso anticipado a rebajas y novedades, tendencias y promociones personalizadas. Para darte de baja, haz clic en cancelar suscripción en nuestros correos.",
       "content_form_html": "Tus datos personales se usarán para mejorar tu experiencia en este sitio, gestionar el acceso a tu cuenta y para otros fines descritos en nuestra <a href=\"{{ link }}\">política de privacidad<\/a>.",
-      "Do_not_have_an_account": "¿No tienes cuenta? ",
+      "Do_not_have_an_account": "¿No tienes cuenta? "
     },
     "reset_password": {
       "title": "Restablecer contraseña de la cuenta",
@@ -507,7 +498,7 @@
       "heading_payment": "Métodos de pago",
       "cart_page": {
         "edit_cart": "Editar tu artículo",
-        "update_cart": "Actualizar",
+        "update_cart": "Actualizar"
       }
     },
     "search": {
@@ -533,7 +524,7 @@
       "results_with_count_and_term": {
         "none_html": "0 resultados para <span class=\"heading-color\">“{{ terms }}”<\/span>. Revisa la ortografía o prueba con otras palabras clave.",
         "one_html": "{{ count }} resultado para <span class=\"heading-color\">“{{ terms }}”<\/span>",
-        "other_html": "{{ count }} resultados para <span class=\"heading-color\">“{{ terms }}”<\/span>",
+        "other_html": "{{ count }} resultados para <span class=\"heading-color\">“{{ terms }}”<\/span>"
       },
       "title": "Buscar",
       "title_no_search": "Introduce un término de búsqueda",
@@ -563,13 +554,13 @@
         "product": "Producto",
         "order": "Pedido",
         "press": "Prensa",
-        "other": "Otro",
+        "other": "Otro"
       }
     },
     "404": {
       "title": "¡Ups..! Página no encontrada",
       "subtext": "Parece que la página que buscas ya no existe. Ve a nuestro inicio o consulta nuestras colecciones más recientes."
-    },
+    }
   },
   "blogs": {
     "article": {
@@ -632,7 +623,7 @@
       "promotion_banner": "Banner de promoción"
     },
     "scrolling_text": {
-      "alt": "texto desplazable",
+      "alt": "texto desplazable"
     },
     "featured_blog": {
       "view_all": "Ver todos los artículos",
@@ -646,7 +637,7 @@
       "phone": "Teléfono de la tienda",
       "email": "Correo de la tienda",
       "newsletter": "Boletín",
-      "desc": "Añade una breve descripción para este bloque.",
+      "desc": "Añade una breve descripción para este bloque."
     },
     "recently-viewed-products": {
       "no_product": "No se encontraron productos vistos recientemente"
@@ -719,7 +710,7 @@
       "discount": {
         "title": "Código de descuento",
         "note_title": "Añadir código de descuento",
-        "apply": "Aplicar",
+        "apply": "Aplicar"
       },
       "shipping": {
         "title": "Calcular envío",
@@ -752,7 +743,7 @@
         "secs": "Seg"
       },
       "alt": "Imágenes de cuenta regresiva"
-    },
+    }
   },
   "newsletter": {
     "label": "Correo electrónico",
@@ -762,7 +753,7 @@
   },
   "discount": {
     "success": "¡Descuento aplicado correctamente!",
-    "error": "Introduce el código de descuento",
+    "error": "Introduce el código de descuento"
   },
   "subscribe": {
     "label": "Introduce tu correo",
@@ -829,7 +820,7 @@
   },
   "page": {
     "page_title": "Título de la página",
-    "page_desc": "Selecciona una página para mostrar su contenido.",
+    "page_desc": "Selecciona una página para mostrar su contenido."
   },
   "flexible-section": {
     "text_preview": {
@@ -837,7 +828,7 @@
       "slide_1": "Muestra colecciones de productos con filtros, cuadrículas y soporte de títulos.",
       "slide_2": "Crea un formulario de contacto sencillo para soporte, preguntas o solicitudes personalizadas.",
       "slide_3": "Combina imágenes y texto para destacar características, historia de marca o promociones."
-    },
+    }
   },
   "google_map": {
     "no_iframe": "Proporciona la longitud y la latitud para usar este bloque."

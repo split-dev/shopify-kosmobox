@@ -4,8 +4,8 @@
     "theme_name": "Purity",
     "theme_version": "1.0.3",
     "theme_author": "Nextsky",
-    "theme_documentation_url": "https://nextsky.gitbook.io/purity-theme/",
-    "theme_support_url": "https://nextsky.co/pages/purity"
+    "theme_documentation_url": "https:\/\/nextsky.gitbook.io\/purity-theme\/",
+    "theme_support_url": "https:\/\/nextsky.co\/pages\/purity"
   },
   {
     "name": "t:settings_schema.layout.name",

@@ -24,11 +24,11 @@
     "complementary_products": "Complementary products",
     "close": "Close",
     "video": "Video",
-    "mute_button" : {
-      "video": "Mute/unmute"
+    "mute_button": {
+      "video": "Mute\/unmute"
     },
     "play_button": {
-      "video": "Play/pause"
+      "video": "Play\/pause"
     },
     "discount_applied": "Applied discount code: {{ code }}",
     "remove_discount": "Remove discount {{ code }}"
@@ -42,7 +42,7 @@
     "country_label": "Select Location",
     "language_label": "Language",
     "update_language": "Update language",
-    "update_country": "Update country/region"
+    "update_country": "Update country\/region"
   },
   "general": {
     "breadcrumb": {
@@ -62,7 +62,7 @@
       "collections": "Collections",
       "more_result": "View all Products",
       "clear": "Clear",
-      "no_results_html": "0 results matching <span class=\"heading-color\">“{{ terms }}”</span>. Check spelling or try different keywords.",
+      "no_results_html": "0 results matching <span class=\"heading-color\">“{{ terms }}”<\/span>. Check spelling or try different keywords."
     },
     "social": {
       "copy_link_success": "Copied link",
@@ -86,7 +86,7 @@
         "vimeo": "Vimeo social",
         "tiktok": "TikTok social",
         "whatsapp": "Whatsapp social"
-      },
+      }
     },
     "mobile_navbar": {
       "shop": "Shop",
@@ -104,7 +104,7 @@
     },
     "image": {
       "image_alt_default": "Image",
-      "image_mobile": "Image mobile",
+      "image_mobile": "Image mobile"
     },
     "continue_shopping": "Continue shopping",
     "pagination": {
@@ -123,8 +123,8 @@
       "subheading": "Subheading",
       "heading": "Heading",
       "description": "Description",
-      "info":{
-        "step_html": "Step {{ index }}",
+      "info": {
+        "step_html": "Step {{ index }}"
       }
     }
   },
@@ -219,14 +219,14 @@
         "minimum_of": "Minimum of {{ quantity }}",
         "maximum_of": "Maximum of {{ quantity }}",
         "multiples_of": "Increments of {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> in cart"
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> in cart"
       },
       "pickup_availability": {
         "view_store_info": "View store information",
         "check_other_stores": "Check availability at other stores",
         "pick_up_available": "Pickup available",
-        "pick_up_available_at_html": "Pickup available at <span class=\"heading-style\">{{ location_name }}.</span>",
-        "pick_up_unavailable_at_html": "Pickup currently unavailable at <span class=\"heading-style\">{{ location_name }}.</span>",
+        "pick_up_available_at_html": "Pickup available at <span class=\"heading-style\">{{ location_name }}.<\/span>",
+        "pick_up_unavailable_at_html": "Pickup currently unavailable at <span class=\"heading-style\">{{ location_name }}.<\/span>",
         "unavailable": "Couldn't load pickup availability",
         "refresh": "Refresh"
       },
@@ -257,7 +257,7 @@
         "model_height": "Height:",
         "model_weight": "Weight:",
         "model_shoulder_width": "Shoulder width:",
-        "model_bust_waist_hips": "Bust/waist/hips:"
+        "model_bust_waist_hips": "Bust\/waist\/hips:"
       },
       "share": "Share this product",
       "value_unavailable": "{{ option_value }} - Unavailable",
@@ -270,7 +270,7 @@
       "taxes_included": "Taxes included.",
       "duties_included": "Duties included.",
       "duties_and_taxes_included": "Duties and taxes included.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout."
     },
     "modal": {
       "label": "Media gallery"
@@ -308,7 +308,7 @@
       "sort_by_label": "Sort by:",
       "to": "To",
       "clear_filter": "Remove filter",
-      "filter": "Filters",
+      "filter": "Filters"
     }
   },
   "customer": {
@@ -325,7 +325,7 @@
       "welcome": "Welcome",
       "no": "Not?",
       "required": "*Your information is securely encrypted and protected.",
-      "form_blog":"* is required field."
+      "form_blog": "* is required field."
     },
     "validate": {
       "email": "Email address is required.",
@@ -339,8 +339,8 @@
       "last_name": "Last name is required.",
       "address_1": "Address is required.",
       "city": "City is required.",
-      "country": "Country/region is required.",
-      "postal": "Postal/ZIP code is required.",
+      "country": "Country\/region is required.",
+      "postal": "Postal\/ZIP code is required.",
       "comment": "Your comment is required.",
       "invalid": "Your value is invalid.",
       "min_length": "Your value is too short (minimum is 2 characters)",
@@ -462,7 +462,7 @@
       "create_account_details": "Create a new account to join our community and get access to exclusive offers, rewards and content.",
       "content": "Sign up for early Sale access plus tailored new arrivals, trends and promotions. To opt out, click unsubscribe in our emails.",
       "content_form_html": "Your personal data will be used to support your experience throughout this website, to manage access to your account and for other purposes described in our <a href=\"{{ link }}\">privacy policy.<\/a>",
-      "Do_not_have_an_account": "Don't have an account? ",
+      "Do_not_have_an_account": "Don't have an account? "
     },
     "reset_password": {
       "title": "Reset account password",
@@ -498,7 +498,7 @@
       "heading_payment": "Payment Support",
       "cart_page": {
         "edit_cart": "Edit Your Item",
-        "update_cart": "Update",
+        "update_cart": "Update"
       }
     },
     "search": {
@@ -522,9 +522,9 @@
         "other": "{{ count }} results"
       },
       "results_with_count_and_term": {
-        "none_html": "0 results matching <span class=\"heading-color\">“{{ terms }}”</span>. Check spelling or try different keywords.",
-        "one_html": "{{ count }} result matching <span class=\"heading-color\">“{{ terms }}”</span>",
-        "other_html": "{{ count }} results matching <span class=\"heading-color\">“{{ terms }}”</span>",
+        "none_html": "0 results matching <span class=\"heading-color\">“{{ terms }}”<\/span>. Check spelling or try different keywords.",
+        "one_html": "{{ count }} result matching <span class=\"heading-color\">“{{ terms }}”<\/span>",
+        "other_html": "{{ count }} results matching <span class=\"heading-color\">“{{ terms }}”<\/span>"
       },
       "title": "Search",
       "title_no_search": "Please enter a search term",
@@ -533,7 +533,7 @@
       "pages": "Pages"
     },
     "bundle": {
-      "form" : {
+      "form": {
         "name": "Select option"
       }
     },
@@ -554,19 +554,19 @@
         "product": "Product",
         "order": "Order",
         "press": "Press",
-        "other": "Other",
+        "other": "Other"
       }
     },
     "404": {
       "title": "Opps..! Page not found",
       "subtext": "Looks like the page you're looking for no longer exists. Go to our homepage or check out our latest collections."
-    },
+    }
   },
   "blogs": {
     "article": {
       "blog": "Blog",
       "tags": "Tags",
-      "by_html": "<span> {{ author }}</span>",
+      "by_html": "<span> {{ author }}<\/span>",
       "read_more_title": "Read more: {{ title }}",
       "comments": {
         "one": "{{ count }} Comment",
@@ -619,11 +619,11 @@
       "empty": "This collection is empty",
       "no_products_found": "No products found",
       "title": "Collection",
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all</a>",
+      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all<\/a>",
       "promotion_banner": "Promotion banner"
     },
     "scrolling_text": {
-      "alt": "scrolling text",
+      "alt": "scrolling text"
     },
     "featured_blog": {
       "view_all": "See all articles",
@@ -637,9 +637,7 @@
       "phone": "Store's phone number",
       "email": "Store's email",
       "newsletter": "Newsletter",
-      "desc": "Add a short description for this block.",
-      
-      
+      "desc": "Add a short description for this block."
     },
     "recently-viewed-products": {
       "no_product": "No recently viewed products found"
@@ -655,7 +653,7 @@
       "one": "{{ count }} item",
       "other": "{{ count }} items"
     },
-     "button_comparison": {
+    "button_comparison": {
       "before": "Before",
       "after": "After"
     },
@@ -672,7 +670,7 @@
       "description": "Feel free to explore all the products available and pick up something you like in the shop.",
       "cart_error": "There was an error while updating your cart. Please try again.",
       "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
-      "cart_add_success_mobile_html": "<div class=\"w-full text-center fs-small-1\"><div class=\"flex gap-sp-4 content-center mb-sp-4\"><div class=\"icon\"><svg class=\"checkmark_icon relative mx-auto block\" width=\"25\" height=\"25\" viewBox=\"0 0 52 52\"><circle class=\"checkmark__circle\" cx=\"26\" cy=\"26\" r=\"25\" fill=\"none\" /><path class=\"checkmark__check\" fill=\"none\" d=\"M14.1 27.2l7.1 7.2 16.7-16.8\" /></svg></div><div>Product added to cart </div></div> <div><a class=\"view-cart heading_weight block btn btn-outline\" href=\"{{ link }}\">View Cart<\/a></div></div>",
+      "cart_add_success_mobile_html": "<div class=\"w-full text-center fs-small-1\"><div class=\"flex gap-sp-4 content-center mb-sp-4\"><div class=\"icon\"><svg class=\"checkmark_icon relative mx-auto block\" width=\"25\" height=\"25\" viewBox=\"0 0 52 52\"><circle class=\"checkmark__circle\" cx=\"26\" cy=\"26\" r=\"25\" fill=\"none\" \/><path class=\"checkmark__check\" fill=\"none\" d=\"M14.1 27.2l7.1 7.2 16.7-16.8\" \/><\/svg><\/div><div>Product added to cart <\/div><\/div> <div><a class=\"view-cart heading_weight block btn btn-outline\" href=\"{{ link }}\">View Cart<\/a><\/div><\/div>",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a class=\"heading-color subheading_weight\" href=\"{{ link }}\">shipping<\/a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
       "taxes_included_and_shipping_policy_html": "Tax included. <a class=\"heading-color heading_weight\" href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
@@ -680,13 +678,13 @@
       "countdown_message_html": "Limited stock — checkout in",
       "timeout_message": "You're out of time! Checkout now to avoid losing your order!",
       "countdown_cart_message_html": "Limited stock — checkout in",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Duties and taxes included. Discounts and <a href=\"{{ link }}\">shipping</a> calculated at checkout.",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Duties and taxes included. Discounts and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout.",
       "duties_and_taxes_included_shipping_at_checkout_without_policy": "Duties and taxes included. Discounts and shipping calculated at checkout.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Taxes included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Taxes included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "taxes_included_shipping_at_checkout_without_policy": "Taxes included. Shipping calculated at checkout.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Duties included. Taxes included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Duties included. Taxes included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Duties included. Taxes included. Shipping calculated at checkout.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Taxes included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Taxes included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "taxes_at_checkout_shipping_at_checkout_without_policy": "Taxes included. Shipping calculated at checkout.",
       "free_shipping_available": "Your order gets free shipping!",
       "free_shipping_html": "Spend [amount] more for free shipping!",
@@ -712,7 +710,7 @@
       "discount": {
         "title": "Discount Code",
         "note_title": "Add discount code",
-        "apply": "Apply",
+        "apply": "Apply"
       },
       "shipping": {
         "title": "Estimate shipping",
@@ -740,12 +738,12 @@
     "countdown": {
       "format": {
         "days": "Days",
-          "hours": "Hours",
-          "mins": "Mins",
-          "secs": "Secs"
+        "hours": "Hours",
+        "mins": "Mins",
+        "secs": "Secs"
       },
       "alt": "Countdown images"
-    },
+    }
   },
   "newsletter": {
     "label": "Email",
@@ -755,7 +753,7 @@
   },
   "discount": {
     "success": "Apply discount success!",
-    "error": "Please enter discount code",
+    "error": "Please enter discount code"
   },
   "subscribe": {
     "label": "Enter your email",
@@ -814,7 +812,7 @@
   "preview": {
     "content": "Content hidden in preview"
   },
-   "popup": {
+  "popup": {
     "do_not": "No, thanks! don't show again",
     "copy": "Copy coupon code",
     "copied": "Copied Code",
@@ -822,7 +820,7 @@
   },
   "page": {
     "page_title": "Page title",
-    "page_desc": "Select a page to display its content.",
+    "page_desc": "Select a page to display its content."
   },
   "flexible-section": {
     "text_preview": {
@@ -830,7 +828,7 @@
       "slide_1": "Display product collections with filters, grid layouts, and title support.",
       "slide_2": "Create a simple contact form for support, questions, or custom requests.",
       "slide_3": "Combine images and text to highlight features, brand story, or promotions."
-    },
+    }
   },
   "google_map": {
     "no_iframe": "Provide the longitude and latitude to use this block."

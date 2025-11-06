@@ -1,23 +1,15 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "current": {
-    "page_width": 1392,
-    "rounded_image": 20,
+    "page_width": 1200,
+    "rounded_image": 10,
     "rounded_button": 30,
-    "rounded_input": 30,
-    "favicon": "shopify://shop_images/SHORT_Logo_SVG_grey_on_white_1.svg",
-    "logo": "shopify://shop_images/Logo_SVG_grey_on_white_2_-_TRANSPARENT.svg",
-    "logo_width": 114,
+    "rounded_input": 10,
+    "favicon": "shopify:\/\/shop_images\/SHORT_Logo_SVG_grey_on_white_1.svg",
+    "logo": "shopify:\/\/shop_images\/Logo_SVG_grey_on_white_2_-_TRANSPARENT.svg",
+    "logo_width": 130,
     "default_fonts": false,
     "body_font": "urbanist_n4",
+    "base_size": 14,
     "heading_font": "urbanist_n4",
     "subheading_weight": "500",
     "type_size_h1": "h0",
@@ -31,23 +23,26 @@
     "type_text_transform_h4": "unset",
     "type_letter_spacing_h5": 0,
     "type_text_transform_h5": "unset",
+    "type_font_h6": "heading",
     "type_line_height_h6": "1.2",
     "type_letter_spacing_h6": 0,
     "type_text_transform_h6": "unset",
     "menu_font": "menu_heading_font",
     "button_font": "button_heading_font",
-    "scroll_animation": "",
+    "scroll_animation": "disable",
     "image_lazy_loading": true,
+    "animation_hover_effect": "hover_fade",
     "enable_loading_page_effect": false,
     "loading_background_color": "#7f7363",
     "loading_icon_image": "",
+    "product_alignment": "center",
     "product_enable_quickview": true,
     "product_enable_color_swatches": false,
     "product_tag": "hidden",
     "product_vendor": "all_devices",
     "product_show_rate": true,
     "product_show_image_hover": true,
-    "product_image_ratio": "portrait",
+    "product_image_ratio": "square",
     "product_show_video_featured": true,
     "sale_background": "#fed3dc",
     "new_background": "#fed3dc",
@@ -90,10 +85,10 @@
       "cherry-blossom-glow",
       "clearing-body-wash"
     ],
-    "social_media_facebook": "https://www.facebook.com/p/Kosmoboxcouk-61575500525548/",
-    "social_media_instagram": "https://www.instagram.com/kosmobox.co.uk",
+    "social_media_facebook": "https:\/\/www.facebook.com\/p\/Kosmoboxcouk-61575500525548\/",
+    "social_media_instagram": "https:\/\/www.instagram.com\/kosmobox.co.uk",
     "social_media_twitter": "",
-    "social_media_tiktok": "https://www.tiktok.com/@kosmobox_co_uk",
+    "social_media_tiktok": "https:\/\/www.tiktok.com\/@kosmobox_co_uk",
     "social_media_pinterest": "",
     "social_media_youtube": "",
     "social_media_vimeo": "",
@@ -193,8 +188,8 @@
     "content_for_index": [],
     "blocks": {
       "13017476918150166000": {
-        "type": "shopify://apps/wa-chat-button/blocks/whatsapp/f4d01795-3d1a-4ac7-bca7-9d0d178df50e",
-        "disabled": false,
+        "type": "shopify:\/\/apps\/wa-chat-button\/blocks\/whatsapp\/f4d01795-3d1a-4ac7-bca7-9d0d178df50e",
+        "disabled": true,
         "settings": {}
       }
     },
@@ -207,10 +202,10 @@
           "text_color": "#444444",
           "heading_color": "#1d1d1f",
           "border_color": "#e5e5e5",
-          "btn_primary_background": "#fed3dc",
+          "btn_primary_background": "#e8a8b6",
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
-          "btn_primary_hover_color": "#fed3dc",
+          "btn_primary_hover_color": "#e8a8b6",
           "btn_outline_color": "#1d1d1f",
           "btn_outline_border_color": "#1d1d1f"
         }
@@ -220,11 +215,11 @@
           "background": "#ffffff",
           "background_2": "#f2efe6",
           "background_gradient": "",
-          "text_color": "#1d1d1f",
-          "heading_color": "#1d1d1f",
+          "text_color": "#ffffff",
+          "heading_color": "#ffffff",
           "border_color": "#e5e5e5",
-          "btn_primary_background": "#ffffff",
-          "btn_primary_color": "#1d1d1f",
+          "btn_primary_background": "#ffb1c1",
+          "btn_primary_color": "#444444",
           "btn_primary_hover_background": "#1f473e",
           "btn_primary_hover_color": "#ffffff",
           "btn_outline_color": "#ffffff",
@@ -234,17 +229,17 @@
       "color-scheme-2": {
         "settings": {
           "background": "#ffffff",
-          "background_2": "#ece7da",
+          "background_2": "#fed3dc",
           "background_gradient": "",
           "text_color": "#1d1d1f",
           "heading_color": "#1d1d1f",
           "border_color": "#e5e5e5",
-          "btn_primary_background": "#1f473e",
+          "btn_primary_background": "#444444",
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
-          "btn_primary_hover_color": "#1f473e",
-          "btn_outline_color": "#1f473e",
-          "btn_outline_border_color": "#1f473e"
+          "btn_primary_hover_color": "#444444",
+          "btn_outline_color": "#444444",
+          "btn_outline_border_color": "#444444"
         }
       },
       "scheme-0ba1b009-7eed-45cd-b0f5-57fda3e81ca0": {
@@ -298,7 +293,7 @@
       "scheme-070b6d81-d1cf-49ad-aa7a-4a016abd3a99": {
         "settings": {
           "background": "#fed3dc",
-          "background_2": "#f2efe6",
+          "background_2": "#fed3dc",
           "background_gradient": "",
           "text_color": "#ffffff",
           "heading_color": "#ffffff",
@@ -313,26 +308,26 @@
       },
       "scheme-76e16d9c-62d8-4250-9f3a-e19467efff31": {
         "settings": {
-          "background": "#f4f4f4",
+          "background": "#ffffff",
           "background_2": "#ffffff",
           "background_gradient": "",
           "text_color": "#444444",
-          "heading_color": "#1d1d1f",
+          "heading_color": "#444444",
           "border_color": "#e5e5e5",
           "btn_primary_background": "#fed3dc",
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
-          "btn_primary_hover_color": "#1f473e",
+          "btn_primary_hover_color": "#e8a8b6",
           "btn_outline_color": "#1f473e",
           "btn_outline_border_color": "#1f473e"
         }
       },
       "scheme-4a4a3e14-571e-4a2f-aa65-1158b87a9b0e": {
         "settings": {
-          "background": "#fed3dc",
+          "background": "#e8a8b6",
           "background_2": "#ffffff",
           "background_gradient": "",
-          "text_color": "#444444",
+          "text_color": "#ffffff",
           "heading_color": "#1d1d1f",
           "border_color": "#e5e5e5",
           "btn_primary_background": "#1f473e",
@@ -345,18 +340,18 @@
       },
       "scheme-b057792d-f0df-4ed0-973f-3dd88bca67d5": {
         "settings": {
-          "background": "#ffffff",
-          "background_2": "#f2efe6",
+          "background": "#ed9cad",
+          "background_2": "#ed9cad",
           "background_gradient": "",
-          "text_color": "#ffffff",
-          "heading_color": "#ffffff",
-          "border_color": "#e5e5e5",
-          "btn_primary_background": "#fed3dc",
-          "btn_primary_color": "#ffffff",
-          "btn_primary_hover_background": "#ffffff",
-          "btn_primary_hover_color": "#fed3dc",
-          "btn_outline_color": "#fed3dc",
-          "btn_outline_border_color": "#fed3dc"
+          "text_color": "#444444",
+          "heading_color": "#444444",
+          "border_color": "#444444",
+          "btn_primary_background": "#e8a8b6",
+          "btn_primary_color": "#444444",
+          "btn_primary_hover_background": "#444444",
+          "btn_primary_hover_color": "#e8a8b6",
+          "btn_outline_color": "#e8a8b6",
+          "btn_outline_border_color": "#e8a8b6"
         }
       },
       "scheme-85c61dc2-20da-48a8-92be-c39d88ecd689": {
@@ -415,10 +410,10 @@
           "text_color": "#ffffff",
           "heading_color": "#ffffff",
           "border_color": "#ffffff",
-          "btn_primary_background": "#fed3dc",
+          "btn_primary_background": "#e8a8b6",
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
-          "btn_primary_hover_color": "#fed3dc",
+          "btn_primary_hover_color": "#e8a8b6",
           "btn_outline_color": "#ffffff",
           "btn_outline_border_color": "#ffffff"
         }
@@ -461,7 +456,7 @@
           "background_2": "#f2efe6",
           "background_gradient": "",
           "text_color": "#111111",
-          "heading_color": "#111",
+          "heading_color": "#111111",
           "border_color": "#e5e5e5",
           "btn_primary_background": "#ffffff",
           "btn_primary_color": "#1f473e",
@@ -469,6 +464,38 @@
           "btn_primary_hover_color": "#ffffff",
           "btn_outline_color": "#1f473e",
           "btn_outline_border_color": "#1f473e"
+        }
+      },
+      "scheme-e7c186ac-f66a-46ff-a10d-ed9a4b85d310": {
+        "settings": {
+          "background": "#ffffff",
+          "background_2": "#e5e5e5",
+          "background_gradient": "",
+          "text_color": "#666666",
+          "heading_color": "#e8a8b6",
+          "border_color": "#e5e5e5",
+          "btn_primary_background": "#e8a8b6",
+          "btn_primary_color": "#ffffff",
+          "btn_primary_hover_background": "#ffffff",
+          "btn_primary_hover_color": "#e8a8b6",
+          "btn_outline_color": "#1d1d1f",
+          "btn_outline_border_color": "#1d1d1f"
+        }
+      },
+      "scheme-bdb97f02-5770-4f3f-bbf5-ef91d3b678c9": {
+        "settings": {
+          "background": "#fed3dc",
+          "background_2": "#e5e5e5",
+          "background_gradient": "",
+          "text_color": "#ed9cad",
+          "heading_color": "#ffffff",
+          "border_color": "#e5e5e5",
+          "btn_primary_background": "#e8a8b6",
+          "btn_primary_color": "#ffffff",
+          "btn_primary_hover_background": "#ffffff",
+          "btn_primary_hover_color": "#e8a8b6",
+          "btn_outline_color": "#1d1d1f",
+          "btn_outline_border_color": "#1d1d1f"
         }
       }
     }
@@ -551,16 +578,16 @@
         "cherry-blossom-glow",
         "clearing-body-wash"
       ],
-      "social_media_facebook": "https://facebook.com/shopify",
-      "social_media_instagram": "http://instagram.com/shopify",
+      "social_media_facebook": "https:\/\/facebook.com\/shopify",
+      "social_media_instagram": "http:\/\/instagram.com\/shopify",
       "social_media_twitter": "",
-      "social_media_tiktok": "https://tiktok.com/@shopify",
+      "social_media_tiktok": "https:\/\/tiktok.com\/@shopify",
       "social_media_pinterest": "",
-      "social_media_youtube": "https://www.youtube.com/shopify",
+      "social_media_youtube": "https:\/\/www.youtube.com\/shopify",
       "social_media_vimeo": "",
       "social_media_linkedin": "",
       "social_media_whatsapp": "",
-      "social_media_snapchat": "https://www.snapchat.com/add/shopify",
+      "social_media_snapchat": "https:\/\/www.snapchat.com\/add\/shopify",
       "script_tracking": "",
       "script_tracking_position": "head",
       "heading_text_transform": "unset",

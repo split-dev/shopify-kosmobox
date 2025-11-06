@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "cart-items": {
@@ -20,7 +11,7 @@
             "icon_svg": "privacy-protection",
             "icon_size": 30,
             "heading": "Privacy Protection",
-            "description": "<p>Your privacy is always our top priority, and we take every step to protect it.</p>"
+            "description": "<p>Your privacy is always our top priority, and we take every step to protect it.<\/p>"
           }
         },
         "trust_badges_NrjAGd": {
@@ -31,7 +22,7 @@
             "icon_svg": "secure-shopping",
             "icon_size": 30,
             "heading": "Secure Shopping",
-            "description": "<p>All transactions are securely protected with SSL technology.</p>"
+            "description": "<p>All transactions are securely protected with SSL technology.<\/p>"
           }
         },
         "trust_badges_HwFp4D": {
@@ -42,7 +33,7 @@
             "icon_svg": "guarantee",
             "icon_size": 30,
             "heading": "Up to 30—Day Guarantee",
-            "description": "<p>Unlucky with your product? Contact us within 30 days of receiving your order and we will replace it for free!</p>"
+            "description": "<p>Unlucky with your product? Contact us within 30 days of receiving your order and we will replace it for free!<\/p>"
           }
         }
       },
@@ -71,11 +62,11 @@
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "",
-        "title": "<p>Recently Viewed</p>",
+        "title": "<p>Recently Viewed<\/p>",
         "drawn_underline": true,
         "drawn_underline_type": "squiggle_underline",
         "drawn_underline_color": "#ffb005",
-        "description": "<p>Take another look at items you've recently explored. Easily return to your favorites.</p>",
+        "description": "<p>Take another look at items you've recently explored. Easily return to your favorites.<\/p>",
         "heading_size": "medium",
         "text_alignment": "center",
         "items_to_show": 4,

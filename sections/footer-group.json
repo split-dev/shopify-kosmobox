@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -38,7 +29,7 @@
           "type": "newsletter_block",
           "settings": {
             "heading": "Sign up to be the first to know about products, offers and tips",
-            "description": "<p></p><p></p>",
+            "description": "<p><\/p><p><\/p>",
             "email_placeholder": "Enter your email...",
             "button_label": "Subscribe",
             "note": "",
@@ -53,16 +44,16 @@
       ],
       "settings": {
         "section_width": "fix_width",
-        "color_scheme": "default",
-        "enable_back_top": false,
+        "color_scheme": "scheme-221506e4-f021-4bec-8307-a119b3272d32",
+        "enable_back_top": true,
         "enable_country_selector": true,
         "enable_language_selector": false,
         "enable_follow_on_shop": false,
         "payment_enable": true,
         "menu_store_policies": "",
         "show_policy": false,
-        "padding_top": 100,
-        "padding_bottom": 60
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     }
   },
