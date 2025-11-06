@@ -1,0 +1,117 @@
+{%- if tags_array.size > 0 -%}
+  {%- assign active_tag_count = 0 -%}
+  {%- for value in filter.values -%}
+    {%- if value.active and tags_array contains value.label -%}
+      {%- assign active_tag_count = active_tag_count | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  <action-filter
+    class="js-filter action-filter block"
+    data-index="{{ index_el }}{% if filter_layout == 'drawer' %}-drawer{% endif %}"
+    data-name="{{ title | default: filter.label }}"
+    {% if collection_custom %}
+      data-handle="{{ collection_custom.handle }}"
+    {% endif %}
+  >
+    <details class="collapsible-row detail-open" is="collapsible-row" open>
+      <summary class="collapsible-row__summary h6 not-highlight-tap">
+        <span class="inline-flex gap align-center" style="--gap-desktop: 8px;--gap: 8px;">
+          {{ title | default: filter.label }}
+          <span
+            class="facets__selected{% if active_tag_count == 0 %} hidden{% else %} inline-flex flex-auto w-custom h-custom rounded-50 bg-primary color-white fs-12 content-center fw-500{% endif %}"
+            style="--width: 2.3rem; --height: 2.3rem;"
+          >
+            {{ active_tag_count }}
+          </span>
+        </span>
+        <span class="open-children-toggle transition">
+          <span class="icon_plus-animation heading-color"></span>
+        </span>
+      </summary>
+
+      <div
+        id="Facet-{{ index_el }}-{{ section.id }}"
+        class="collapsible-row__content filter-attribute overflow-hidden"
+      >
+        {%- assign has_match = false -%}
+        {%- assign has_active_tag = false -%}
+
+        {%- for value in filter.values -%}
+          {%- if value.active and tags_array contains value.label -%}
+            {%- assign has_active_tag = true -%}
+          {%- endif -%}
+        {%- endfor -%}
+
+        <ul
+          class="facets__list list-unstyled flex wrap row column-1025 gap-sp-2 gap-1025-0 mt-sp-4"
+          role="list"
+        >
+
+          {%- if has_active_tag -%}
+            <li class="clear-category-filter">
+              <label class="facets__item-label pointer clear">
+                <span class="facet-checkbox__text" aria-hidden="true">Clear</span>
+              </label>
+            </li>
+          {%- endif -%}
+
+          {%- for value in filter.values -%}
+            {% assign is_disabled = false %}
+            {% if value.count == 0 and value.active == false %}
+              {% assign is_disabled = true %}
+            {% endif %}
+
+            {%- if tags_array contains value.label -%}
+              {%- assign has_match = true -%}
+
+              <li
+                class="facets__item relative inline-flex gap-10 pb-1025-sp-2 pb-sp-3 pointer not-highlight-tap word-break{% if is_disabled %} facet-checkbox--disabled{% endif %}"
+              >
+                <div class="input_checkbox inset-0 absolute relative-1025">
+                  <input
+                    type="checkbox"
+                    name="{{ value.param_name }}"
+                    value="{{ value.value }}"
+                    class="opacity-0 absolute inset-0 m-0 w-full h-full z-1 pointer"
+                    id="Filter-{{ filter.param_name | escape }}-{{ filter_layout }}-{{ index_el }}-{{ title | downcase | replace: ' ', '-' }}-{{ forloop.index0 }}"
+                    {% if value.active %}checked{% endif %}
+                    {% if is_disabled %}disabled{% endif %}
+                  >
+                  <span
+                    class="checkmark relative rounded-3 pointer-none hidden inline-flex-1025 w-custom h-custom"
+                  ></span>
+                </div>
+
+                <label
+                  for="Filter-{{ filter.param_name | escape }}-{{ filter_layout }}-{{ index_el }}-{{ title | downcase | replace: ' ', '-' }}-{{ forloop.index0 }}"
+                  class="facets__item-label rounded-30 border border-1025-0 z-1 pointer{% if is_disabled %} disabled{% endif %}{% if value.active %} active{% endif %}"
+                >
+                  {{ value.label }}
+                  <span class="count nowrap grey-color">({{ value.count }})</span>
+                </label>
+              </li>
+            {%- endif -%}
+          {%- endfor -%}
+
+          {%- unless has_match -%}
+            <style>
+              .action-filter[data-index="{{ index_el }}"] {
+                display: none !important;
+              }
+            </style>
+          {%- endunless -%}
+        </ul>
+
+        {% if collection_custom %}
+          <a
+            href="{{ collection_custom.url }}"
+            class="facets__item-label pointer collection-all {% if collection_current.handle == collection_custom.handle %}clear-category{% endif %}"
+          >
+            Shop All {{ collection_custom.title }}
+          </a>
+        {% endif %}
+      </div>
+    </details>
+  </action-filter>
+{%- endif -%}

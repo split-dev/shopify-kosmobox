@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumb": {
@@ -28,7 +37,7 @@
       "settings": {
         "section_width": "stretch_width",
         "color_scheme": "default",
-        "image": "shopify:\/\/shop_images\/52_2_1.png",
+        "image": "shopify://shop_images/52_2_1.png",
         "use_collection_image": false,
         "image_opacity": 0,
         "image_height": "adapt",
@@ -77,6 +86,12 @@
         "enable_filtering": true,
         "show_product_counts": true,
         "filter_layout": "vertical",
+        "category_swatches_title": "Category",
+        "category_swatches_tags": "Exfoliator,Toners,Serums & Ampoules,Treatments & Essences,Moisturizers & Creams,Eye Care,Lip Care,Masks",
+        "skin_type_title": "Skin type",
+        "skin_type_tags": "Dry skin,Normal skin,Oily skin,Sensitive skin",
+        "skin_request_title": "Skin request",
+        "skin_request_tags": "Acne-prone,Brightening,Hydrating,Redness,Slow-ageing",
         "padding_top": 0,
         "padding_bottom": 100
       }
@@ -89,11 +104,11 @@
         "section_width": "fix_width",
         "color_scheme": "",
         "subheading": "",
-        "heading": "<p>Others Also Bought<\/p>",
+        "heading": "<p>Others Also Bought</p>",
         "drawn_underline": true,
         "drawn_underline_type": "squiggle_underline",
         "drawn_underline_color": "#ffb005",
-        "description": "<p>Check out similar products people are loving. Click to explore trending styles.<\/p>",
+        "description": "<p>Check out similar products people are loving. Click to explore trending styles.</p>",
         "heading_size": "medium",
         "text_alignment": "center",
         "show_view_all_button": false,

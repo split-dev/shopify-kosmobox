@@ -98,13 +98,30 @@
       {%- if enable_filtering and filter_layout == 'vertical' -%}
         <div id="CollectionSidebar" class="collection__sidebar col-1025-w-custom hidden block-1025">
           <div class="sticky-md top-30">
+            {%- liquid
+              assign settings_category_swatches_tags = section.settings.category_swatches_tags | remove: ' ' | split: ','
+              assign settings_category_swatches_title = section.settings.category_swatches_title
+
+              assign settings_skin_type_tags = section.settings.skin_type_tags | remove: ' ' | split: ','
+              assign settings_skin_type_title = section.settings.skin_type_title
+
+              assign settings_skin_request_tags = section.settings.skin_request_tags | remove: ' ' | split: ','
+              assign settings_skin_request_title = section.settings.skin_request_title
+            -%}
+            
             {% render 'facets',
               results: collection,
               filter_layout: 'vertical',
               paginate: paginate,
               results_url: results_url,
               total_active_values: total_active_values,
-              products_count: collection.products_count
+              products_count: collection.products_count,
+              category_swatches_title: settings_category_swatches_title,
+              category_swatches_tags: settings_category_swatches_tags,
+              skin_type_title: settings_skin_type_title,
+              skin_type_tags: settings_skin_type_tags,
+              skin_request_title: settings_skin_request_title,
+              skin_request_tags: settings_skin_request_tags
             %}
           </div>
         </div>
@@ -1144,6 +1161,42 @@
       ],
       "default": "vertical",
       "label": "t:sections.main-collection.settings.filter_type.label"
+    },
+    {
+      "type": "text",
+      "id": "category_swatches_title",
+      "label": "Title swatches",
+      "default": "Category"
+    },
+    {
+      "type": "textarea",
+      "id": "category_swatches_tags",
+      "label": "Tags for category swatches",
+      "info": "Custom defenitions for metaobject category swatches based on tags"
+    },
+    {
+      "type": "text",
+      "id": "skin_type_title",
+      "label": "Title skin type",
+      "default": "Skin type"
+    },
+    {
+      "type": "textarea",
+      "id": "skin_type_tags",
+      "label": "Tags for skin type",
+      "info": "Custom definitions for metaobject skin type based on tags"
+    },
+    {
+      "type": "text",
+      "id": "skin_request_title",
+      "label": "Title skin request",
+      "default": "Skin request"
+    },
+    {
+      "type": "textarea",
+      "id": "skin_request_tags",
+      "label": "Tags for skin request",
+      "info": "Custom definitions for metaobject skin request based on tags"
     },
     {
       "type": "header",
