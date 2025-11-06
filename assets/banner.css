@@ -54,11 +54,11 @@ video-local-slide video.slideshow {
   min-height: var(--item-height-mb);
 }
 .h-small {
-  --item-height-mb: 390px;
+  --item-height-mb: 100px;
   --item-height: clamp(
     40rem,
-    calc(40rem + (500 - 400) * var(--responsive-rate)),
-    50rem
+    calc(20rem * var(--responsive-rate)),
+    20rem
   );
 }
 .h-medium {
