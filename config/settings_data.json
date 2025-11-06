@@ -1,11 +1,20 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "page_width": 1200,
     "rounded_image": 10,
     "rounded_button": 30,
     "rounded_input": 10,
-    "favicon": "shopify:\/\/shop_images\/SHORT_Logo_SVG_grey_on_white_1.svg",
-    "logo": "shopify:\/\/shop_images\/Logo_SVG_grey_on_white_2_-_TRANSPARENT.svg",
+    "favicon": "shopify://shop_images/015d97_1d5f2fab10de4aa4a873f2db8af1d85b_mv2.png",
+    "logo": "shopify://shop_images/Logo_SVG_grey_on_white_2_-_TRANSPARENT.svg",
     "logo_width": 130,
     "default_fonts": false,
     "body_font": "urbanist_n4",
@@ -85,10 +94,10 @@
       "cherry-blossom-glow",
       "clearing-body-wash"
     ],
-    "social_media_facebook": "https:\/\/www.facebook.com\/p\/Kosmoboxcouk-61575500525548\/",
-    "social_media_instagram": "https:\/\/www.instagram.com\/kosmobox.co.uk",
+    "social_media_facebook": "https://www.facebook.com/p/Kosmoboxcouk-61575500525548/",
+    "social_media_instagram": "https://www.instagram.com/kosmobox.co.uk",
     "social_media_twitter": "",
-    "social_media_tiktok": "https:\/\/www.tiktok.com\/@kosmobox_co_uk",
+    "social_media_tiktok": "https://www.tiktok.com/@kosmobox_co_uk",
     "social_media_pinterest": "",
     "social_media_youtube": "",
     "social_media_vimeo": "",
@@ -188,7 +197,7 @@
     "content_for_index": [],
     "blocks": {
       "13017476918150166000": {
-        "type": "shopify:\/\/apps\/wa-chat-button\/blocks\/whatsapp\/f4d01795-3d1a-4ac7-bca7-9d0d178df50e",
+        "type": "shopify://apps/wa-chat-button/blocks/whatsapp/f4d01795-3d1a-4ac7-bca7-9d0d178df50e",
         "disabled": true,
         "settings": {}
       }
@@ -578,16 +587,16 @@
         "cherry-blossom-glow",
         "clearing-body-wash"
       ],
-      "social_media_facebook": "https:\/\/facebook.com\/shopify",
-      "social_media_instagram": "http:\/\/instagram.com\/shopify",
+      "social_media_facebook": "https://facebook.com/shopify",
+      "social_media_instagram": "http://instagram.com/shopify",
       "social_media_twitter": "",
-      "social_media_tiktok": "https:\/\/tiktok.com\/@shopify",
+      "social_media_tiktok": "https://tiktok.com/@shopify",
       "social_media_pinterest": "",
-      "social_media_youtube": "https:\/\/www.youtube.com\/shopify",
+      "social_media_youtube": "https://www.youtube.com/shopify",
       "social_media_vimeo": "",
       "social_media_linkedin": "",
       "social_media_whatsapp": "",
-      "social_media_snapchat": "https:\/\/www.snapchat.com\/add\/shopify",
+      "social_media_snapchat": "https://www.snapchat.com/add/shopify",
       "script_tracking": "",
       "script_tracking_position": "head",
       "heading_text_transform": "unset",
