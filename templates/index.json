@@ -1116,40 +1116,12 @@
             "testimonial_quote": "Every time I wear it, people ask what I'm using. The scent is heavenly. The glow it leaves is incredible.",
             "testimonial_product": "balancing-gel-60ml"
           }
-        },
-        "testimonial_Q3VqnR": {
-          "type": "testimonial",
-          "settings": {
-            "media_type": "image",
-            "testimonial_image": "shopify://shop_images/b411f4_15186788bfc84d4899594fe045909331_mv2.png",
-            "video_alt_text": "Video alt text",
-            "rating_star": 5,
-            "testimonial_author": "Susan G.",
-            "review_sumary": "Balances my skin perfectly",
-            "testimonial_quote": "That cleanser keeps both dry and oily areas happy and removes makeup without stripping.",
-            "testimonial_product": "dokdo-cleansing-oil-200ml"
-          }
-        },
-        "testimonial_fnP8h4": {
-          "type": "testimonial",
-          "settings": {
-            "media_type": "image",
-            "testimonial_image": "shopify://shop_images/b411f4_41b031b5a11f4e4ba1c03bf2aa6a640d_mv2.png",
-            "video_alt_text": "Video alt text",
-            "rating_star": 5,
-            "testimonial_author": "Célodie F.",
-            "review_sumary": "Fades dark spots well",
-            "testimonial_quote": "This serum is a skin-brightening miracle. I had dark patches from breakouts and it cleared them.",
-            "testimonial_product": "dynasty-cream-100ml"
-          }
         }
       },
       "block_order": [
         "image_comparison_pzxdTz",
         "testimonial_JKwkqq",
-        "image_comparison_XAiBXc",
-        "testimonial_Q3VqnR",
-        "testimonial_fnP8h4"
+        "image_comparison_XAiBXc"
       ],
       "custom_css": [
         ".rating-text.caption path {fill: #c8545487;}"
