@@ -1316,7 +1316,7 @@
       ],
       "name": "t:sections.scrolling_image.name",
       "settings": {
-        "section_width": "fix_width",
+        "section_width": "stretch_width",
         "color_scheme": "",
         "image_ratio": "landscape",
         "image_width": 100,
