@@ -30,8 +30,8 @@
           {% unless filter.param_name contains 'filter.p.tag' %}
             <action-filter
               class="js-filter action-filter block"
-              data-name="{{- filter.label | escape }}"
               data-index="{{ forloop.index }}{% if filter_layout == 'drawer' %}-drawer{% endif %}"
+              data-name="{{- filter.label | escape }}"
             >
               <details class="collapsible-row detail-open" is="collapsible-row" open>
                 <summary class="collapsible-row__summary h6 not-highlight-tap">
@@ -206,6 +206,7 @@
               collection_current: collection,
               collection_custom: collection_rings,
               title: category_swatches_title,
+              filter_layout: filter_layout,
               index_el: 3
             -%}
 
@@ -216,6 +217,7 @@
               collection_current: collection,
               collection_custom: collection_rings,
               title: skin_type_title,
+              filter_layout: filter_layout,
               index_el: 4
             -%}
 
@@ -226,6 +228,7 @@
               collection_current: collection,
               collection_custom: collection_rings,
               title: skin_request_title,
+              filter_layout: filter_layout,
               index_el: 5
             -%}
 

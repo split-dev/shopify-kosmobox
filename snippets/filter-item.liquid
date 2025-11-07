@@ -99,18 +99,14 @@
               .action-filter[data-index="{{ index_el }}"] {
                 display: none !important;
               }
+              {% if filter_layout == 'drawer' %}
+                .action-filter[data-index="{{ index_el }}-drawer"] {
+                  display: none !important;
+                }
+              {% endif %}
             </style>
           {%- endunless -%}
         </ul>
-
-        {% if collection_custom %}
-          <a
-            href="{{ collection_custom.url }}"
-            class="facets__item-label pointer collection-all {% if collection_current.handle == collection_custom.handle %}clear-category{% endif %}"
-          >
-            Shop All {{ collection_custom.title }}
-          </a>
-        {% endif %}
       </div>
     </details>
   </action-filter>
