@@ -134,7 +134,7 @@
         "menu_mega_AQpCaJ"
       ],
       "settings": {
-        "section_width": "fix_width",
+        "section_width": "stretch_width",
         "color_scheme": "color-scheme-2",
         "logo_position": "left",
         "sticky_header_type": "on-scroll-up",
