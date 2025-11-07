@@ -533,7 +533,7 @@
               "type": "_collection-item",
               "settings": {
                 "collection": "skincare",
-                "collection_image": "shopify://shop_images/6.png",
+                "collection_image": "shopify://shop_images/IMG_0216_9a3fe916-dbdd-4c19-a5a3-f65b007c46e3.jpg",
                 "collection_title": "Skincare"
               },
               "blocks": {}
@@ -542,7 +542,7 @@
               "type": "_collection-item",
               "settings": {
                 "collection": "lip-care",
-                "collection_image": "shopify://shop_images/ChatGPT_Image_Nov_7_2025_03_18_04_PM.png",
+                "collection_image": "shopify://shop_images/ChatGPT_Image_Nov_7_2025_03_07_30_PM.png",
                 "collection_title": "Lip Care"
               },
               "blocks": {}
