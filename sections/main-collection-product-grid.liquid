@@ -99,13 +99,13 @@
         <div id="CollectionSidebar" class="collection__sidebar col-1025-w-custom hidden block-1025">
           <div class="sticky-md top-30">
             {%- liquid
-              assign settings_category_swatches_tags = section.settings.category_swatches_tags | split: ','
+              assign settings_category_swatches_tags = section.settings.category_swatches_tags | remove: ' ' | split: ','
               assign settings_category_swatches_title = section.settings.category_swatches_title
 
-              assign settings_skin_type_tags = section.settings.skin_type_tags | split: ','
+              assign settings_skin_type_tags = section.settings.skin_type_tags | remove: ' ' | split: ','
               assign settings_skin_type_title = section.settings.skin_type_title
 
-              assign settings_skin_request_tags = section.settings.skin_request_tags | split: ','
+              assign settings_skin_request_tags = section.settings.skin_request_tags | remove: ' ' | split: ','
               assign settings_skin_request_title = section.settings.skin_request_title
             -%}
             
