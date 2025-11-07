@@ -1638,7 +1638,7 @@
       ],
       "name": "t:sections.image_card.name",
       "settings": {
-        "section_width": "stretch_width",
+        "section_width": "full_width",
         "color_scheme": "",
         "subheading": "Special offer",
         "title": "<p>Christmas <em>Best Deals</em></p>",
