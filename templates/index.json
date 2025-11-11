@@ -616,7 +616,7 @@
         "heading_size": "small",
         "text_alignment": "start",
         "column_gap": "large",
-        "show_product_count": true,
+        "show_product_count": false,
         "highlight_collection_width": 49,
         "image_ratio": "portrait",
         "content_position": "overlay",
