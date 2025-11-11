@@ -58,6 +58,7 @@
     "new_background": "#e9a8b6",
     "sold_out_background": "#666666",
     "custom_badge_background": "#d9266b",
+    "color_swatch_type": "color",
     "color_swatch_shape": "round",
     "color_swatch_trigger": "Color,Colour,Cor, Colors",
     "color_swatch_custom": "Sunlit Bronze:#4b2f27,\nRich Amber:#97695c,\nTrue Beige:#debfa7,\nLinen:#e2ba9d, Barbados Cherry:#f16f79,\nBlack cherry:#612f42,\nDragon fruit:#f23262, Bronze:#CD7F32, Rose Gold: #B76E79, Vanilla: #e1bfa4, Caramel Tan: #d8b39b",
