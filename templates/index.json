@@ -957,6 +957,327 @@
         "show_divider": false
       }
     },
+    "image_card_LYf9Vn": {
+      "type": "image-card",
+      "blocks": {
+        "group_image_card_eMGaja": {
+          "type": "_group-image-card",
+          "settings": {
+            "image": "shopify://shop_images/b411f4_b0b3938f7a1c4b99ba3f45234af1df09_mv2.png"
+          },
+          "blocks": {
+            "highlight_text_MDHfTL": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "Save 50%",
+                "highlight_text_size": "small-1",
+                "highlight_text_icon": "none",
+                "background_color": "#e8a8b6",
+                "text_color": "#ffffff",
+                "uppercase": false,
+                "spacing_bottom": 15
+              },
+              "blocks": {}
+            },
+            "heading_AdBjAh": {
+              "type": "heading",
+              "settings": {
+                "heading": "Build Your Routine",
+                "width": "fit",
+                "type_preset": "h3",
+                "enable_background": false,
+                "background_color": "#000000",
+                "border_radius": 0,
+                "padding_top": 0,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "description_GdCMet": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Create your skincare — pick 3+ favorites and glow with up to 50% savings.</p>",
+                "width": "fit",
+                "type_preset": "rte",
+                "enable_background": false,
+                "background_color": "#000000",
+                "border_radius": 0,
+                "padding_top": 0,
+                "padding_bottom": 25
+              },
+              "blocks": {}
+            },
+            "button_U8xzwg": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "Grab your box",
+                "first_button_link": "shopify://collections/best-sellers",
+                "first_button_type": "outline",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_MDHfTL",
+            "heading_AdBjAh",
+            "description_GdCMet",
+            "button_U8xzwg"
+          ]
+        },
+        "group_image_card_7ddEja": {
+          "type": "_group-image-card",
+          "settings": {
+            "image": "shopify://shop_images/b411f4_41b031b5a11f4e4ba1c03bf2aa6a640d_mv2.png"
+          },
+          "blocks": {
+            "highlight_text_zzHKrH": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "New Arrival",
+                "highlight_text_size": "small-1",
+                "highlight_text_icon": "none",
+                "background_color": "#e8a8b6",
+                "text_color": "#ffffff",
+                "uppercase": false,
+                "spacing_bottom": 15
+              },
+              "blocks": {}
+            },
+            "heading_QTikhm": {
+              "type": "heading",
+              "settings": {
+                "heading": "Mini Made Easy",
+                "width": "fit-content",
+                "type_preset": "h3",
+                "enable_background": false,
+                "background_color": "#000000",
+                "border_radius": 0,
+                "padding_top": 0,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "description_xpdeQX": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Perfect to test, easy to carry, and ready to glow with you anywhere.</p>",
+                "width": "fit",
+                "type_preset": "rte",
+                "enable_background": false,
+                "background_color": "#000000",
+                "border_radius": 0,
+                "padding_top": 0,
+                "padding_bottom": 24
+              },
+              "blocks": {}
+            },
+            "button_GUm4tg": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "Get your Mini",
+                "first_button_link": "shopify://products/clearing-skin-prep-essence-pad-140ml-70sheets",
+                "first_button_type": "outline",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_zzHKrH",
+            "heading_QTikhm",
+            "description_xpdeQX",
+            "button_GUm4tg"
+          ]
+        },
+        "group_image_card_7Rmiax": {
+          "type": "_group-image-card",
+          "settings": {
+            "image": "shopify://shop_images/b411f4_6cb41a3cf7924faa8d47691bbf2cf6ab_mv2.png"
+          },
+          "blocks": {
+            "highlight_text_jcmDrc": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "Buy 1 Get 1",
+                "highlight_text_size": "small-1",
+                "highlight_text_icon": "none",
+                "background_color": "#e8a8b6",
+                "text_color": "#ffffff",
+                "uppercase": false,
+                "spacing_bottom": 10
+              },
+              "blocks": {}
+            },
+            "heading_ENWmtc": {
+              "type": "heading",
+              "settings": {
+                "heading": "Glow Body Care",
+                "width": "fit",
+                "type_preset": "h3",
+                "enable_background": false,
+                "background_color": "#000000",
+                "border_radius": 0,
+                "padding_top": 0,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "description_RQMWim": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Buy 1 Get 1 Free, beautifully made for the full glow experience</p>",
+                "width": "fit",
+                "type_preset": "rte",
+                "enable_background": false,
+                "background_color": "#000000",
+                "border_radius": 0,
+                "padding_top": 0,
+                "padding_bottom": 25
+              },
+              "blocks": {}
+            },
+            "button_dwiYMW": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "Claim the Offer",
+                "first_button_link": "shopify://products/collagen-gel-toner-pads-60pads",
+                "first_button_type": "outline",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_jcmDrc",
+            "heading_ENWmtc",
+            "description_RQMWim",
+            "button_dwiYMW"
+          ]
+        },
+        "group_image_card_WX3zxn": {
+          "type": "_group-image-card",
+          "name": "t:sections.image_card.blocks.group_name",
+          "settings": {
+            "image": "shopify://shop_images/b411f4_787934c5bcc644cc977c3a3e779e8728_mv2.png"
+          },
+          "blocks": {
+            "highlight_text_9yD3xq": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "Limited Offer",
+                "highlight_text_size": "small-1",
+                "highlight_text_icon": "none",
+                "background_color": "#e8a8b6",
+                "text_color": "#ffffff",
+                "uppercase": false,
+                "spacing_bottom": 15
+              },
+              "blocks": {}
+            },
+            "heading_jNf9r3": {
+              "type": "heading",
+              "settings": {
+                "heading": "Bundle Exclusive",
+                "width": "fit",
+                "type_preset": "h3",
+                "enable_background": false,
+                "background_color": "#000000",
+                "border_radius": 0,
+                "padding_top": 0,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "description_Ycxgkj": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Get Exclusive Luxe Gift Wrap free when you purchase 2 or more foundations.</p>",
+                "width": "fit",
+                "type_preset": "",
+                "enable_background": false,
+                "background_color": "#000000",
+                "border_radius": 0,
+                "padding_top": 0,
+                "padding_bottom": 25
+              },
+              "blocks": {}
+            },
+            "button_wN3qKV": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "Shop Foundations",
+                "first_button_link": "shopify://products/the-mini-glow-set-4pcs",
+                "first_button_type": "outline",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_9yD3xq",
+            "heading_jNf9r3",
+            "description_Ycxgkj",
+            "button_wN3qKV"
+          ]
+        }
+      },
+      "block_order": [
+        "group_image_card_eMGaja",
+        "group_image_card_7ddEja",
+        "group_image_card_7Rmiax",
+        "group_image_card_WX3zxn"
+      ],
+      "name": "t:sections.image_card.name",
+      "settings": {
+        "section_width": "full_width",
+        "color_scheme": "",
+        "subheading": "Special offer",
+        "title": "<p>Christmas <em>Best Deals</em></p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#e8a8b6",
+        "description": "",
+        "heading_size": "medium",
+        "header_alignment": "center",
+        "image_ratio": "square",
+        "image_desktop_position": "left",
+        "border_radius": false,
+        "background_color": "#f6f6f2",
+        "desktop_vertical_alignment": "end",
+        "text_alignment": "start",
+        "items_per_row": 2,
+        "column_gap": "small",
+        "show_navigation": true,
+        "show_pagination": true,
+        "reveal_slide": true,
+        "items_per_row_mobile": 1.1,
+        "text_alignment_mobile": "start",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_divider": false
+      }
+    },
     "testimonials_MNrWFq": {
       "type": "testimonials",
       "blocks": {
@@ -1356,327 +1677,6 @@
         "show_divider": true
       }
     },
-    "image_card_LYf9Vn": {
-      "type": "image-card",
-      "blocks": {
-        "group_image_card_eMGaja": {
-          "type": "_group-image-card",
-          "settings": {
-            "image": "shopify://shop_images/b411f4_b0b3938f7a1c4b99ba3f45234af1df09_mv2.png"
-          },
-          "blocks": {
-            "highlight_text_MDHfTL": {
-              "type": "highlight-text",
-              "settings": {
-                "highlight_text": "Save 50%",
-                "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
-                "background_color": "#e8a8b6",
-                "text_color": "#ffffff",
-                "uppercase": false,
-                "spacing_bottom": 15
-              },
-              "blocks": {}
-            },
-            "heading_AdBjAh": {
-              "type": "heading",
-              "settings": {
-                "heading": "Build Your Routine",
-                "width": "fit",
-                "type_preset": "h3",
-                "enable_background": false,
-                "background_color": "#000000",
-                "border_radius": 0,
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "description_GdCMet": {
-              "type": "description",
-              "settings": {
-                "description": "<p>Create your skincare — pick 3+ favorites and glow with up to 50% savings.</p>",
-                "width": "fit",
-                "type_preset": "rte",
-                "enable_background": false,
-                "background_color": "#000000",
-                "border_radius": 0,
-                "padding_top": 0,
-                "padding_bottom": 25
-              },
-              "blocks": {}
-            },
-            "button_U8xzwg": {
-              "type": "button",
-              "settings": {
-                "first_button_label": "Grab your box",
-                "first_button_link": "shopify://collections/best-sellers",
-                "first_button_type": "outline",
-                "blank_first_button": false,
-                "second_button_label": "",
-                "second_button_link": "",
-                "second_button_type": "outline",
-                "blank_second_button": false,
-                "spacing_bottom": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "highlight_text_MDHfTL",
-            "heading_AdBjAh",
-            "description_GdCMet",
-            "button_U8xzwg"
-          ]
-        },
-        "group_image_card_7ddEja": {
-          "type": "_group-image-card",
-          "settings": {
-            "image": "shopify://shop_images/b411f4_41b031b5a11f4e4ba1c03bf2aa6a640d_mv2.png"
-          },
-          "blocks": {
-            "highlight_text_zzHKrH": {
-              "type": "highlight-text",
-              "settings": {
-                "highlight_text": "New Arrival",
-                "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
-                "background_color": "#e8a8b6",
-                "text_color": "#ffffff",
-                "uppercase": false,
-                "spacing_bottom": 15
-              },
-              "blocks": {}
-            },
-            "heading_QTikhm": {
-              "type": "heading",
-              "settings": {
-                "heading": "Mini Made Easy",
-                "width": "fit-content",
-                "type_preset": "h3",
-                "enable_background": false,
-                "background_color": "#000000",
-                "border_radius": 0,
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "description_xpdeQX": {
-              "type": "description",
-              "settings": {
-                "description": "<p>Perfect to test, easy to carry, and ready to glow with you anywhere.</p>",
-                "width": "fit",
-                "type_preset": "rte",
-                "enable_background": false,
-                "background_color": "#000000",
-                "border_radius": 0,
-                "padding_top": 0,
-                "padding_bottom": 24
-              },
-              "blocks": {}
-            },
-            "button_GUm4tg": {
-              "type": "button",
-              "settings": {
-                "first_button_label": "Get your Mini",
-                "first_button_link": "shopify://products/clearing-skin-prep-essence-pad-140ml-70sheets",
-                "first_button_type": "outline",
-                "blank_first_button": false,
-                "second_button_label": "",
-                "second_button_link": "",
-                "second_button_type": "outline",
-                "blank_second_button": false,
-                "spacing_bottom": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "highlight_text_zzHKrH",
-            "heading_QTikhm",
-            "description_xpdeQX",
-            "button_GUm4tg"
-          ]
-        },
-        "group_image_card_7Rmiax": {
-          "type": "_group-image-card",
-          "settings": {
-            "image": "shopify://shop_images/b411f4_6cb41a3cf7924faa8d47691bbf2cf6ab_mv2.png"
-          },
-          "blocks": {
-            "highlight_text_jcmDrc": {
-              "type": "highlight-text",
-              "settings": {
-                "highlight_text": "Buy 1 Get 1",
-                "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
-                "background_color": "#e8a8b6",
-                "text_color": "#ffffff",
-                "uppercase": false,
-                "spacing_bottom": 10
-              },
-              "blocks": {}
-            },
-            "heading_ENWmtc": {
-              "type": "heading",
-              "settings": {
-                "heading": "Glow Body Care",
-                "width": "fit",
-                "type_preset": "h3",
-                "enable_background": false,
-                "background_color": "#000000",
-                "border_radius": 0,
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "description_RQMWim": {
-              "type": "description",
-              "settings": {
-                "description": "<p>Buy 1 Get 1 Free, beautifully made for the full glow experience</p>",
-                "width": "fit",
-                "type_preset": "rte",
-                "enable_background": false,
-                "background_color": "#000000",
-                "border_radius": 0,
-                "padding_top": 0,
-                "padding_bottom": 25
-              },
-              "blocks": {}
-            },
-            "button_dwiYMW": {
-              "type": "button",
-              "settings": {
-                "first_button_label": "Claim the Offer",
-                "first_button_link": "shopify://products/collagen-gel-toner-pads-60pads",
-                "first_button_type": "outline",
-                "blank_first_button": false,
-                "second_button_label": "",
-                "second_button_link": "",
-                "second_button_type": "outline",
-                "blank_second_button": false,
-                "spacing_bottom": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "highlight_text_jcmDrc",
-            "heading_ENWmtc",
-            "description_RQMWim",
-            "button_dwiYMW"
-          ]
-        },
-        "group_image_card_WX3zxn": {
-          "type": "_group-image-card",
-          "name": "t:sections.image_card.blocks.group_name",
-          "settings": {
-            "image": "shopify://shop_images/b411f4_787934c5bcc644cc977c3a3e779e8728_mv2.png"
-          },
-          "blocks": {
-            "highlight_text_9yD3xq": {
-              "type": "highlight-text",
-              "settings": {
-                "highlight_text": "Limited Offer",
-                "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
-                "background_color": "#e8a8b6",
-                "text_color": "#ffffff",
-                "uppercase": false,
-                "spacing_bottom": 15
-              },
-              "blocks": {}
-            },
-            "heading_jNf9r3": {
-              "type": "heading",
-              "settings": {
-                "heading": "Bundle Exclusive",
-                "width": "fit",
-                "type_preset": "h3",
-                "enable_background": false,
-                "background_color": "#000000",
-                "border_radius": 0,
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "description_Ycxgkj": {
-              "type": "description",
-              "settings": {
-                "description": "<p>Get Exclusive Luxe Gift Wrap free when you purchase 2 or more foundations.</p>",
-                "width": "fit",
-                "type_preset": "",
-                "enable_background": false,
-                "background_color": "#000000",
-                "border_radius": 0,
-                "padding_top": 0,
-                "padding_bottom": 25
-              },
-              "blocks": {}
-            },
-            "button_wN3qKV": {
-              "type": "button",
-              "settings": {
-                "first_button_label": "Shop Foundations",
-                "first_button_link": "shopify://products/the-mini-glow-set-4pcs",
-                "first_button_type": "outline",
-                "blank_first_button": false,
-                "second_button_label": "",
-                "second_button_link": "",
-                "second_button_type": "outline",
-                "blank_second_button": false,
-                "spacing_bottom": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "highlight_text_9yD3xq",
-            "heading_jNf9r3",
-            "description_Ycxgkj",
-            "button_wN3qKV"
-          ]
-        }
-      },
-      "block_order": [
-        "group_image_card_eMGaja",
-        "group_image_card_7ddEja",
-        "group_image_card_7Rmiax",
-        "group_image_card_WX3zxn"
-      ],
-      "name": "t:sections.image_card.name",
-      "settings": {
-        "section_width": "full_width",
-        "color_scheme": "",
-        "subheading": "Special offer",
-        "title": "<p>Christmas <em>Best Deals</em></p>",
-        "drawn_underline": true,
-        "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#e8a8b6",
-        "description": "",
-        "heading_size": "medium",
-        "header_alignment": "center",
-        "image_ratio": "square",
-        "image_desktop_position": "left",
-        "border_radius": false,
-        "background_color": "#f6f6f2",
-        "desktop_vertical_alignment": "end",
-        "text_alignment": "start",
-        "items_per_row": 2,
-        "column_gap": "small",
-        "show_navigation": true,
-        "show_pagination": true,
-        "reveal_slide": true,
-        "items_per_row_mobile": 1.1,
-        "text_alignment_mobile": "start",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_divider": false
-      }
-    },
     "routine_builder_WHycPa": {
       "type": "routine-builder",
       "blocks": {
@@ -2069,12 +2069,12 @@
     "suitable_products_finder_nWje9W",
     "recommended_collection_KRNgie",
     "compact_product_bundle_yEcwaA",
+    "image_card_LYf9Vn",
     "testimonials_MNrWFq",
     "shopable_video_X6Vwtr",
     "product_testimonials_YWmVYx",
     "featured_product_banner_btH9t9",
     "scrolling_image_L4NU7L",
-    "image_card_LYf9Vn",
     "routine_builder_WHycPa",
     "image_with_text_BHk7ME",
     "faqs_8y7kPB",
