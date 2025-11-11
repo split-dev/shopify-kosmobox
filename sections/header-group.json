@@ -136,7 +136,7 @@
       "settings": {
         "section_width": "stretch_width",
         "color_scheme": "color-scheme-2",
-        "logo_position": "left",
+        "logo_position": "bottom",
         "sticky_header_type": "on-scroll-up",
         "menu": "main-menu",
         "menu_trigger": "hover",
