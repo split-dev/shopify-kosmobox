@@ -1105,12 +1105,13 @@
         "testimonial_JKwkqq": {
           "type": "testimonial",
           "settings": {
-            "media_type": "video",
+            "media_type": "image",
+            "testimonial_image": "shopify://shop_images/IMG_9912_1.jpg",
             "video_alt_text": "Video alt text",
             "rating_star": 5,
-            "testimonial_author": "Came S.",
-            "review_sumary": "So refreshing and effective",
-            "testimonial_quote": "The texture is light, almost water-like, but it delivers powerful results. My dull areas started to ...",
+            "testimonial_author": "Tania",
+            "review_sumary": "Trendy Dr.Althea 345 Cream",
+            "testimonial_quote": "The texture is light and soft, cream made my skin brighter and smoother. Even in week time it feels softer and nourished.",
             "testimonial_product": "345-relief-cream-50ml"
           }
         },
