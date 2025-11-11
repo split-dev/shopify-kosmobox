@@ -4245,10 +4245,10 @@ motion-effect {
 
 .product-item .product__vendor {
   text-transform: uppercase;
-  color: var(--btn-primary-bg-color);
+  color: #e9a8b6;
 }
 .product-item .product__vendor a {
-  color: var(--btn-primary-bg-color);
+  color: #e9a8b6;
 }
 .product-item .card-product-price {
   position: relative;
@@ -4262,6 +4262,6 @@ motion-effect {
   display: block;
   width: 30px;
   height: 2px;
-  background-color: var(--btn-primary-bg-color);
+  background-color: #e9a8b6;
   margin: 0 0 8px;
 }
