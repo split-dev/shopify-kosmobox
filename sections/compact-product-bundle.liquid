@@ -220,11 +220,12 @@
               assign position_left = block_st.position_left
               assign position_top_mobile = block_st.position_top_mobile
               assign position_left_mobile = block_st.position_left_mobile
+              assign el_opacity = block_st.el_opacity
               assign product = block_st.product
             %}
             <div
               class="absolute bundle-products-link z-2 flex justify-center overflow-hidden"
-              style="--position-top: {{ position_top }}%; --position-left: {{ position_left }}%; --position-top-mb: {{ position_top_mobile }}%; --position-left-mb: {{ position_left_mobile }}%;--color-dark: #1F473E;"
+              style="--position-top: {{ position_top }}%; --position-left: {{ position_left }}%; --position-top-mb: {{ position_top_mobile }}%; --position-left-mb: {{ position_left_mobile }}%;--color-dark: #1F473E; --el-pacity: {{ el_opacity }}"
               data-product-position="{{ forloop.index }}"
               {{ block.shopify_attributes }}
             >
@@ -898,6 +899,16 @@
           "unit": "%",
           "step": 1,
           "default": 50
+        },
+        {
+          "type": "range",
+          "id": "el_opacity",
+          "label": "Selct opacity point",
+          "min": 0,
+          "max": 10,
+          "unit": "%",
+          "step": 0.1,
+          "default": 0.5
         }
       ]
     }

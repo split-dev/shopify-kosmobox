@@ -69,7 +69,13 @@
     calc(-1 * var(--position-left-mb)),
     calc(-1 * var(--position-top-mb))
   );
+  opacity: var(--el-pacity);
 }
+
+.bundle-products-link:hover {
+  opacity: 1;
+}
+
 .bundle-products__list select {
   border: 0;
   padding: 0 3rem 0 0;
