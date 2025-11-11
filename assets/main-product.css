@@ -454,3 +454,8 @@ video-product-gallery iframe,
     transform: scale(1);
   }
 }
+
+.faq_content-inner strong {
+  font-family: 'UltimaAltBold';
+  font-weight: 500;
+}
