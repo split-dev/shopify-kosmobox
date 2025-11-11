@@ -15,9 +15,17 @@
       {% if collapsible_page != null and pages[collapsible_page].content %}
         {{ pages[collapsible_page].content }}
       {% else %}
-        <div {{ block.shopify_attributes }}>
-          {{ block.settings.content }}
-        </div>
+        {% assign text = block.settings.content %}
+
+        {% assign replaced = text
+          | replace: 'For more information please read full disclaimer', '<a href="/pages/terms-conditions#comp-lywpr9rw2__item-j9plerjk">For more information please read full disclaimer'
+          | replace: 'For more information, please read full disclaimer', '<a href="/pages/terms-conditions#comp-lywpr9rw2__item-j9plerjk">For more information, please read full disclaimer'
+          | replace: 'For more information, please read the full disclaimer', '<a href="/pages/terms-conditions#comp-lywpr9rw2__item-j9plerjk">For more information, please read the full disclaimer'
+          | replace: 'here.</strong>', 'here.</strong></a>'
+          | replace: 'here.', 'here.</a>'
+        %}
+
+        {{ replaced }}
       {% endif %}
     </div>
   </div>

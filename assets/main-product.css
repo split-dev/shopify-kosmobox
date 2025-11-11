@@ -459,3 +459,7 @@ video-product-gallery iframe,
   font-family: 'UltimaAltBold';
   font-weight: 500;
 }
+
+.faq_content-inner a {
+  text-decoration: underline;
+}

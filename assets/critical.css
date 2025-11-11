@@ -4242,3 +4242,26 @@ motion-effect {
   opacity: 1;
   visibility: visible;
 }
+
+.product-item .product__vendor {
+  text-transform: uppercase;
+  color: var(--btn-primary-bg-color);
+}
+.product-item .product__vendor a {
+  color: var(--btn-primary-bg-color);
+}
+.product-item .card-product-price {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-item .card-product-price::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: var(--btn-primary-bg-color);
+  margin: 0 0 8px;
+}
