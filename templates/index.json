@@ -1408,84 +1408,6 @@
         "show_divider": true
       }
     },
-    "product_testimonials_YWmVYx": {
-      "type": "product-testimonials",
-      "blocks": {
-        "image_comparison_pzxdTz": {
-          "type": "image_comparison",
-          "settings": {
-            "before_image": "shopify://shop_images/12.jpg",
-            "after_image": "shopify://shop_images/12.jpg",
-            "rating_star": 5,
-            "testimonial_author": "Carie H.",
-            "review_sumary": "Brightening serum",
-            "testimonial_quote": "My skin looks so much brighte! This serum really reduce my pigmintation I can see a clear, even glow now !",
-            "testimonial_product": "b-boost-1-kojic-acid-serum-30ml"
-          }
-        },
-        "testimonial_JKwkqq": {
-          "type": "testimonial",
-          "settings": {
-            "media_type": "image",
-            "testimonial_image": "shopify://shop_images/IMG_9912_1.jpg",
-            "video_alt_text": "Video alt text",
-            "rating_star": 5,
-            "testimonial_author": "Tania",
-            "review_sumary": "Trendy Dr.Althea 345 Cream",
-            "testimonial_quote": "The texture is light and soft, cream made my skin brighter and smoother. Even in week time it feels softer and nourished.",
-            "testimonial_product": "345-relief-cream-50ml"
-          }
-        },
-        "image_comparison_XAiBXc": {
-          "type": "image_comparison",
-          "settings": {
-            "before_image": "shopify://shop_images/b411f4_9777c4fee29c42f8b1f3e9f44f7dc7ee_mv2.png",
-            "after_image": "shopify://shop_images/b411f4_6c1209aeadd843698ef6f572c027309a_mv2.png",
-            "rating_star": 5,
-            "testimonial_author": "Algistino L.",
-            "review_sumary": "Pure comfort in a bottle",
-            "testimonial_quote": "Every time I wear it, people ask what I'm using. The scent is heavenly. The glow it leaves is incredible.",
-            "testimonial_product": "balancing-gel-60ml"
-          }
-        }
-      },
-      "block_order": [
-        "image_comparison_pzxdTz",
-        "testimonial_JKwkqq",
-        "image_comparison_XAiBXc"
-      ],
-      "custom_css": [
-        ".rating-text.caption path {fill: #c8545487;}"
-      ],
-      "name": "t:sections.product_testimonials.name",
-      "settings": {
-        "section_width": "fix_width",
-        "color_scheme": "scheme-76e16d9c-62d8-4250-9f3a-e19467efff31",
-        "subheading": "Loved by Customers",
-        "title": "<p>What They're Saying</p>",
-        "drawn_underline": true,
-        "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#c8545487",
-        "description": "",
-        "heading_size": "small",
-        "text_alignment": "center",
-        "image_desktop_position": "top",
-        "image_ratio": "landscape",
-        "show_verified_buyer": true,
-        "rating_color": "#fed3dc",
-        "items_per_row": 3,
-        "column_gap": "medium",
-        "show_navigation": true,
-        "show_pagination": false,
-        "slide_auto_change": false,
-        "change_slide_every": 5,
-        "reveal_slide": true,
-        "items_per_row_mobile": 1.1,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_divider": false
-      }
-    },
     "featured_product_banner_btH9t9": {
       "type": "featured-product-banner",
       "blocks": {
@@ -1572,6 +1494,84 @@
         "button_type": "primary",
         "hide_icon_text": true,
         "padding_top": 100,
+        "padding_bottom": 50,
+        "show_divider": false
+      }
+    },
+    "product_testimonials_YWmVYx": {
+      "type": "product-testimonials",
+      "blocks": {
+        "image_comparison_pzxdTz": {
+          "type": "image_comparison",
+          "settings": {
+            "before_image": "shopify://shop_images/12.jpg",
+            "after_image": "shopify://shop_images/12.jpg",
+            "rating_star": 5,
+            "testimonial_author": "Carie H.",
+            "review_sumary": "Brightening serum",
+            "testimonial_quote": "My skin looks so much brighte! This serum really reduce my pigmintation I can see a clear, even glow now !",
+            "testimonial_product": "b-boost-1-kojic-acid-serum-30ml"
+          }
+        },
+        "testimonial_JKwkqq": {
+          "type": "testimonial",
+          "settings": {
+            "media_type": "image",
+            "testimonial_image": "shopify://shop_images/IMG_9912_1.jpg",
+            "video_alt_text": "Video alt text",
+            "rating_star": 5,
+            "testimonial_author": "Tania",
+            "review_sumary": "Trendy Dr.Althea 345 Cream",
+            "testimonial_quote": "The texture is light and soft, cream made my skin brighter and smoother. Even in week time it feels softer and nourished.",
+            "testimonial_product": "345-relief-cream-50ml"
+          }
+        },
+        "image_comparison_XAiBXc": {
+          "type": "image_comparison",
+          "settings": {
+            "before_image": "shopify://shop_images/b411f4_9777c4fee29c42f8b1f3e9f44f7dc7ee_mv2.png",
+            "after_image": "shopify://shop_images/b411f4_6c1209aeadd843698ef6f572c027309a_mv2.png",
+            "rating_star": 5,
+            "testimonial_author": "Algistino L.",
+            "review_sumary": "Pure comfort in a bottle",
+            "testimonial_quote": "Every time I wear it, people ask what I'm using. The scent is heavenly. The glow it leaves is incredible.",
+            "testimonial_product": "balancing-gel-60ml"
+          }
+        }
+      },
+      "block_order": [
+        "image_comparison_pzxdTz",
+        "testimonial_JKwkqq",
+        "image_comparison_XAiBXc"
+      ],
+      "custom_css": [
+        ".rating-text.caption path {fill: #c8545487;}"
+      ],
+      "name": "t:sections.product_testimonials.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "scheme-76e16d9c-62d8-4250-9f3a-e19467efff31",
+        "subheading": "Loved by Customers",
+        "title": "<p>What They're Saying</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#c8545487",
+        "description": "",
+        "heading_size": "small",
+        "text_alignment": "center",
+        "image_desktop_position": "top",
+        "image_ratio": "landscape",
+        "show_verified_buyer": true,
+        "rating_color": "#fed3dc",
+        "items_per_row": 3,
+        "column_gap": "medium",
+        "show_navigation": true,
+        "show_pagination": false,
+        "slide_auto_change": false,
+        "change_slide_every": 5,
+        "reveal_slide": true,
+        "items_per_row_mobile": 1.1,
+        "padding_top": 50,
         "padding_bottom": 50,
         "show_divider": false
       }
@@ -2072,8 +2072,8 @@
     "image_card_LYf9Vn",
     "testimonials_MNrWFq",
     "shopable_video_X6Vwtr",
-    "product_testimonials_YWmVYx",
     "featured_product_banner_btH9t9",
+    "product_testimonials_YWmVYx",
     "scrolling_image_L4NU7L",
     "routine_builder_WHycPa",
     "image_with_text_BHk7ME",
