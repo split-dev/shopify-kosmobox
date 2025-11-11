@@ -53,6 +53,7 @@
     "product_show_image_hover": true,
     "product_image_ratio": "square",
     "product_show_video_featured": true,
+    "product_show_quick_add_mobile": true,
     "sale_background": "#fed3dc",
     "new_background": "#fed3dc",
     "sold_out_background": "#666666",
@@ -503,6 +504,22 @@
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
           "btn_primary_hover_color": "#e8a8b6",
+          "btn_outline_color": "#1d1d1f",
+          "btn_outline_border_color": "#1d1d1f"
+        }
+      },
+      "scheme-09c240ad-a4e2-4a51-b278-c61b800bb2f6": {
+        "settings": {
+          "background": "#ffffff",
+          "background_2": "#e5e5e5",
+          "background_gradient": "",
+          "text_color": "#444444",
+          "heading_color": "#1d1d1f",
+          "border_color": "#e5e5e5",
+          "btn_primary_background": "#e9a8b6",
+          "btn_primary_color": "#ffffff",
+          "btn_primary_hover_background": "#ffffff",
+          "btn_primary_hover_color": "#e9a8b6",
           "btn_outline_color": "#1d1d1f",
           "btn_outline_border_color": "#1d1d1f"
         }
