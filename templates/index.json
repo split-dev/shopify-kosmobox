@@ -1093,13 +1093,13 @@
         "image_comparison_pzxdTz": {
           "type": "image_comparison",
           "settings": {
-            "before_image": "shopify://shop_images/b411f4_1ef8126b87d448f6882e7a648145e006_mv2.png",
-            "after_image": "shopify://shop_images/9d8797_0a3e8034e10e45878aeb278e9c21d6fb_mv2.webp",
+            "before_image": "shopify://shop_images/12.jpg",
+            "after_image": "shopify://shop_images/12.jpg",
             "rating_star": 5,
             "testimonial_author": "Carie H.",
-            "review_sumary": "Smells divine, looks radiant",
-            "testimonial_quote": "This is hands down the prettiest glow I've ever had on my skin. The soft shimmer is noticeable ...",
-            "testimonial_product": "1025-dokdo-bubble-foam-150ml"
+            "review_sumary": "Brightening serum",
+            "testimonial_quote": "My skin looks so much brighte! This serum really reduce my pigmintation I can see a clear, even glow now !",
+            "testimonial_product": "b-boost-1-kojic-acid-serum-30ml"
           }
         },
         "testimonial_JKwkqq": {
@@ -1139,7 +1139,7 @@
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "scheme-76e16d9c-62d8-4250-9f3a-e19467efff31",
-        "subheading": "Loved by 17k+ Customers",
+        "subheading": "Loved by Customers",
         "title": "<p>What They're Saying</p>",
         "drawn_underline": true,
         "drawn_underline_type": "squiggle_underline",
