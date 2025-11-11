@@ -871,9 +871,10 @@
         "product_yN6WWU": {
           "type": "product",
           "settings": {
-            "product": "345-relief-cream-50ml",
-            "position_top": 55,
-            "position_left": 35,
+            "product": "pdrn-pink-peptide-serum-30ml",
+            "position_top": 39,
+            "position_left": 32,
+            "el_opacity": 0.5,
             "position_top_mobile": 56,
             "position_left_mobile": 31
           }
@@ -881,9 +882,10 @@
         "product_7bjqf6": {
           "type": "product",
           "settings": {
-            "product": "147-barrier-cream-50ml",
-            "position_top": 35,
-            "position_left": 40,
+            "product": "345-relief-cream-50ml",
+            "position_top": 57,
+            "position_left": 38,
+            "el_opacity": 0.5,
             "position_top_mobile": 56,
             "position_left_mobile": 31
           }
@@ -891,9 +893,10 @@
         "product_YDCwFG": {
           "type": "product",
           "settings": {
-            "product": "madagascar-centella-light-cleansing-oil-200ml",
-            "position_top": 50,
-            "position_left": 63,
+            "product": "birch-juice-moisturizing-cleanser-150ml",
+            "position_top": 25,
+            "position_left": 49,
+            "el_opacity": 0.5,
             "position_top_mobile": 46,
             "position_left_mobile": 60
           }
@@ -901,9 +904,10 @@
         "product_3E7cNJ": {
           "type": "product",
           "settings": {
-            "product": "madagascar-centella-light-cleansing-oil-200ml",
-            "position_top": 57,
-            "position_left": 58,
+            "product": "anua-rice-70-glow-milky-toner-250ml",
+            "position_top": 49,
+            "position_left": 65,
+            "el_opacity": 0.5,
             "position_top_mobile": 46,
             "position_left_mobile": 60
           }
@@ -911,9 +915,10 @@
         "product_A8Rp3k": {
           "type": "product",
           "settings": {
-            "product": "centella-phyto-5-peptide-concentrate-cream-30ml",
-            "position_top": 70,
+            "product": "collagen-brightening-eye-gel-cream-30ml",
+            "position_top": 41,
             "position_left": 60,
+            "el_opacity": 0.5,
             "position_top_mobile": 70,
             "position_left_mobile": 52
           }
@@ -939,10 +944,10 @@
         "heading_size": "small",
         "text_alignment": "center",
         "column_gap": "medium",
-        "image": "shopify://shop_images/50_edited_edited.jpg",
+        "image": "shopify://shop_images/8_065bdccd-00c2-4a4a-813a-6e6c688c6dbd.png",
         "image_width": 50,
         "image_position": "left",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "enable_quick_add": true,
         "button_label": "",
         "button_link": "",
