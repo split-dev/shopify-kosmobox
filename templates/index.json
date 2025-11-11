@@ -1080,7 +1080,7 @@
             "button_GUm4tg": {
               "type": "button",
               "settings": {
-                "first_button_label": "Take It",
+                "first_button_label": "Glow the Magic",
                 "first_button_link": "shopify://products/clearing-skin-prep-essence-pad-140ml-70sheets",
                 "first_button_type": "outline",
                 "blank_first_button": false,
@@ -1103,13 +1103,13 @@
         "group_image_card_7Rmiax": {
           "type": "_group-image-card",
           "settings": {
-            "image": "shopify://shop_images/b411f4_6cb41a3cf7924faa8d47691bbf2cf6ab_mv2.png"
+            "image": "shopify://shop_images/IMG_7818.jpg"
           },
           "blocks": {
             "highlight_text_jcmDrc": {
               "type": "highlight-text",
               "settings": {
-                "highlight_text": "Buy 1 Get 1",
+                "highlight_text": "Fresh Festive Glow",
                 "highlight_text_size": "small-1",
                 "highlight_text_icon": "none",
                 "background_color": "#e8a8b6",
