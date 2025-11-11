@@ -699,7 +699,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "dry-skin",
-            "collection_image": "shopify://shop_images/b411f4_33975644dcbc4834b48cc30cafb45c20_mv2.png",
+            "collection_image": "shopify://shop_images/IMG_0217.jpg",
             "collection_title": ""
           }
         },
@@ -707,7 +707,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "normal-skin",
-            "collection_image": "shopify://shop_images/b411f4_28bec2974c6741d38cdb6da41fbca46a_mv2.png",
+            "collection_image": "shopify://shop_images/IMG_0230.jpg",
             "collection_title": ""
           }
         },
@@ -715,7 +715,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "oily-skin",
-            "collection_image": "shopify://shop_images/b411f4_6cb41a3cf7924faa8d47691bbf2cf6ab_mv2.png",
+            "collection_image": "shopify://shop_images/IMG_0232.jpg",
             "collection_title": ""
           }
         },
@@ -723,7 +723,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sensitive-skin",
-            "collection_image": "shopify://shop_images/b411f4_c4094faf04824a52ab8f85bc857086c0_mv2.png",
+            "collection_image": "shopify://shop_images/IMG_0221_2.jpg",
             "collection_title": ""
           }
         }
