@@ -963,13 +963,13 @@
         "group_image_card_eMGaja": {
           "type": "_group-image-card",
           "settings": {
-            "image": "shopify://shop_images/b411f4_b0b3938f7a1c4b99ba3f45234af1df09_mv2.png"
+            "image": "shopify://shop_images/IMG_7812.jpg"
           },
           "blocks": {
             "highlight_text_MDHfTL": {
               "type": "highlight-text",
               "settings": {
-                "highlight_text": "Save 50%",
+                "highlight_text": "Golden Winter Glow",
                 "highlight_text_size": "small-1",
                 "highlight_text_icon": "none",
                 "background_color": "#e8a8b6",
@@ -982,9 +982,9 @@
             "heading_AdBjAh": {
               "type": "heading",
               "settings": {
-                "heading": "Build Your Routine",
+                "heading": "Beauty of Joseon",
                 "width": "fit",
-                "type_preset": "h3",
+                "type_preset": "h4",
                 "enable_background": false,
                 "background_color": "#000000",
                 "border_radius": 0,
@@ -996,7 +996,7 @@
             "description_GdCMet": {
               "type": "description",
               "settings": {
-                "description": "<p>Create your skincare — pick 3+ favorites and glow with up to 50% savings.</p>",
+                "description": "<p>All Skin Routine in One Box. Nourish, protect, and slow the signs of aging - everything your skin deserves this Christmas.</p>",
                 "width": "fit",
                 "type_preset": "rte",
                 "enable_background": false,
@@ -1033,13 +1033,13 @@
         "group_image_card_7ddEja": {
           "type": "_group-image-card",
           "settings": {
-            "image": "shopify://shop_images/b411f4_41b031b5a11f4e4ba1c03bf2aa6a640d_mv2.png"
+            "image": "shopify://shop_images/IMG_7824.jpg"
           },
           "blocks": {
             "highlight_text_zzHKrH": {
               "type": "highlight-text",
               "settings": {
-                "highlight_text": "New Arrival",
+                "highlight_text": "Love Glow Christmas",
                 "highlight_text_size": "small-1",
                 "highlight_text_icon": "none",
                 "background_color": "#e8a8b6",
@@ -1052,7 +1052,7 @@
             "heading_QTikhm": {
               "type": "heading",
               "settings": {
-                "heading": "Mini Made Easy",
+                "heading": "Tocobo",
                 "width": "fit-content",
                 "type_preset": "h3",
                 "enable_background": false,
@@ -1066,7 +1066,7 @@
             "description_xpdeQX": {
               "type": "description",
               "settings": {
-                "description": "<p>Perfect to test, easy to carry, and ready to glow with you anywhere.</p>",
+                "description": "<p>Surprise your loved one with Trendy skin routine , timeless care with modern glow.</p>",
                 "width": "fit",
                 "type_preset": "rte",
                 "enable_background": false,
@@ -1080,7 +1080,7 @@
             "button_GUm4tg": {
               "type": "button",
               "settings": {
-                "first_button_label": "Get your Mini",
+                "first_button_label": "Take It",
                 "first_button_link": "shopify://products/clearing-skin-prep-essence-pad-140ml-70sheets",
                 "first_button_type": "outline",
                 "blank_first_button": false,
@@ -1650,17 +1650,17 @@
       "settings": {
         "section_width": "stretch_width",
         "color_scheme": "",
-        "image_ratio": "square",
+        "image_ratio": "landscape",
         "image_width": 100,
         "image_width_mb": 100,
         "gallery_actions": "marquee",
         "show_background_blur": true,
         "show_icon_hover": false,
         "subheading": "",
-        "title": "<p>Kosmobox Brands <em>Selection</em></p>",
+        "title": "<p>Kosmobox Brands Selection</p>",
         "drawn_underline": true,
         "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#e9a8b6",
+        "drawn_underline_color": "#ffb005",
         "description": "<p>All Products are Personally Selected and Guaranteed Authentic</p>",
         "heading_size": "small",
         "text_alignment": "center",
