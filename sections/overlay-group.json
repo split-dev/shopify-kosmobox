@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.overlay_group.name",
   "type": "custom.overlay",
@@ -57,7 +66,7 @@
             "size_trigger": "Size,Größe,Misurare",
             "size_guide_label": "Size Guide",
             "size_guide_page": "",
-            "size_guide_footer": "<p>Still unsure? Check out our Help Center or Contact Us directly.<\/p>"
+            "size_guide_footer": "<p>Still unsure? Check out our Help Center or Contact Us directly.</p>"
           },
           "blocks": {}
         },
@@ -106,7 +115,7 @@
         "desktop_image_width": 46,
         "image_desktop_position": "left",
         "newsletter_heading": "Extra 10% Off For Your First Order",
-        "newsletter_sub_title": "<p>Enter your email. No spam, just skincare magic and glowing results.<\/p>",
+        "newsletter_sub_title": "<p>Enter your email. No spam, just skincare magic and glowing results.</p>",
         "newsletter_email_placeholder": "Enter your email...",
         "newsletter_button_label": "Unlock 10% Off"
       }
@@ -121,7 +130,7 @@
         "subheading": "",
         "heading": "🎉   Thank You!   Your 10% discount is ready.",
         "description": "",
-        "discount_code": "https:\/\/purity.nextsky.co\/discount\/10%2525off?redirect=%2Fcollections%2Fall",
+        "discount_code": "",
         "button_text": "Shop with 10% Off"
       }
     },
@@ -153,7 +162,7 @@
               "type": "description",
               "name": "t:sections.all.content_setting.description.label",
               "settings": {
-                "description": "<p>Extra 30%—50% off for VIP customers. <\/p>",
+                "description": "<p>Extra 30%—50% off for VIP customers. </p>",
                 "width": "full",
                 "type_preset": "",
                 "enable_background": false,
@@ -211,7 +220,7 @@
             "description_rwfE6x": {
               "type": "description",
               "settings": {
-                "description": "<p>Sale 35% off during the holiday season.<\/p>",
+                "description": "<p>Sale 35% off during the holiday season.</p>",
                 "width": "fit-content",
                 "type_preset": "",
                 "enable_background": false,
@@ -268,7 +277,7 @@
             "description_dprACq": {
               "type": "description",
               "settings": {
-                "description": "<p>Get 3 skincare faves, save up to 35%.<\/p>",
+                "description": "<p>Get 3 skincare faves, save up to 35%.</p>",
                 "width": "fit-content",
                 "type_preset": "",
                 "enable_background": false,
@@ -325,7 +334,7 @@
             "description_LQtmQ3": {
               "type": "description",
               "settings": {
-                "description": "<p>Sale 10%—15% off. Give away any gift.<\/p>",
+                "description": "<p>Sale 10%—15% off. Give away any gift.</p>",
                 "width": "fit-content",
                 "type_preset": "",
                 "enable_background": false,
@@ -382,7 +391,7 @@
         "overlay_opacity": 0,
         "sub_heading": "",
         "content_heading": "🎉 Before You Go  Here's Your 10% Treat",
-        "description": "<p>Save 10% on orders over $170 — use the code above. Don't miss it.<\/p>",
+        "description": "<p>Save 10% on orders over $170 — use the code above. Don't miss it.</p>",
         "code": "GET10BYG",
         "recommended_heading": "Top Sellers for You",
         "collection": "combination"
