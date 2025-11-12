@@ -38,6 +38,7 @@
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "default",
+        "image": "shopify://shop_images/Normal_skin.png",
         "use_collection_image": true,
         "title_position": true,
         "image_opacity": 0,
