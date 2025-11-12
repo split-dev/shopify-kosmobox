@@ -1477,7 +1477,7 @@
       "name": "t:sections.featured_product_banner.name",
       "settings": {
         "section_width": "fix_width",
-        "color_scheme": "color-scheme-2",
+        "color_scheme": "scheme-04ec50f5-feca-4af0-8c86-1eea55e95f36",
         "subheading": "",
         "title": "<p>Spotless in <em>1 Week</em></p>",
         "drawn_underline": true,
