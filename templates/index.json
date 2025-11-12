@@ -1258,7 +1258,7 @@
         "drawn_underline_type": "squiggle_underline",
         "drawn_underline_color": "#e8a8b6",
         "description": "",
-        "heading_size": "medium",
+        "heading_size": "small",
         "header_alignment": "center",
         "image_ratio": "square",
         "image_desktop_position": "left",
