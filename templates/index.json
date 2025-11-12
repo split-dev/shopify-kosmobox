@@ -15,7 +15,7 @@
         "image_3H8VXn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Pink_Black_Modern_Grunge_Ripped_Paper_Coming_Soon_Poster_1920_x_1080_px.gif",
+            "image": "shopify://shop_images/Pink_Black_Modern_Grunge_Ripped_Paper_Coming_Soon_Poster_1920_x_1080_px_1.gif",
             "overlay_opacity": 0,
             "highlight_text": "",
             "highlight_text_icon": "star",
@@ -49,7 +49,7 @@
         "show_pagination": true,
         "slide_auto_change": true,
         "change_slide_every": 10,
-        "slide_height": "small",
+        "slide_height": "adapt",
         "padding_top": 0,
         "padding_bottom": 0
       }
