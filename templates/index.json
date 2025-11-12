@@ -22,19 +22,19 @@
             "background_color": "#e3cea4",
             "text_color": "#1d1d1f",
             "subheading": "",
-            "heading": "<h1><em>K-beauty</em>...</h1>",
+            "heading": "",
             "heading_size": "h5",
             "drawn_underline": false,
             "drawn_underline_type": "squiggle_underline",
             "drawn_underline_color": "#fed3dc",
-            "description": "<p>At Kosmobox, I believe that Korean cosmetics are more than just products—they're gateways to beauty secrets that have been passed down for generations.</p><p>Renowned for their innovative formulas and a focus on skin health, Korean cosmetics offer a convenient blend of quality and effectiveness. </p>",
-            "first_button_label": "Best sellers",
+            "description": "",
+            "first_button_label": "Time to choose your sparkle?",
             "first_button_link": "shopify://collections/best-sellers",
             "first_button_type": "primary",
-            "desktop_content_position": "bottom-right",
+            "desktop_content_position": "bottom-left",
             "text_alignment": "right",
             "content_position_mobile": "end",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "start"
           }
         }
       },
