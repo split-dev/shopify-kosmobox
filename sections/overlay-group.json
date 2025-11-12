@@ -390,8 +390,8 @@
         "show_time": 60,
         "overlay_opacity": 0,
         "sub_heading": "",
-        "content_heading": "🎉 Before You Go  Here's Your 10% Treat",
-        "description": "<p>Save 10% on orders over $170 — use the code above. Don't miss it.</p>",
+        "content_heading": "Before You Go Here's Your 10% Treat",
+        "description": "<p>Save 10% on orders over £100 — use the code above. Don't miss it.</p>",
         "code": "GET10BYG",
         "recommended_heading": "Top Sellers for You",
         "collection": "combination"
