@@ -36,10 +36,36 @@
             "content_position_mobile": "end",
             "text_alignment_mobile": "center"
           }
+        },
+        "image_riCqN6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pink_Black_Modern_Grunge_Ripped_Paper_Coming_Soon_Poster_1920_x_1080_px.gif",
+            "overlay_opacity": 0,
+            "highlight_text": "",
+            "highlight_text_icon": "star",
+            "background_color": "#e3cea4",
+            "text_color": "#1d1d1f",
+            "subheading": "",
+            "heading": "<h1><em>K-beauty</em>...</h1>",
+            "heading_size": "h5",
+            "drawn_underline": false,
+            "drawn_underline_type": "squiggle_underline",
+            "drawn_underline_color": "#fed3dc",
+            "description": "<p>At Kosmobox, I believe that Korean cosmetics are more than just products—they're gateways to beauty secrets that have been passed down for generations.</p><p>Renowned for their innovative formulas and a focus on skin health, Korean cosmetics offer a convenient blend of quality and effectiveness. </p>",
+            "first_button_label": "Best sellers",
+            "first_button_link": "shopify://collections/best-sellers",
+            "first_button_type": "primary",
+            "desktop_content_position": "middle-left",
+            "text_alignment": "left",
+            "content_position_mobile": "end",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "image_3H8VXn"
+        "image_3H8VXn",
+        "image_riCqN6"
       ],
       "settings": {
         "section_width": "full_width",
