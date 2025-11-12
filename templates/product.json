@@ -731,7 +731,7 @@
         "drawn_underline_type": "squiggle_underline",
         "drawn_underline_color": "#ffb005",
         "description": "<p>Check out similar products people are loving. Click to explore trending styles.</p>",
-        "heading_size": "medium",
+        "heading_size": "small",
         "text_alignment": "center",
         "items_to_show": 12,
         "items_per_row": 6,
