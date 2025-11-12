@@ -872,11 +872,11 @@
           "type": "product",
           "settings": {
             "product": "pdrn-pink-peptide-serum-30ml",
-            "position_top": 39,
-            "position_left": 32,
-            "el_opacity": 0.5,
-            "position_top_mobile": 56,
-            "position_left_mobile": 31
+            "position_top": 6,
+            "position_left": 9,
+            "el_opacity": 0.3,
+            "position_top_mobile": 19,
+            "position_left_mobile": 46
           }
         },
         "product_7bjqf6": {
@@ -885,9 +885,9 @@
             "product": "345-relief-cream-50ml",
             "position_top": 57,
             "position_left": 38,
-            "el_opacity": 0.5,
-            "position_top_mobile": 56,
-            "position_left_mobile": 31
+            "el_opacity": 0.2,
+            "position_top_mobile": 46,
+            "position_left_mobile": 37
           }
         },
         "product_YDCwFG": {
@@ -896,7 +896,7 @@
             "product": "birch-juice-moisturizing-cleanser-150ml",
             "position_top": 25,
             "position_left": 49,
-            "el_opacity": 0.5,
+            "el_opacity": 0.2,
             "position_top_mobile": 46,
             "position_left_mobile": 60
           }
@@ -907,9 +907,9 @@
             "product": "anua-rice-70-glow-milky-toner-250ml",
             "position_top": 49,
             "position_left": 65,
-            "el_opacity": 0.5,
-            "position_top_mobile": 46,
-            "position_left_mobile": 60
+            "el_opacity": 0.2,
+            "position_top_mobile": 19,
+            "position_left_mobile": 64
           }
         },
         "product_A8Rp3k": {
@@ -918,8 +918,8 @@
             "product": "collagen-brightening-eye-gel-cream-30ml",
             "position_top": 41,
             "position_left": 60,
-            "el_opacity": 0.5,
-            "position_top_mobile": 70,
+            "el_opacity": 0.2,
+            "position_top_mobile": 63,
             "position_left_mobile": 52
           }
         }
@@ -1267,11 +1267,11 @@
         "desktop_vertical_alignment": "end",
         "text_alignment": "start",
         "items_per_row": 2,
-        "column_gap": "small",
+        "column_gap": "large",
         "show_navigation": true,
         "show_pagination": true,
         "reveal_slide": true,
-        "items_per_row_mobile": 1.1,
+        "items_per_row_mobile": 1.4,
         "text_alignment_mobile": "start",
         "padding_top": 50,
         "padding_bottom": 50,
@@ -1488,10 +1488,10 @@
         "text_alignment": "center",
         "image": "shopify://shop_images/b411f4_cf9094fd11564d328e660bf5388ec7b8_mv2.png",
         "image_mobile": "shopify://shop_images/b411f4_cf9094fd11564d328e660bf5388ec7b8_mv2.png",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "button_label": "View Products",
         "button_link": "shopify://collections/brightening",
-        "button_type": "primary",
+        "button_type": "outline",
         "hide_icon_text": true,
         "padding_top": 50,
         "padding_bottom": 30,
