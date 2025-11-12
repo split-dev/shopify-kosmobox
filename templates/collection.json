@@ -23,6 +23,7 @@
       "blocks": {
         "heading_ARdf83": {
           "type": "heading",
+          "disabled": true,
           "settings": {}
         },
         "description_EYQpmH": {
