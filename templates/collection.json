@@ -23,7 +23,6 @@
       "blocks": {
         "heading_ARdf83": {
           "type": "heading",
-          "disabled": true,
           "settings": {}
         },
         "description_EYQpmH": {
@@ -39,7 +38,7 @@
         "section_width": "fix_width",
         "color_scheme": "default",
         "use_collection_image": true,
-        "title_position": true,
+        "title_position": false,
         "image_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
