@@ -39,7 +39,7 @@
   endif
 %}
 {% capture variable %}
-  class="product__name heading-style{% if type != 'bundle' %} outlined-border{% endif %} {{ product_name_class }}{% if type == 'action_bellow' %} w-full{% endif %} {% if main_product != blank %}this-item{% endif %}"
+  class="product__name {% if type != 'bundle' %} outlined-border{% endif %} {{ product_name_class }}{% if type == 'action_bellow' %} w-full{% endif %} {% if main_product != blank %}this-item{% endif %}"
   {% if main_product == blank %}
     aria-label="{{ card_product.title }}"
     href="{{ card_product.url }}"
