@@ -358,12 +358,12 @@
           "background": "#ed9cad",
           "background_2": "#ed9cad",
           "background_gradient": "",
-          "text_color": "#444444",
-          "heading_color": "#444444",
-          "border_color": "#444444",
+          "text_color": "#363d46",
+          "heading_color": "#363d46",
+          "border_color": "#363d46",
           "btn_primary_background": "#e8a8b6",
-          "btn_primary_color": "#444444",
-          "btn_primary_hover_background": "#444444",
+          "btn_primary_color": "#363d46",
+          "btn_primary_hover_background": "#363d46",
           "btn_primary_hover_color": "#e8a8b6",
           "btn_outline_color": "#e8a8b6",
           "btn_outline_border_color": "#e8a8b6"
@@ -377,12 +377,12 @@
           "text_color": "#d0473e",
           "heading_color": "#d0473e",
           "border_color": "#e5e5e5",
-          "btn_primary_background": "#1f473e",
+          "btn_primary_background": "#363d46",
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
-          "btn_primary_hover_color": "#1f473e",
-          "btn_outline_color": "#1f473e",
-          "btn_outline_border_color": "#1f473e"
+          "btn_primary_hover_color": "#363d46",
+          "btn_outline_color": "#363d46",
+          "btn_outline_border_color": "#363d46"
         }
       },
       "scheme-4a8d23be-2966-47be-ae10-8cbb3c1181cf": {
@@ -390,15 +390,15 @@
           "background": "#ffffff",
           "background_2": "#f2efe6",
           "background_gradient": "",
-          "text_color": "#444444",
-          "heading_color": "#1d1d1f",
+          "text_color": "#363d46",
+          "heading_color": "#363d46",
           "border_color": "#e5e5e5",
-          "btn_primary_background": "#1f473e",
+          "btn_primary_background": "#363d46",
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
           "btn_primary_hover_color": "#1f473e",
-          "btn_outline_color": "#1d1d1f",
-          "btn_outline_border_color": "#1d1d1f"
+          "btn_outline_color": "#363d46",
+          "btn_outline_border_color": "#363d46"
         }
       },
       "scheme-dd5f4919-0042-4a27-80e8-bf958b2ca019": {
@@ -409,17 +409,17 @@
           "text_color": "#ffffff",
           "heading_color": "#ffffff",
           "border_color": "#e5e5e5",
-          "btn_primary_background": "#1f473e",
+          "btn_primary_background": "#363d46",
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
-          "btn_primary_hover_color": "#1f473e",
+          "btn_primary_hover_color": "#363d46",
           "btn_outline_color": "#ffffff",
           "btn_outline_border_color": "#ffffff"
         }
       },
       "scheme-221506e4-f021-4bec-8307-a119b3272d32": {
         "settings": {
-          "background": "#282828",
+          "background": "#363d46",
           "background_2": "#ffffff",
           "background_gradient": "",
           "text_color": "#ffffff",
@@ -441,10 +441,10 @@
           "text_color": "#ffffff8a",
           "heading_color": "#ffffff",
           "border_color": "#71619f40",
-          "btn_primary_background": "#1f473e",
+          "btn_primary_background": "#363d46",
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
-          "btn_primary_hover_color": "#1f473e",
+          "btn_primary_hover_color": "#363d46",
           "btn_outline_color": "#ffffff",
           "btn_outline_border_color": "#ffffff"
         }
@@ -454,15 +454,15 @@
           "background": "#f2efe6",
           "background_2": "#f2efe6",
           "background_gradient": "",
-          "text_color": "#1d1d1f",
-          "heading_color": "#1d1d1f",
+          "text_color": "#363d46",
+          "heading_color": "#363d46",
           "border_color": "#e5e5e5",
-          "btn_primary_background": "#1f473e",
+          "btn_primary_background": "#363d46",
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
-          "btn_primary_hover_color": "#1f473e",
-          "btn_outline_color": "#1f473e",
-          "btn_outline_border_color": "#1f473e"
+          "btn_primary_hover_color": "#363d46",
+          "btn_outline_color": "#363d46",
+          "btn_outline_border_color": "#363d46"
         }
       },
       "scheme-71ad6e77-818b-46af-a5ac-36e11fc517b6": {
@@ -486,15 +486,15 @@
           "background": "#ffffff",
           "background_2": "#e5e5e5",
           "background_gradient": "",
-          "text_color": "#666666",
+          "text_color": "#363d46",
           "heading_color": "#e8a8b6",
           "border_color": "#e5e5e5",
           "btn_primary_background": "#e8a8b6",
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
           "btn_primary_hover_color": "#e8a8b6",
-          "btn_outline_color": "#1d1d1f",
-          "btn_outline_border_color": "#1d1d1f"
+          "btn_outline_color": "#363d46",
+          "btn_outline_border_color": "#363d46"
         }
       },
       "scheme-bdb97f02-5770-4f3f-bbf5-ef91d3b678c9": {
@@ -509,8 +509,8 @@
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
           "btn_primary_hover_color": "#e8a8b6",
-          "btn_outline_color": "#1d1d1f",
-          "btn_outline_border_color": "#1d1d1f"
+          "btn_outline_color": "#363d46",
+          "btn_outline_border_color": "#363d46"
         }
       },
       "scheme-09c240ad-a4e2-4a51-b278-c61b800bb2f6": {
@@ -518,15 +518,15 @@
           "background": "#ffffff",
           "background_2": "#e5e5e5",
           "background_gradient": "",
-          "text_color": "#444444",
+          "text_color": "#363d46",
           "heading_color": "#e9a8b6",
           "border_color": "#e5e5e5",
           "btn_primary_background": "#e9a8b6",
           "btn_primary_color": "#ffffff",
           "btn_primary_hover_background": "#ffffff",
           "btn_primary_hover_color": "#e9a8b6",
-          "btn_outline_color": "#1d1d1f",
-          "btn_outline_border_color": "#1d1d1f"
+          "btn_outline_color": "#363d46",
+          "btn_outline_border_color": "#363d46"
         }
       },
       "scheme-3c305edb-b2d4-40bf-9c2f-4dd2cdc2e6e2": {
