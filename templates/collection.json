@@ -36,7 +36,7 @@
         "description_EYQpmH"
       ],
       "settings": {
-        "section_width": "fix_width",
+        "section_width": "full_width",
         "color_scheme": "default",
         "use_collection_image": true,
         "title_position": true,
