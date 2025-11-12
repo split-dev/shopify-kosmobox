@@ -35,7 +35,7 @@
         "show_navigation": true,
         "slide_auto_change": true,
         "change_slide_every": 5,
-        "marquee_speed": 15,
+        "marquee_speed": 26,
         "space_between_text": 50,
         "uppercase": false,
         "scrolling_size": "",
