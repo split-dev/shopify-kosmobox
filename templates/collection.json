@@ -37,7 +37,7 @@
       "settings": {
         "section_width": "stretch_width",
         "color_scheme": "default",
-        "use_collection_image": false,
+        "use_collection_image": true,
         "title_position": true,
         "image_opacity": 0,
         "image_height": "small",
