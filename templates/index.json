@@ -69,7 +69,7 @@
               "settings": {
                 "highlight_text": "Golden Winter Glow",
                 "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
+                "highlight_text_icon": "star",
                 "background_color": "#e8a8b6",
                 "text_color": "#ffffff",
                 "uppercase": false,
@@ -139,7 +139,7 @@
               "settings": {
                 "highlight_text": "Love Glow Christmas",
                 "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
+                "highlight_text_icon": "star",
                 "background_color": "#e8a8b6",
                 "text_color": "#ffffff",
                 "uppercase": false,
@@ -209,7 +209,7 @@
               "settings": {
                 "highlight_text": "Fresh Festive Glow",
                 "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
+                "highlight_text_icon": "star",
                 "background_color": "#e8a8b6",
                 "text_color": "#ffffff",
                 "uppercase": false,
@@ -280,7 +280,7 @@
               "settings": {
                 "highlight_text": "Limited Offer",
                 "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
+                "highlight_text_icon": "star",
                 "background_color": "#e8a8b6",
                 "text_color": "#ffffff",
                 "uppercase": false,
