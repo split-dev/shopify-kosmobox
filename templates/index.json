@@ -1493,8 +1493,8 @@
         "button_link": "shopify://collections/brightening",
         "button_type": "primary",
         "hide_icon_text": true,
-        "padding_top": 100,
-        "padding_bottom": 50,
+        "padding_top": 50,
+        "padding_bottom": 30,
         "show_divider": false
       }
     },
