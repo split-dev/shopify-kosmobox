@@ -75,7 +75,7 @@
         "show_pagination": true,
         "slide_auto_change": true,
         "change_slide_every": 10,
-        "slide_height": "adapt",
+        "slide_height": "medium",
         "padding_top": 0,
         "padding_bottom": 0
       }
