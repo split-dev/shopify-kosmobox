@@ -39,9 +39,12 @@
         "color_scheme": "default",
         "image": "shopify://shop_images/52_2_1.png",
         "use_collection_image": false,
+        "title_position": true,
         "image_opacity": 0,
         "image_height": "adapt",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
+        "heading_size": "medium",
+        "heading_position": "after_banner",
         "padding_top": 0,
         "padding_bottom": 0
       }

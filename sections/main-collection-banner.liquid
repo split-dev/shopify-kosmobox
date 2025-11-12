@@ -41,6 +41,18 @@
   {%- endcase -%}
 {%- endfor -%}
 
+{%- liquid
+  assign section_st = section.settings
+  assign heading_size = section_st.heading_size
+  assign header_size = 'h2'
+  if heading_size == 'small'
+    assign header_size = 'h3'
+  elsif heading_size == 'large'
+    assign header_size = 'h1'
+  endif
+-%}
+
+
 {%- style -%}
   {% if section.settings.title_position %}
       .section-{{ section.id }} .banner__title-position {
@@ -53,21 +65,28 @@
       .section-{{ section.id }} .banner__media  {
         position: relative !important;
         width: 100%;
-        max-height: 150px;
+        max-height: 220px;
       }
       .section-{{ section.id }} .heading-content > div {
         padding-top: 8px;
       }
   {% endif %}
+
+  .section-{{ section.id }} .before_banner {
+    flex-direction: column-reverse;
+  }
+  .section-{{ section.id }} .after_banner {
+    flex-direction: column;
+  }
 {%- endstyle -%}
 
 <div
-  class="section-{{ section.id }} section__page-heading color-{{ section_st.color_scheme }} gradient mb-sp-8 mb-1025-60"
+  class="section-{{ section.id }} section__page-heading color-{{ section_st.color_scheme }} gradient mb-sp-8 mb-1025-50"
   style="{{ style | strip | strip_newlines }}"
 >
   <div class="{{ section_width }}">
     <div
-      class="banner__title-position w-full flex relative h-{{ image_height }} overflow-hidden section"
+      class="banner__title-position w-full flex relative h-{{ image_height }} overflow-hidden section {{ section_st.heading_position }}"
       {%- if image_height == 'adapt' or image_height == 'full_screen' -%}
         style="--aspect-ratio: {%- if image_height == 'adapt' and use_collection_image and collection.image -%}{{ collection.image.aspect_ratio }}{% elsif section_st.image != blank and image_height == 'adapt' %}{{ section_st.image.aspect_ratio }}{%- else -%} 5/2{%- endif -%}"
       {%- endif -%}
@@ -103,13 +122,13 @@
           ></div>
         </div>
       {% endif %}
-      <div class="heading-content text-{% if section_st.desktop_content_position == 'middle-center' %}center{% elsif section_st.desktop_content_position == 'middle-right' %}end{% endif %} w-full flex z-2 relative {{ section_st.desktop_content_position }}">
-        <div class="flex column gap-sp-2 gap-1025-sp-4{% if use_collection_image or background_image != blank %} px-sp-5 py-sp-8 p-1025-30{% endif %} word-break">
+      <div class="container heading-content text-{% if section_st.desktop_content_position == 'middle-center' %}center{% elsif section_st.desktop_content_position == 'middle-right' %}end{% endif %} w-full flex z-2 relative {{ section_st.desktop_content_position }} px-lg-0">
+        <div class="flex column {% if use_collection_image or background_image != blank %} {% else %}gap-sp-2 gap-1025-sp-4{% endif %} word-break">
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when 'heading' -%}
                 {% if collection.title != blank %}
-                  <h1 class="heading-title">
+                  <h1 class="heading-title {{ header_size }}">
                     {{ collection.title }}
                   </h1>
                 {% endif %}
@@ -246,6 +265,42 @@
           "label": "t:sections.all.desktop_content_position.options__6.label"
         }
       ]
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.all.content_header.heading_size.options__3.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.all.content_header.heading_size.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.all.content_header.heading_size.options__1.label"
+        }
+      ],
+      "default": "medium",
+      "label": "t:sections.all.content_header.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_position",
+      "label": "Heading position",
+      "options": [
+        {
+          "value": "before_banner",
+          "label": "Before banner"
+        },
+        {
+          "value": "after_banner",
+          "label": "After banner"
+        }
+      ],
+      "default": "before_banner"
     },
     {
       "type": "header",

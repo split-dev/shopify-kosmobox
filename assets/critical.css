@@ -4071,6 +4071,10 @@ menu-drawer .modal-inner {
     display: none !important;
   }
 
+  .px-lg-0 {
+    padding-inline: 0;
+  }
+
   .vertical-tab .product-tabs__header-item:after {
     content: "";
     position: absolute;
