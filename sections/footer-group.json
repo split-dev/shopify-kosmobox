@@ -14,6 +14,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "logo_block_aT9fNK": {
+          "type": "logo_block",
+          "settings": {
+            "image": "shopify://shop_images/Logo_SVG.svg",
+            "max_width": 300,
+            "width": "50%"
+          }
+        },
         "contact_bar_block_kqGCi9": {
           "type": "contact_bar_block",
           "settings": {
@@ -36,11 +44,12 @@
         }
       },
       "block_order": [
+        "logo_block_aT9fNK",
         "contact_bar_block_kqGCi9",
         "menu_block_qa9CXD"
       ],
       "custom_css": [
-        ".footer__blocks{justify-content: end;}"
+        ".footer__blocks {justify-content: end;}"
       ],
       "settings": {
         "section_width": "fix_width",
