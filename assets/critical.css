@@ -224,6 +224,13 @@ summary::-webkit-details-marker {
   margin: 0;
 }
 
+.h3-5 {
+  font-size: var(--h3-5);
+  text-transform: unset;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
 :where(.heading-style) {
   font-family: var(--heading-font);
   font-weight: var(--heading-weight, 600);
