@@ -170,6 +170,61 @@
         "padding_bottom": 100,
         "show_divider": false
       }
+    },
+    "faqs_3A7YWK": {
+      "type": "faqs",
+      "blocks": {
+        "item_faq_BtApkT": {
+          "type": "_item-faq",
+          "settings": {
+            "question": "Frequently asked questions?",
+            "answer": "<p>Write the answer.</p>"
+          },
+          "blocks": {}
+        },
+        "item_faq_iYBPbr": {
+          "type": "_item-faq",
+          "settings": {
+            "question": "Frequently asked questions?",
+            "answer": "<p>Write the answer.</p>"
+          },
+          "blocks": {}
+        },
+        "item_faq_Rz3JJn": {
+          "type": "_item-faq",
+          "settings": {
+            "question": "Frequently asked questions?",
+            "answer": "<p>Write the answer.</p>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "item_faq_BtApkT",
+        "item_faq_iYBPbr",
+        "item_faq_Rz3JJn"
+      ],
+      "name": "t:sections.faq.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "open_all_question": false,
+        "show_image": false,
+        "image_desktop_position": "left",
+        "show_faqs_message": true,
+        "subheading": "Have a Question?",
+        "heading": "<p>Help Center!</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#FFB005",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "start",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "show_divider": false
+      }
     }
   },
   "order": [
@@ -178,6 +233,7 @@
     "bought_together_product_PRpMjH",
     "info_gallery_products_GxEcYn",
     "17458090166c9811ff",
-    "recently_viewed_products_ibVNLU"
+    "recently_viewed_products_ibVNLU",
+    "faqs_3A7YWK"
   ]
 }
