@@ -17,7 +17,7 @@
         "announcement_WcaXYf": {
           "type": "announcement",
           "settings": {
-            "text": "<p>FREE SHIPPING ON ALL UK ORDERS OVER <strong>£</strong>30</p>"
+            "text": "<p>FREE SHIPPING ON ALL UK ORDERS OVER £30</p>"
           }
         }
       },
@@ -144,6 +144,7 @@
         "mobile_menu_position": "right",
         "show_search": true,
         "show_account": true,
+        "show_wishlist": true,
         "show_cart": true,
         "show_offer": true,
         "transparent": false,
