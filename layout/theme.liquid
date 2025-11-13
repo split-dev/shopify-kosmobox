@@ -39,14 +39,6 @@
     {% style %}
       {% unless settings.default_fonts %}
         @font-face {
-          font-family: 'Ultima';
-          src: url({{ 'Ultima.woff2' | asset_url }}) format('woff2'),
-              url({{ 'Ultima.woff' | asset_url }}) format('woff');
-          font-weight: normal;
-          font-style: normal;
-          font-display: swap;
-        }
-        @font-face {
           font-family: 'UltimaAltBold';
           src: url({{ 'UltimaAlt-Bold.woff2' | asset_url }}) format('woff2'),
               url({{ 'UltimaAlt-Bold.woff' | asset_url }}) format('woff');
@@ -118,9 +110,11 @@
           --heading-weight: {{ theme_st.heading_font.weight }};
           --menu-font: {% if theme_st.menu_font == 'menu_body_font' %}{{ theme_st.body_font.family }}{% else %}{{ theme_st.heading_font.family }}{% endif %}, {{ theme_st.body_font.fallback_families }};
         {% else %}
-          --body-font-family: 'Ultima', sans-serif;
-          --heading-font: 'UltimaAltBold', sans-serif !important; 
-          --menu-font: 'Ultima', sans-serif;
+          --body-font-family: {{ theme_st.body_font.family }}, {{ theme_st.body_font.fallback_families }};
+          --body-font-style: {{ theme_st.body_font.style }};
+          --body-font-weight: {{ theme_st.body_font.weight }};
+          --body-font-weight-bold: {{ theme_st.body_font.weight | plus: 300 | at_most: 1000 }};
+          --heading-font: 'UltimaAltBold', sans-serif !important;
         {% endif %}
 
 

@@ -239,7 +239,7 @@
       {
         "type": "checkbox",
         "id": "default_fonts",
-        "label": "Default fonts",
+        "label": "Default fonts head",
         "default": false,
         "info": "Use the default fonts selected below instead of the built-in custom fonts."
       },
