@@ -1730,9 +1730,6 @@ blockquote {
   .bottom-30-1025 {
     bottom: 3rem !important;
   }
-  .header__menu ul li {
-    transition: opacity 0.3s;
-  }
   .header__menu ul.list-menu:hover > li {
     opacity: 0.6;
   }

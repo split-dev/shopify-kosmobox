@@ -4269,3 +4269,38 @@ motion-effect {
   background-color: #e9a8b6;
   margin: 0 0 8px;
 }
+
+@media (min-width: 1025px) {
+  .site-header .header-wrapper {
+    padding-bottom: 0;
+    --section-pb: 0;
+  }
+  .header__menu ul li {
+    transition: opacity 0.3s;
+  }
+  .header__menu .list-menu {
+    width: calc(100% + 6rem);
+    margin-left: -3rem;
+    gap: 60px !important;
+    background: #f3f3f3;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.06), inset 0 -2px 3px rgba(0,0,0,0.12);
+  }
+
+  .menu__item:hover span,
+  .details-header-menu:hover summary {
+    color: #e9a8b6;
+  }
+
+  .menu__item.level-2,
+  .menu__item.level-3 {
+    background-image: linear-gradient(to right, #e9a8b6 0%, #e9a8b6 100%);
+  }
+
+  .submenu {
+    --section-pb: 0;
+  }
+
+  .header__menu .list-menu li {
+    padding: 8px 0;
+  }
+}
