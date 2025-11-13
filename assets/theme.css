@@ -2965,3 +2965,13 @@ input.search__input {
     max-width: calc(100vw - 4rem);
   }
 }
+
+@media (max-width: 767px) {
+  .logo-footer {
+    padding-bottom: var(--sp-6);
+  }
+  .logo-footer .logo-footer__image {
+    max-width: 220px !important;
+    margin: auto;
+  }
+}

@@ -363,6 +363,20 @@
                       {%- endif -%}
                     </div>
                   </div>
+                {%- when 'logo_block' -%}
+                  <div class="logo-footer">
+                    <div class="logo-footer__image" style="max-width: {{ block.settings.max_width }}px;">
+                      {%- if block.settings.image != blank -%}
+                        {% render 'responsive-image',
+                          type: 'other',
+                          image: block.settings.image,
+                          image_alt: block.settings.image.alt,
+                          image_mobile: block.settings.image,
+                          motion: true
+                        %}
+                      {% endif %}
+                    </div>
+                  </div>
                 {%- when 'menu_block' -%}
                   {%- if block.settings.menu != blank or block.settings.heading != blank -%}
                     <details
@@ -710,6 +724,68 @@
   ],
   "max_blocks": 6,
   "blocks": [
+    {
+      "type": "logo_block",
+      "name": "t:sections.footer.blocks.logo_block.label",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.all.content_setting.image.label"
+        },
+        {
+          "type": "range",
+          "id": "max_width",
+          "label": "Max width (px)",
+          "min": 50,
+          "max": 450,
+          "step": 10,
+          "default": 300,
+          "unit": "px"
+        },
+        {
+          "type": "select",
+          "id": "width",
+          "label": "t:sections.all.width.label",
+          "default": "16.666%",
+          "options": [
+            {
+              "value": "16.666%",
+              "label": "t:sections.footer.settings.width.options__1"
+            },
+            {
+              "value": "20%",
+              "label": "t:sections.footer.settings.width.options__2"
+            },
+            {
+              "value": "25%",
+              "label": "t:sections.footer.settings.width.options__3"
+            },
+            {
+              "value": "33.333%",
+              "label": "t:sections.footer.settings.width.options__4"
+            },
+            {
+              "value": "50%",
+              "label": "t:sections.footer.settings.width.options__5"
+            },
+            {
+              "value": "66.666%",
+              "label": "t:sections.footer.settings.width.options__6"
+            },
+            {
+              "value": "75%",
+              "label": "t:sections.footer.settings.width.options__7"
+            },
+            {
+              "value": "86%",
+              "label": "t:sections.footer.settings.width.options__8"
+            }
+          ]
+        }
+      ]
+    },
     {
       "type": "menu_block",
       "name": "t:sections.footer.blocks.menu_block.label",

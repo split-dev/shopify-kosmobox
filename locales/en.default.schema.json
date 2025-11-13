@@ -1554,6 +1554,9 @@
         }
       },
       "blocks": {
+        "logo_block": {
+          "label": "Logo block"
+        },
         "menu_block": {
           "label": "Menu"
         },
