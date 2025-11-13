@@ -239,9 +239,9 @@
       },
       "17630299875292491178": {
         "type": "shopify://apps/wishlist-plus/blocks/wishlist-app-embed/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
-        "disabled": false,
+        "disabled": true,
         "settings": {
-          "storefront_layout_enabled": true,
+          "storefront_layout_enabled": false,
           "storefront_layout_primary_bg_color": "#e9a8b6",
           "storefront_layout_primary_text_color": "#ffffff",
           "storefront_layout_secondary_bg_color": "#e9a8b6",
