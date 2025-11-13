@@ -39,6 +39,9 @@
         "contact_bar_block_kqGCi9",
         "menu_block_qa9CXD"
       ],
+      "custom_css": [
+        ".footer__blocks{justify-content: end;}"
+      ],
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "scheme-221506e4-f021-4bec-8307-a119b3272d32",
