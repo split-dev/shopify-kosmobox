@@ -212,6 +212,18 @@
         class="swiper-pagination {{ class_pagination }}"
       ></div>
     </slide-section>
+
+    {% if section.settings.show_view_all_button %}
+      <div class="mt-sp-5 flex text-center justify-content-center">
+        <a
+          href="{{ section.settings.view_all_button_link | default: collection.url }}"
+          class="pointer btn-outline btn max-w-100"
+          aria-label="{{ section.settings.view_all_button_label }}"
+        >
+          {{ section.settings.view_all_button_label }}
+        </a>
+      </div>
+    {% endif %}
   </div>
 </div>
 
@@ -359,6 +371,25 @@
       ],
       "default": "center",
       "label": "t:sections.all.text_alignment.alignment"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_all_button",
+      "default": false,
+      "label": "t:sections.all.content_setting.show_view_all_button.label"
+    },
+    {
+      "type": "text",
+      "id": "view_all_button_label",
+      "default": "t:sections.all.content_setting.show_view_all_button.default_text",
+      "label": "t:sections.all.content_setting.show_view_all_button.label_text",
+      "visible_if": "{{ section.settings.show_view_all_button == true }}"
+    },
+    {
+      "type": "url",
+      "id": "view_all_button_link",
+      "label": "t:sections.all.content_setting.show_view_all_button.label_link",
+      "visible_if": "{{ section.settings.show_view_all_button == true }}"
     },
     {
       "type": "header",

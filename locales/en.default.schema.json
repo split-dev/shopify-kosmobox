@@ -917,7 +917,8 @@
         "show_view_all_button": {
           "label": "Show view all button",
           "label_text": "Button label",
-          "default_text": "View all product"
+          "default_text": "View all product",
+          "label_link": "Button link"
         },
         "open_link_in_new_tab": {
           "label": "Open link in new tab"
