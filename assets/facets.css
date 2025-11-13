@@ -254,7 +254,7 @@ input[type="checkbox"]:checked + .color-checkmark:before {
   }
 }
 .collapsible-row__summary.h6 {
-  --h7: 1.7rem;
+  --h7: 1.65rem;
 }
 
 @media (max-width: 1024.98px) {
