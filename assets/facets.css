@@ -251,7 +251,6 @@ input[type="checkbox"]:checked + .color-checkmark:before {
     padding: 0;
     border-radius: 0;
     clip-path: unset;
-    font-size: var(--body-font-size);
   }
 }
 
