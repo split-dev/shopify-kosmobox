@@ -2079,7 +2079,7 @@
         "description_3hVgk9": {
           "type": "description",
           "settings": {
-            "description": "<p><strong>1 Albert Road, Southsea, Portsmouth, PO5 2SB</strong></p><p> </p><p><strong>Opening Hours:</strong></p><ul><li>Monday         -  closed</li><li>Tuesday         -  10 am - 6 pm</li><li>Wednesday   -  10 am - 6 pm</li><li>Thursday       -  10 am - 6 pm</li><li>Friday             -  10 am - 6 pm</li><li>Saturday        -  10 am - 6 pm</li><li>Sun                 -  closed</li></ul>",
+            "description": "<p><strong>1 Albert Road, Southsea, Portsmouth, PO5 2SB</strong></p><p> </p><p><strong>Opening Hours:</strong></p><p>Monday         -  closed</p><p>Tuesday         -  10 am - 6 pm</p><p>Wednesday   -  10 am - 6 pm</p><p>Thursday       -  10 am - 6 pm</p><p>Friday             -  10 am - 6 pm</p><p>Saturday        -  10 am - 6 pm</p><p>Sunday                 -  closed</p>",
             "width": "fit",
             "type_preset": "",
             "enable_background": false,
@@ -2115,6 +2115,7 @@
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "",
+        "image": "shopify://shop_images/IMG_0249_1.jpg",
         "desktop_image_width": 50,
         "image_desktop_position": "left",
         "background_color": "",
