@@ -2134,6 +2134,33 @@
         "padding_bottom": 48,
         "show_divider": false
       }
+    },
+    "newsletter_br8dpp": {
+      "type": "newsletter",
+      "custom_css": [
+        ".newsletter-with-images {display: flex; gap: 30px; align-items: center; justify-content: center; padding: 40px 0; flex-wrap: wrap;}",
+        ".newsletter-images {display: flex; gap: 20px;}",
+        ".newsletter-images img {width: 200px; height: 200px; object-fit: cover; border-radius: 12px;}",
+        ".newsletter-content {max-width: 450px;}",
+        "@media (max-width: 768px) {.newsletter-with-images {flex-direction: column; text-align: center; } .newsletter-images img {width: 45vw; height: 45vw; }}"
+      ],
+      "name": "t:sections.newsletter.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "heading": "<p>Newsletter</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#FFB005",
+        "description": "<p>Add a short description for this section.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left",
+        "email_placeholder": "Enter your email",
+        "button_label": "Subscribe",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "show_divider": false
+      }
     }
   },
   "order": [
@@ -2157,6 +2184,7 @@
     "scrolling_image_XCJXfG",
     "image_with_text_HXmk6M",
     "icon_box_bxhaa4",
-    "newsletter_xiREgC"
+    "newsletter_xiREgC",
+    "newsletter_br8dpp"
   ]
 }
