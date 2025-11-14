@@ -2071,7 +2071,7 @@
           "settings": {
             "heading": "Kosmobox Store",
             "width": "fit",
-            "type_preset": "h2",
+            "type_preset": "h3",
             "enable_background": false,
             "background_color": "#000000",
             "border_radius": 0,
@@ -2083,7 +2083,7 @@
         "description_mmr4Rg": {
           "type": "description",
           "settings": {
-            "description": "<p><strong>1 Albert Road, Southsea, Portsmouth, PO5 2SB</strong></p><p> </p><p><strong>Opening Hours:</strong></p><ul><li>Mon  -  closed</li><li>Tue  -  10 am - 6 pm</li><li>Wed  -  10 am - 6 pm</li><li>Thu  -  10 am - 6 pm</li><li>Fri  -  10 am - 6 pm</li><li>Sut  -  10 am - 6 pm</li><li>Sun  -  closed</li></ul>",
+            "description": "<p><strong>1 Albert Road, Southsea, Portsmouth, PO5 2SB</strong></p><p> </p><p><strong>Opening Hours:</strong></p><ul><li>Monday         -  closed</li><li>Tuesday         -  10 am - 6 pm</li><li>Wednesday   -  10 am - 6 pm</li><li>Thursday       -  10 am - 6 pm</li><li>Friday             -  10 am - 6 pm</li><li>Saturday        -  10 am - 6 pm</li><li>Sun                 -  closed</li></ul>",
             "width": "fit",
             "type_preset": "",
             "enable_background": false,
@@ -2104,7 +2104,7 @@
         "section_width": "fix_width",
         "color_scheme": "",
         "image": "shopify://shop_images/496509880_17852672502441961_5024868978277179926_n-800x800.webp",
-        "desktop_image_width": 50,
+        "desktop_image_width": 40,
         "image_desktop_position": "right",
         "background_color": "",
         "desktop_vertical_alignment": "center",
@@ -2124,7 +2124,7 @@
         "heading": "<p>Subscribe to our newsletter</p>",
         "drawn_underline": true,
         "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#FFB005",
+        "drawn_underline_color": "#ffb005",
         "description": "",
         "heading_size": "medium",
         "text_alignment": "center",
