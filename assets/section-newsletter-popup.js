@@ -19,7 +19,7 @@ class NewsletterPopup extends HTMLElement {
       if ("requestIdleCallback" in window) {
         requestIdleCallback(() => this.init());
       } else {
-        setTimeout(() => this.init(), 1200);
+        setTimeout(() => this.init(), 100);
       }
     }
   }
