@@ -1056,11 +1056,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "action-filter[data-name=\"Brand\"] {order: 3;}",
-      "action-filter[data-name=\"Price\"] {order: 2;}",
-      "action-filter[data-name=\"Category\"] {order: 1;}",
-      "action-filter[data-name=\"Skin type\"] {order: 4;}",
-      "action-filter[data-name=\"Skin request\"] {order: 5;}"
+      "@media (min-width: 768px) {#swym-storefront-layout-section-container #swym-storefront-layout-items-container, #swym-storefront-layout-section-container #swym-storefront-layout-collection-list-items-container {grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important; }}"
     ]
   }
 }
