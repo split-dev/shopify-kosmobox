@@ -144,7 +144,6 @@
         "mobile_menu_position": "right",
         "show_search": true,
         "show_account": true,
-        "show_wishlist": true,
         "show_cart": true,
         "show_offer": true,
         "transparent": false,

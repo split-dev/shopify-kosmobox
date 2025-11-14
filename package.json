@@ -4,7 +4,7 @@
   "author": "SPLIT Development",
   "scripts": {
     "start": "run-p -sr shopify:dev gulp:watch",
-    "shopify:dev": "shopify theme dev -s kosmobox",
+    "shopify:dev": "shopify theme dev -s kosmobox --theme-editor-sync",   
     "shopify:pull": "shopify theme pull -s kosmobox",
     "deploy": "run-s gulp:production && shopify theme push -s kosmobox",
     "deploy:new": "run-s gulp:production && shopify theme push --unpublished -s kosmobox",
