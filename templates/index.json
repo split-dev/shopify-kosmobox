@@ -2159,7 +2159,7 @@
             "link": "",
             "content_position": "bellow",
             "text_alignment": "start",
-            "show_badge": true,
+            "show_badge": false,
             "badge": "Highlight text",
             "highlight_text_icon": "star",
             "background_color": "#C03E35",
@@ -2169,34 +2169,6 @@
             "desktop_content_position": "middle-left"
           },
           "blocks": {
-            "heading_pRxdke": {
-              "type": "heading",
-              "settings": {
-                "heading": "",
-                "width": "fit",
-                "type_preset": "h2",
-                "enable_background": false,
-                "background_color": "#000000",
-                "border_radius": 0,
-                "padding_top": 0,
-                "padding_bottom": 100
-              },
-              "blocks": {}
-            },
-            "description_3tfDVR": {
-              "type": "description",
-              "settings": {
-                "description": "",
-                "width": "fit",
-                "type_preset": "",
-                "enable_background": false,
-                "background_color": "#000000",
-                "border_radius": 0,
-                "padding_top": 0,
-                "padding_bottom": 20
-              },
-              "blocks": {}
-            },
             "button_LcEnCG": {
               "type": "button",
               "settings": {
@@ -2214,8 +2186,6 @@
             }
           },
           "block_order": [
-            "heading_pRxdke",
-            "description_3tfDVR",
             "button_LcEnCG"
           ]
         }
