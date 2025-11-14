@@ -2274,7 +2274,7 @@
       "type": "newsletter",
       "name": "t:sections.newsletter.name",
       "settings": {
-        "section_width": "full_width",
+        "section_width": "stretch_width",
         "color_scheme": "",
         "heading": "<p>Subscribe to our newsletter</p>",
         "drawn_underline": true,
