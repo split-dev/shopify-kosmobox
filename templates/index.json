@@ -2110,9 +2110,9 @@
         "desktop_vertical_alignment": "center",
         "text_alignment": "start",
         "column_gap": "medium",
-        "padding_top": 48,
-        "padding_bottom": 48,
-        "show_divider": false
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "show_divider": true
       }
     },
     "newsletter_xiREgC": {
