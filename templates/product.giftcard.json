@@ -205,13 +205,22 @@
             "answer": "<p>Not directly — the code is online only, but our store magic is real — we’ll pick, order and hand it to you.</p>"
           },
           "blocks": {}
+        },
+        "item_faq_nkPHwW": {
+          "type": "_item-faq",
+          "settings": {
+            "question": "How to use my gift card?",
+            "answer": "<p>Pop your 16‑digit code into the “Gift card or discount code” box at checkout. </p><p>Covers the whole order? Hit <strong>Complete order</strong> and enjoy! </p><p>Not enough? No sweat — pay the rest however you like. </p><p>Gift cards only work at <a href=\"http://www.kosmobox.co.uk\"><strong>www.kosmobox.co.uk</strong></a>.<br/><br/></p>"
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "item_faq_BtApkT",
         "item_faq_iYBPbr",
         "item_faq_Rz3JJn",
-        "item_faq_6cGjVy"
+        "item_faq_6cGjVy",
+        "item_faq_nkPHwW"
       ],
       "name": "t:sections.faq.name",
       "settings": {
