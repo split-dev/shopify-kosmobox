@@ -2007,58 +2007,6 @@
         "show_divider": false
       }
     },
-    "image_with_text_HXmk6M": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_jfmgBW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Kosmobox Store",
-            "width": "fit",
-            "type_preset": "h3",
-            "enable_background": false,
-            "background_color": "#000000",
-            "border_radius": 0,
-            "padding_top": 0,
-            "padding_bottom": 10
-          },
-          "blocks": {}
-        },
-        "description_mmr4Rg": {
-          "type": "description",
-          "settings": {
-            "description": "<p><strong>1 Albert Road, Southsea, Portsmouth, PO5 2SB</strong></p><p> </p><p><strong>Opening Hours:</strong></p><ul><li>Monday         -  closed</li><li>Tuesday         -  10 am - 6 pm</li><li>Wednesday   -  10 am - 6 pm</li><li>Thursday       -  10 am - 6 pm</li><li>Friday             -  10 am - 6 pm</li><li>Saturday        -  10 am - 6 pm</li><li>Sun                 -  closed</li></ul>",
-            "width": "fit",
-            "type_preset": "",
-            "enable_background": false,
-            "background_color": "#000000",
-            "border_radius": 0,
-            "padding_top": 0,
-            "padding_bottom": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "heading_jfmgBW",
-        "description_mmr4Rg"
-      ],
-      "name": "t:sections.image-with-text.name",
-      "settings": {
-        "section_width": "fix_width",
-        "color_scheme": "",
-        "image": "shopify://shop_images/b411f4_a7ebef8ed0e14a0e85c2b4137d4e93c1_mv2.png",
-        "desktop_image_width": 44,
-        "image_desktop_position": "left",
-        "background_color": "",
-        "desktop_vertical_alignment": "center",
-        "text_alignment": "start",
-        "column_gap": "medium",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "show_divider": true
-      }
-    },
     "image_with_text_QxqGMV": {
       "type": "image-with-text",
       "blocks": {
@@ -2098,7 +2046,7 @@
             "first_button_type": "link",
             "blank_first_button": true,
             "second_button_label": "",
-            "second_button_link": "https://maps.app.goo.gl/JngTxgdU7kWzbqZZ7",
+            "second_button_link": "",
             "second_button_type": "outline",
             "blank_second_button": false,
             "spacing_bottom": 0
@@ -2223,7 +2171,6 @@
     "image_with_text_BHk7ME",
     "faqs_8y7kPB",
     "scrolling_image_XCJXfG",
-    "image_with_text_HXmk6M",
     "image_with_text_QxqGMV",
     "icon_box_bxhaa4",
     "newsletter_xiREgC"
