@@ -52,7 +52,7 @@
         ".footer__blocks {justify-content: end;}"
       ],
       "settings": {
-        "section_width": "stretch_width",
+        "section_width": "fix_width",
         "color_scheme": "scheme-221506e4-f021-4bec-8307-a119b3272d32",
         "enable_back_top": true,
         "enable_country_selector": false,
