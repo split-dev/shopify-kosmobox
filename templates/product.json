@@ -281,7 +281,7 @@
         "wishlist_plus_wishlist_pdp_button_MFBFBm"
       ],
       "custom_css": [
-        "product__tax {display: none;}",
+        ".product__tax {display: none;}",
         ".title.h3-5 {--h3-5: 30px;}"
       ],
       "settings": {
