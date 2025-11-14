@@ -2157,7 +2157,7 @@
             "width": "50%",
             "image": "shopify://shop_images/closed.png",
             "link": "",
-            "content_position": "overlay",
+            "content_position": "bellow",
             "text_alignment": "start",
             "show_badge": true,
             "badge": "Highlight text",
