@@ -177,24 +177,32 @@
         "item_faq_BtApkT": {
           "type": "_item-faq",
           "settings": {
-            "question": "Frequently asked questions?",
-            "answer": "<p>Write the answer.</p>"
+            "question": "Does the card expire?",
+            "answer": "<p>Yes, it’s valid for one year — that’s 365 days of gift-hunting fun! Check your email for the exact date.</p>"
           },
           "blocks": {}
         },
         "item_faq_iYBPbr": {
           "type": "_item-faq",
           "settings": {
-            "question": "Frequently asked questions?",
-            "answer": "<p>Write the answer.</p>"
+            "question": "I lost my email with Gift Card — is everything gone?",
+            "answer": "<p>Don’t panic! Give us your old email <a href=\"/pages/contact\" title=\"Contact\">here</a>, and we’ll beam a new one straight to your inbox.<br/></p>"
           },
           "blocks": {}
         },
         "item_faq_Rz3JJn": {
           "type": "_item-faq",
           "settings": {
-            "question": "Frequently asked questions?",
-            "answer": "<p>Write the answer.</p>"
+            "question": "Will I get a physical card?",
+            "answer": "<p>No paper, no waste! Your e-card is ready to rock.</p>"
+          },
+          "blocks": {}
+        },
+        "item_faq_6cGjVy": {
+          "type": "_item-faq",
+          "settings": {
+            "question": "Can I use the card in offline store?",
+            "answer": "<p>Not directly — the code is online only, but our store magic is real — we’ll pick, order and hand it to you.</p>"
           },
           "blocks": {}
         }
@@ -202,7 +210,8 @@
       "block_order": [
         "item_faq_BtApkT",
         "item_faq_iYBPbr",
-        "item_faq_Rz3JJn"
+        "item_faq_Rz3JJn",
+        "item_faq_6cGjVy"
       ],
       "name": "t:sections.faq.name",
       "settings": {
