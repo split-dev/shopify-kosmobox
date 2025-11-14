@@ -2154,7 +2154,7 @@
             "color_scheme": "",
             "vertical_alignment_group": "start",
             "width": "50%",
-            "image": "shopify://shop_images/closed_1.png",
+            "image": "shopify://shop_images/closed.png",
             "link": "",
             "content_position": "overlay",
             "text_alignment": "start",
@@ -2178,7 +2178,7 @@
                 "background_color": "#000000",
                 "border_radius": 0,
                 "padding_top": 0,
-                "padding_bottom": 10
+                "padding_bottom": 100
               },
               "blocks": {}
             },
@@ -2199,9 +2199,9 @@
             "button_LcEnCG": {
               "type": "button",
               "settings": {
-                "first_button_label": "Button label",
-                "first_button_link": "",
-                "first_button_type": "link",
+                "first_button_label": "FInd us on the map",
+                "first_button_link": "https://maps.app.goo.gl/JngTxgdU7kWzbqZZ7",
+                "first_button_type": "outline",
                 "blank_first_button": true,
                 "second_button_label": "",
                 "second_button_link": "",
