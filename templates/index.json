@@ -2174,7 +2174,7 @@
               "settings": {
                 "first_button_label": "FInd us on the map",
                 "first_button_link": "https://maps.app.goo.gl/JngTxgdU7kWzbqZZ7",
-                "first_button_type": "outline",
+                "first_button_type": "primary",
                 "blank_first_button": true,
                 "second_button_label": "",
                 "second_button_link": "",
