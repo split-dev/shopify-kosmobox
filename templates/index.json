@@ -2052,7 +2052,7 @@
         "image_desktop_position": "right",
         "background_color": "",
         "desktop_vertical_alignment": "center",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "column_gap": "medium",
         "padding_top": 30,
         "padding_bottom": 30,
