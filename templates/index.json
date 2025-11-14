@@ -2059,6 +2059,7 @@
         "description_3hVgk9",
         "button_wTPhy7"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.name",
       "settings": {
         "section_width": "fix_width",
