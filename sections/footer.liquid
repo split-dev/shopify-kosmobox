@@ -532,7 +532,7 @@
             {%- endif -%}
           {%- endif -%}
           <div class="footer__copyright fs-small text-center text-1025-start prose">
-            Copyright &copy; KOSMO BOX Ltd. All rights reserved {{ 'now' | date: '%Y' }}.
+            Copyright &copy; {{ section.settings.shop_name }} {{ 'now' | date: '%Y' }}.
           </div>
         </div>
         {%- if payment_enable or menu_store_policies != blank -%}
@@ -643,6 +643,12 @@
       "default": true,
       "label": "t:sections.footer.settings.enable_back_top.label"
     },
+    {
+          "type": "text",
+          "id": "shop_name",
+          "default": "KOSMO BOX Ltd. All rights reserved",
+          "label": "Bottom text"
+        },
     {
       "type": "header",
       "content": "t:sections.footer.settings.country_language.content",
