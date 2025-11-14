@@ -197,7 +197,7 @@
         "message": "Please enter your message",
         "button_label": "Submit",
         "option_select": "Product, Order, Press, Other",
-        "padding_top": 50,
+        "padding_top": 20,
         "padding_bottom": 100,
         "show_divider": false
       }
