@@ -2059,6 +2059,73 @@
         "show_divider": true
       }
     },
+    "image_with_text_QxqGMV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zmyBVq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "width": "fit",
+            "type_preset": "h2",
+            "enable_background": false,
+            "background_color": "#000000",
+            "border_radius": 0,
+            "padding_top": 0,
+            "padding_bottom": 10
+          },
+          "blocks": {}
+        },
+        "description_3hVgk9": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Add a short description for this block.</p>",
+            "width": "fit",
+            "type_preset": "",
+            "enable_background": false,
+            "background_color": "#000000",
+            "border_radius": 0,
+            "padding_top": 0,
+            "padding_bottom": 20
+          },
+          "blocks": {}
+        },
+        "button_wTPhy7": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "Find us on the map",
+            "first_button_link": "https://maps.app.goo.gl/JngTxgdU7kWzbqZZ7",
+            "first_button_type": "link",
+            "blank_first_button": true,
+            "second_button_label": "",
+            "second_button_link": "https://maps.app.goo.gl/JngTxgdU7kWzbqZZ7",
+            "second_button_type": "outline",
+            "blank_second_button": false,
+            "spacing_bottom": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_zmyBVq",
+        "description_3hVgk9",
+        "button_wTPhy7"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "desktop_image_width": 50,
+        "image_desktop_position": "left",
+        "background_color": "",
+        "desktop_vertical_alignment": "center",
+        "text_alignment": "start",
+        "column_gap": "medium",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "show_divider": false
+      }
+    },
     "icon_box_bxhaa4": {
       "type": "icon-box",
       "blocks": {
@@ -2156,6 +2223,7 @@
     "faqs_8y7kPB",
     "scrolling_image_XCJXfG",
     "image_with_text_HXmk6M",
+    "image_with_text_QxqGMV",
     "icon_box_bxhaa4",
     "newsletter_xiREgC"
   ]
