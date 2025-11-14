@@ -263,7 +263,7 @@
             -%}
             {% assign block_st = block.settings %}
             <div
-              class="{% if block.type == 'logo_block' %}footer__block-logo{% endif %} footer-block w-full{% unless block.type == 'newsletter_block' and modulo == 1 %} col-md-w-custom-50 col-md-w-custom{% endunless %} col-1025-w-custom {{ block.type }}{% if block.type == 'menu_block' %} order-2{% endif %} {% if block.type == 'contact_bar_block' %} order-1{% endif %} {% if block.type == 'newsletter_block' %} order-3{% endif %}"
+              class="{% if block.type == 'logo_block' %}footer__block-logo order-2{% endif %} footer-block w-full{% unless block.type == 'newsletter_block' and modulo == 1 %} col-md-w-custom-50 col-md-w-custom{% endunless %} col-1025-w-custom {{ block.type }}{% if block.type == 'menu_block' %} order-2{% endif %} {% if block.type == 'contact_bar_block' %} order-1{% endif %} {% if block.type == 'newsletter_block' %} order-3{% endif %}"
               style="--col-width: {{ block_st.width }}; --menu-list: {{ menu_item }};"
               {{ block.shopify_attributes }}
             >
