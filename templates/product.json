@@ -282,7 +282,7 @@
       ],
       "custom_css": [
         ".product__tax {display: none;}",
-        ".title.h3-5 {--h3-5: 30px;}"
+        ".title.h3-5 {--h3-5: 26px;}"
       ],
       "settings": {
         "section_width": "fix_width",
