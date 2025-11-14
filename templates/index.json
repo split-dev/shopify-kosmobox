@@ -2200,7 +2200,7 @@
                 "first_button_label": "Button label",
                 "first_button_link": "",
                 "first_button_type": "link",
-                "blank_first_button": false,
+                "blank_first_button": true,
                 "second_button_label": "",
                 "second_button_link": "",
                 "second_button_type": "outline",
