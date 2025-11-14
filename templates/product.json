@@ -280,6 +280,9 @@
         "text_product_pteFxD",
         "wishlist_plus_wishlist_pdp_button_MFBFBm"
       ],
+      "custom_css": [
+        ".product__tax {display: none;}"
+      ],
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "default",
