@@ -2092,7 +2092,7 @@
             "show_badge": true,
             "badge": "Highlight text",
             "highlight_text_icon": "star",
-            "background_color": "#C03E35",
+            "background_color": "#c03e35",
             "text_color": "#ffffff",
             "vertical_position": "bottom",
             "overlay_opacity": 0,
@@ -2162,7 +2162,7 @@
             "show_badge": false,
             "badge": "Highlight text",
             "highlight_text_icon": "star",
-            "background_color": "#C03E35",
+            "background_color": "#c03e35",
             "text_color": "#ffffff",
             "vertical_position": "bottom",
             "overlay_opacity": 0,
@@ -2201,7 +2201,7 @@
         "heading": "",
         "drawn_underline": true,
         "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#FFB005",
+        "drawn_underline_color": "#ffb005",
         "description": "",
         "heading_size": "medium",
         "alignment": "start",
@@ -2222,15 +2222,15 @@
           "settings": {
             "icon_svg": "free_shipping",
             "heading": "Free Shipping",
-            "description": "<p>Enjoy free worldwide shipping and returns, with customs and duties taxes included.</p>"
+            "description": "<p>Enjoy free United Kingdom, Isle of Man, Jersey, Guernsey shipping and returns</p>"
           }
         },
         "icon_box_kx94dt": {
           "type": "icon_box",
           "settings": {
             "icon_svg": "check_badge",
-            "heading": "100—Day money Back",
-            "description": "<p>Enjoy free returns within 100 days, as long as the product remains unused and undamaged.</p>"
+            "heading": "14 Day money Back",
+            "description": "<p>Enjoy free returns within 14 days, as long as the product remains unused and undamaged.</p>"
           }
         },
         "icon_box_x994xA": {
@@ -2238,7 +2238,7 @@
           "settings": {
             "icon_svg": "message_communications",
             "heading": "Support Online",
-            "description": "<p>We support customers 24/7, send questions we will solve for you immediately.</p>"
+            "description": "<p>We're ready to answer any inquiries and design personalized skincare that's perfect for you.</p>"
           }
         }
       },
