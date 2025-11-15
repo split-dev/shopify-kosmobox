@@ -67,7 +67,7 @@
             "highlight_text_MDHfTL": {
               "type": "highlight-text",
               "settings": {
-                "highlight_text": "Golden Winter Glow",
+                "highlight_text": "Haruharu Wonder Box",
                 "highlight_text_size": "small-1",
                 "highlight_text_icon": "star",
                 "background_color": "#e8a8b6",
@@ -80,7 +80,7 @@
             "heading_AdBjAh": {
               "type": "heading",
               "settings": {
-                "heading": "Haruharu Wonder Christmas box",
+                "heading": "The perfect present for your bestie!",
                 "width": "fit",
                 "type_preset": "h4",
                 "enable_background": false,
@@ -94,7 +94,7 @@
             "description_GdCMet": {
               "type": "description",
               "settings": {
-                "description": "<p>The best selection of products for everyday use.</p>",
+                "description": "<p>Haruharu Wonder’s black rice magic for a naturally radiant Christmas.</p>",
                 "width": "fit",
                 "type_preset": "rte",
                 "enable_background": false,
