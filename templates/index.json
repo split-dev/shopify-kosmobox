@@ -80,7 +80,7 @@
             "heading_AdBjAh": {
               "type": "heading",
               "settings": {
-                "heading": "Beauty of Joseon",
+                "heading": "Haruharu Wonder Christmas box",
                 "width": "fit",
                 "type_preset": "h4",
                 "enable_background": false,
@@ -94,7 +94,7 @@
             "description_GdCMet": {
               "type": "description",
               "settings": {
-                "description": "<p>Nourish, protect, and slow the signs of aging - everything your skin deserves this Christmas.</p>",
+                "description": "<p>The best selection of product for everyday use.</p>",
                 "width": "fit",
                 "type_preset": "rte",
                 "enable_background": false,
@@ -108,8 +108,8 @@
             "button_U8xzwg": {
               "type": "button",
               "settings": {
-                "first_button_label": "Grab your box",
-                "first_button_link": "shopify://collections/best-sellers",
+                "first_button_label": "Check what we have in the box",
+                "first_button_link": "shopify://products/hahuharu-wander-christmas-box",
                 "first_button_type": "outline",
                 "blank_first_button": false,
                 "second_button_label": "",
