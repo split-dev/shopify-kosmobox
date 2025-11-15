@@ -37,11 +37,13 @@
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "default-color-scheme",
-        "image": "",
         "use_collection_image": false,
+        "title_position": true,
         "image_opacity": 20,
         "image_height": "base_on_content",
         "desktop_content_position": "middle-center",
+        "heading_size": "medium",
+        "heading_position": "before_banner",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -81,7 +83,6 @@
           "type": "promotion",
           "settings": {
             "color_scheme": "scheme-b057792d-f0df-4ed0-973f-3dd88bca67d5",
-            "image": "",
             "highlight_text": "",
             "highlight_text_icon": "none",
             "background_color": "#c03e35",
@@ -99,15 +100,21 @@
         "promotion_wpTYUL"
       ],
       "settings": {
-        "section_width": "fix_width",
+        "section_width": "stretch_width",
         "products_to_show": 12,
-        "items_per_row": 4,
+        "items_per_row": 5,
         "column_gap": "medium",
-        "pagination_type": "default",
+        "pagination_type": "button",
         "enable_sorting": true,
-        "enable_filtering": true,
+        "enable_filtering": false,
         "show_product_counts": true,
         "filter_layout": "drawer",
+        "category_swatches_title": "Category",
+        "category_swatches_tags": "",
+        "skin_type_title": "Skin type",
+        "skin_type_tags": "",
+        "skin_request_title": "Skin request",
+        "skin_request_tags": "",
         "padding_top": 0,
         "padding_bottom": 100
       }
@@ -118,15 +125,16 @@
         "text_ytX76e": {
           "type": "text",
           "settings": {
-            "content": "100—Day money Back!",
+            "content": "Ho-Ho-Ho",
             "link_text": ""
           }
         },
         "image_4UN4U9": {
           "type": "image",
           "settings": {
+            "image_block": "shopify://shop_images/Copy_of_box_1.png",
             "image_width": 80,
-            "icon_svg": "line",
+            "icon_svg": "none",
             "link_image": "",
             "image_width_mb": 80,
             "show_divider": false
@@ -135,15 +143,16 @@
         "text_x8ahT8": {
           "type": "text",
           "settings": {
-            "content": "Black friday 75% Off!",
+            "content": "Ho-Ho-Ho",
             "link_text": ""
           }
         },
         "image_Hi63mF": {
           "type": "image",
           "settings": {
+            "image_block": "shopify://shop_images/Copy_of_box.gif",
             "image_width": 80,
-            "icon_svg": "line",
+            "icon_svg": "none",
             "link_image": "",
             "image_width_mb": 80,
             "show_divider": false
@@ -159,15 +168,15 @@
       "name": "t:sections.scrolling_text.name",
       "settings": {
         "section_width": "full_width",
-        "color_scheme": "scheme-85c61dc2-20da-48a8-92be-c39d88ecd689",
+        "color_scheme": "scheme-09c240ad-a4e2-4a51-b278-c61b800bb2f6",
         "direction": "left",
-        "speed": 15,
-        "space_between": 60,
-        "heading_size": "medium",
+        "speed": 50,
+        "space_between": 35,
+        "heading_size": "small",
         "uppercase": false,
-        "rounded_image": 50,
-        "padding_top": 37,
-        "padding_bottom": 37
+        "rounded_image": 10,
+        "padding_top": 10,
+        "padding_bottom": 10
       }
     },
     "shopable_image_rz6CYi": {
@@ -222,7 +231,6 @@
             "products_lookbook_eJQMen": {
               "type": "_products-lookbook",
               "settings": {
-                "image": "",
                 "position_top_1": 40,
                 "position_left_1": 48,
                 "product_1": "cookies-clay-scrub",
@@ -238,7 +246,6 @@
             "products_lookbook_EHdDXe": {
               "type": "_products-lookbook",
               "settings": {
-                "image": "",
                 "position_top_1": 39,
                 "position_left_1": 52,
                 "product_1": "dark-circle-patch",
@@ -254,7 +261,6 @@
             "products_lookbook_Mqncgf": {
               "type": "_products-lookbook",
               "settings": {
-                "image": "",
                 "position_top_1": 42,
                 "position_left_1": 46,
                 "product_1": "oil-free-hydrate",
