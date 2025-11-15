@@ -94,7 +94,7 @@
             "description_GdCMet": {
               "type": "description",
               "settings": {
-                "description": "<p>The best selection of product for everyday use.</p>",
+                "description": "<p>The best selection of products for everyday use.</p>",
                 "width": "fit",
                 "type_preset": "rte",
                 "enable_background": false,
