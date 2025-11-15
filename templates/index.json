@@ -2221,8 +2221,8 @@
           "type": "icon_box",
           "settings": {
             "icon_svg": "free_shipping",
-            "heading": "Free Shipping",
-            "description": "<p>Enjoy free United Kingdom, Isle of Man, Jersey, Guernsey shipping and returns</p>"
+            "heading": "Free Shipping & Pick-Up",
+            "description": "<p>Enjoy free United Kingdom, Isle of Man, Jersey, Guernsey shipping on purchase over £30.</p>"
           }
         },
         "icon_box_kx94dt": {
