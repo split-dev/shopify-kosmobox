@@ -137,7 +137,7 @@
             "highlight_text_zzHKrH": {
               "type": "highlight-text",
               "settings": {
-                "highlight_text": "Love Glow Christmas",
+                "highlight_text": "SKIN 1004 Cetella Box",
                 "highlight_text_size": "small-1",
                 "highlight_text_icon": "star",
                 "background_color": "#e8a8b6",
@@ -150,7 +150,7 @@
             "heading_QTikhm": {
               "type": "heading",
               "settings": {
-                "heading": "Tocobo",
+                "heading": "Your mom will absolutely love this!",
                 "width": "fit-content",
                 "type_preset": "h3",
                 "enable_background": false,
@@ -164,7 +164,7 @@
             "description_xpdeQX": {
               "type": "description",
               "settings": {
-                "description": "<p>Surprise your loved one with Trendy skin routine , timeless care with modern glow.</p>",
+                "description": "<p>Soothing care with pure Madagascar Centella in every box.<br/></p>",
                 "width": "fit",
                 "type_preset": "rte",
                 "enable_background": false,
@@ -178,7 +178,7 @@
             "button_GUm4tg": {
               "type": "button",
               "settings": {
-                "first_button_label": "Glow the Magic",
+                "first_button_label": "Bring holiday glow with Centella",
                 "first_button_link": "shopify://products/clearing-skin-prep-essence-pad-140ml-70sheets",
                 "first_button_type": "outline",
                 "blank_first_button": false,
