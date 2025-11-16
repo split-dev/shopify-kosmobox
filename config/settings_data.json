@@ -90,8 +90,7 @@
     ],
     "cart_empty_collection": [
       "skincare",
-      "make-up",
-      "best-seller"
+      "make-up"
     ],
     "cart_empty_button_link": "",
     "cart_empty_free_shipping_message": "Free delivery on orders over [amount]",
