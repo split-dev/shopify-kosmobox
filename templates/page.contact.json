@@ -190,7 +190,7 @@
         "drawn_underline": true,
         "drawn_underline_type": "squiggle_underline",
         "drawn_underline_color": "#ffb005",
-        "description": "<p>Please submit all general enquiries in the contact form below and we look </p><p>forward to hearing from you soon.</p>",
+        "description": "<p>Please submit all general enquiries in the contact form below and we look </p><p>forward to hearing from you soon.</p><p>by using this form you confirm that you agree with <a href=\"/pages/orders-and-payments\" target=\"_blank\" title=\"Privacy Policy\">Privacy Policy.</a></p>",
         "text_alignment": "center",
         "name": "Name",
         "email_placeholder": "Email",
