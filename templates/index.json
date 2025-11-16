@@ -2280,7 +2280,7 @@
         "drawn_underline": true,
         "drawn_underline_type": "squiggle_underline",
         "drawn_underline_color": "#ffb005",
-        "description": "",
+        "description": "<p>by using this form you confirm that you agree with <a href=\"/pages/orders-and-payments\" target=\"_blank\" title=\"Privacy Policy\">Privacy Policy.</a></p>",
         "heading_size": "small",
         "text_alignment": "center",
         "email_placeholder": "Enter your email",
