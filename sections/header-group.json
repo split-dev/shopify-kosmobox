@@ -146,7 +146,7 @@
         "show_account": true,
         "show_wishlist": true,
         "show_cart": true,
-        "show_offer": true,
+        "show_offer": false,
         "transparent": false,
         "header_text_icon_transparent": "#ffffff",
         "padding_top": 18,
