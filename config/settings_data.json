@@ -64,7 +64,7 @@
     "sale_background": "#e9a8b6",
     "new_background": "#363d46",
     "sold_out_background": "#666666",
-    "custom_badge_background": "#d92656",
+    "custom_badge_background": "#65f131",
     "color_swatch_type": "color",
     "color_swatch_shape": "round",
     "color_swatch_trigger": "Color,Colour,Cor, Colors",
