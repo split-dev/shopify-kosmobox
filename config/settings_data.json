@@ -74,6 +74,7 @@
     "free_minimum_amount": 30,
     "show_duration": false,
     "cart_duration": 10,
+    "enable_product_recommendations": false,
     "show_product_recommendations_mobile": true,
     "recommendation_product_type": "auto",
     "select_product_recommendation": [
@@ -93,6 +94,7 @@
       "best-seller"
     ],
     "cart_empty_button_link": "",
+    "cart_empty_free_shipping_message": "Free delivery on orders over [amount]",
     "search_type": "drawer",
     "show_search_results": "tab",
     "search_placeholder": "Search lipstick, serum ...",
