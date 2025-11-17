@@ -4311,3 +4311,10 @@ motion-effect {
     padding: 10px 0;
   }
 }
+
+@media (max-width: 575px) {
+  .wishlist-icon {
+    position: relative;
+    right: -7px;
+  }
+}

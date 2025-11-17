@@ -2973,6 +2973,16 @@ input.search__input {
 }
 
 @media (max-width: 767px) {
+  .footer__blocks {
+    position: relative;
+    justify-content: flex-start !important;
+  }
+  .footer__block-logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    justify-content: flex-end;
+  }
   .logo-footer {
     padding-bottom: var(--sp-6);
   }
@@ -2988,7 +2998,7 @@ input.search__input {
   }
   .footer__block-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     column-gap: 8px;
   }
   .footer__block-content li {
