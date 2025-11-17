@@ -134,7 +134,7 @@
         "menu_mega_AQpCaJ"
       ],
       "custom_css": [
-        ".header__menu-mobile {color: inherit;}"
+        ".header__menu-mobile > div > ul > li:first-child{color: inherit;}"
       ],
       "settings": {
         "section_width": "stretch_width",
