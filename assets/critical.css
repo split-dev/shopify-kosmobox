@@ -314,7 +314,7 @@ summary::-webkit-details-marker {
 
 .prose strong {
   color: var(--color-heading);
-  font-weight: var(--heading-weight);
+  /* font-weight: var(--heading-weight); */
 }
 
 :where(.h0) {
