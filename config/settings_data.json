@@ -1067,7 +1067,7 @@
       "action-filter[data-name=\"Category\"] {order: 1;}",
       "action-filter[data-name=\"Skin type\"] {order: 4;}",
       "action-filter[data-name=\"Skin request\"] {order: 5;}",
-      ".header__menu-mobile > div > ul > li:first-child a {color: rgb(233, 168, 182);}"
+      ".header__menu-mobile > div > ul > li:first-child a {color: rgb(233, 168, 182); font-weight: 700;}"
     ]
   }
 }
