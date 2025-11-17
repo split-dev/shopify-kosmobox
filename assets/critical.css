@@ -4318,8 +4318,12 @@ motion-effect {
     right: -7px;
   }
 }
+
 @media (min-width: 758px) {
   .d-md-none {
     display: none;
+  }
+  .d-md-flex {
+    display: flex;
   }
 }
