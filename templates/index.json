@@ -278,7 +278,7 @@
             "highlight_text_9yD3xq": {
               "type": "highlight-text",
               "settings": {
-                "highlight_text": "Limited Offer",
+                "highlight_text": "Softer Than Your Scarf",
                 "highlight_text_size": "small-1",
                 "highlight_text_icon": "star",
                 "background_color": "#e8a8b6",
@@ -291,7 +291,7 @@
             "heading_jNf9r3": {
               "type": "heading",
               "settings": {
-                "heading": "Bundle Exclusive",
+                "heading": "Basically your skin’s “I’m finally hydrated again” moment.",
                 "width": "fit",
                 "type_preset": "h3",
                 "enable_background": false,
@@ -305,7 +305,7 @@
             "description_Ycxgkj": {
               "type": "description",
               "settings": {
-                "description": "<p>Get Exclusive Luxe Gift Wrap free when you purchase 2 or more foundations.</p>",
+                "description": "<p>The ultimate winter-skin survival routine.</p>",
                 "width": "fit",
                 "type_preset": "",
                 "enable_background": false,
@@ -319,7 +319,7 @@
             "button_wN3qKV": {
               "type": "button",
               "settings": {
-                "first_button_label": "Shop Foundations",
+                "first_button_label": "Beauty hack unlocked",
                 "first_button_link": "shopify://products/the-mini-glow-set-4pcs",
                 "first_button_type": "outline",
                 "blank_first_button": false,
