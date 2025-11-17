@@ -133,9 +133,7 @@
         "menu_mega_KMbVNx",
         "menu_mega_AQpCaJ"
       ],
-      "custom_css": [
-        ".header__menu-mobile > div > ul > li::first-child a {color: rgb(233, 168, 182);}"
-      ],
+      "custom_css": [],
       "settings": {
         "section_width": "stretch_width",
         "color_scheme": "color-scheme-2",
