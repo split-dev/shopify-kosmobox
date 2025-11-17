@@ -207,7 +207,7 @@
             "highlight_text_jcmDrc": {
               "type": "highlight-text",
               "settings": {
-                "highlight_text": "Fresh Festive Glow",
+                "highlight_text": "Festive Mystery Cube",
                 "highlight_text_size": "small-1",
                 "highlight_text_icon": "star",
                 "background_color": "#e8a8b6",
@@ -220,7 +220,7 @@
             "heading_ENWmtc": {
               "type": "heading",
               "settings": {
-                "heading": "Haruharu Wonder",
+                "heading": "A gift for someone special… especially you!",
                 "width": "fit",
                 "type_preset": "h3",
                 "enable_background": false,
@@ -234,7 +234,7 @@
             "description_RQMWim": {
               "type": "description",
               "settings": {
-                "description": "<p>Winter elegance starts with perfect moisture and the fresh lavender scent of summer.</p>",
+                "description": "<p>Makes skin look bright, smooth, refreshed, and very “holiday photo ready”.</p>",
                 "width": "fit",
                 "type_preset": "rte",
                 "enable_background": false,
@@ -248,12 +248,12 @@
             "button_dwiYMW": {
               "type": "button",
               "settings": {
-                "first_button_label": "Claim the Offer",
+                "first_button_label": "Click if you dare. Spoiler: you’ll love it.",
                 "first_button_link": "shopify://products/collagen-gel-toner-pads-60pads",
                 "first_button_type": "outline",
                 "blank_first_button": false,
                 "second_button_label": "",
-                "second_button_link": "",
+                "second_button_link": "shopify://products/festive-mystery-cube",
                 "second_button_type": "outline",
                 "blank_second_button": false,
                 "spacing_bottom": 0
