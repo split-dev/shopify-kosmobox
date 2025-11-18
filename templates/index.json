@@ -1548,6 +1548,7 @@
         "testimonial_JKwkqq",
         "image_comparison_XAiBXc"
       ],
+      "disabled": true,
       "custom_css": [
         ".rating-text.caption path {fill: #c8545487;}"
       ],
