@@ -3009,3 +3009,15 @@ input.search__input {
   display: flex;
   align-items: center;
 }
+
+/* Cart page hard fix */
+main-cart-items .checkout__sticky__wrapper {
+  display: none !important;
+}
+
+.cart-info .cart__ctas {
+  display: grid !important;
+}
+.main-cart-totals .total_price-inner {
+  display: flex !important;
+}
