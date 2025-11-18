@@ -247,8 +247,11 @@ export class ProductForm extends HTMLElement {
         const errors =
           document.getElementById("cart-errors") ||
           document.getElementById("CartDrawer-CartErrors");
+        const errorsMobile = document.getElementById("cart-errors-mobile");
         if (!errors) return;
         errors.textContent = window.cartStrings.error;
+        if (!errorsMobile) return;
+        errorsMobile.textContent = window.cartStrings.error;
       })
       .finally(() => {
         new NextSkyTheme.FSProgressBar("free-ship-progress-bar");
@@ -269,18 +272,31 @@ export class ProductForm extends HTMLElement {
   removeBundlePurchasedProduct() {
     const sectionBundle = localStorage.getItem("bundle-section");
     const sectionId = JSON.parse(sectionBundle);
-    sectionId.forEach(id => {
-      const bundlePurchasedString = localStorage.getItem(`bundle-purchased-products-${id}`);
+    sectionId.forEach((id) => {
+      const bundlePurchasedString = localStorage.getItem(
+        `bundle-purchased-products-${id}`
+      );
       const bundlePurchasedProducts = JSON.parse(bundlePurchasedString);
       if (!bundlePurchasedString) return;
-      if (!Array.isArray(bundlePurchasedProducts) || bundlePurchasedProducts.length === 0) return;
-      
+      if (
+        !Array.isArray(bundlePurchasedProducts) ||
+        bundlePurchasedProducts.length === 0
+      )
+        return;
+
       const productId = this.dataset.productId;
       if (!productId) return;
-      
-      const updatedProducts = bundlePurchasedProducts.filter(id => id !== productId);
-      localStorage.setItem(`bundle-purchased-products-${id}`, JSON.stringify(updatedProducts));
-      const getAfterBundleProducts = localStorage.getItem(`bundle-purchased-products-${id}`);
+
+      const updatedProducts = bundlePurchasedProducts.filter(
+        (id) => id !== productId
+      );
+      localStorage.setItem(
+        `bundle-purchased-products-${id}`,
+        JSON.stringify(updatedProducts)
+      );
+      const getAfterBundleProducts = localStorage.getItem(
+        `bundle-purchased-products-${id}`
+      );
       const afterBundleProducts = JSON.parse(getAfterBundleProducts);
       const getBundleSettings = localStorage.getItem(`bundle-min-max-${id}`);
       const bundleSettings = JSON.parse(getBundleSettings);
@@ -291,10 +307,19 @@ export class ProductForm extends HTMLElement {
         if (bundleDiscountString) {
           const bundleDiscounts = JSON.parse(bundleDiscountString);
           if (Array.isArray(bundleDiscounts) && bundleDiscounts.length > 0) {
-            discountPills.forEach(pill => {
+            discountPills.forEach((pill) => {
               const discountCode = pill.dataset.discountCode;
-              if (discountCode && bundleDiscounts.includes(discountCode) && afterBundleProducts.length < bundleMin) {                const removeDiscountButton = pill.querySelector("remove-discount");
-                if (removeDiscountButton && typeof removeDiscountButton.removeDiscount === 'function') {
+              if (
+                discountCode &&
+                bundleDiscounts.includes(discountCode) &&
+                afterBundleProducts.length < bundleMin
+              ) {
+                const removeDiscountButton =
+                  pill.querySelector("remove-discount");
+                if (
+                  removeDiscountButton &&
+                  typeof removeDiscountButton.removeDiscount === "function"
+                ) {
                   removeDiscountButton.removeDiscount();
                 }
               }
@@ -462,6 +487,15 @@ export class ProductForm extends HTMLElement {
             parsedState.sections[section.id],
             section.selector
           );
+          const checkout__sticky = this.cart.querySelector(
+            ".checkout__sticky__wrapper"
+          );
+          if (checkout__sticky) {
+            checkout__sticky.innerHTML = this.getSectionDOM(
+              parsedState.sections[section.id],
+              ".checkout__sticky__wrapper"
+            ).innerHTML;
+          }
         }
       });
     }
@@ -607,7 +641,7 @@ class MainCartRemoveButton extends ProductForm {
         id: this.sectionId,
         section: this.sectionId,
         selector: ".cart-discount__codes",
-      }
+      },
     ];
   }
 
@@ -651,8 +685,11 @@ class MainCartRemoveButton extends ProductForm {
         const errors =
           document.getElementById("cart-errors") ||
           document.getElementById("CartDrawer-CartErrors");
+        const errorsMobile = document.getElementById("cart-errors-mobile");
         if (!errors) return;
         errors.textContent = window.cartStrings.error;
+        if (!errorsMobile) return;
+        errorsMobile.textContent = window.cartStrings.error;
       })
       .finally(() => {
         new NextSkyTheme.FSProgressBar("free-ship-progress-bar");
@@ -695,22 +732,35 @@ class MainCartRemoveButton extends ProductForm {
           });
       });
   }
-  
+
   removeBundlePurchasedProduct() {
     const sectionBundle = localStorage.getItem("bundle-section");
     const sectionId = JSON.parse(sectionBundle);
-    sectionId.forEach(id => {
-      const bundlePurchasedString = localStorage.getItem(`bundle-purchased-products-${id}`);
+    sectionId.forEach((id) => {
+      const bundlePurchasedString = localStorage.getItem(
+        `bundle-purchased-products-${id}`
+      );
       const bundlePurchasedProducts = JSON.parse(bundlePurchasedString);
       if (!bundlePurchasedString) return;
-      if (!Array.isArray(bundlePurchasedProducts) || bundlePurchasedProducts.length === 0) return;
-      
+      if (
+        !Array.isArray(bundlePurchasedProducts) ||
+        bundlePurchasedProducts.length === 0
+      )
+        return;
+
       const productId = this.dataset.productId;
       if (!productId) return;
-      
-      const updatedProducts = bundlePurchasedProducts.filter(id => id !== productId);
-      localStorage.setItem(`bundle-purchased-products-${id}`, JSON.stringify(updatedProducts));
-      const getAfterBundleProducts = localStorage.getItem(`bundle-purchased-products-${id}`);
+
+      const updatedProducts = bundlePurchasedProducts.filter(
+        (id) => id !== productId
+      );
+      localStorage.setItem(
+        `bundle-purchased-products-${id}`,
+        JSON.stringify(updatedProducts)
+      );
+      const getAfterBundleProducts = localStorage.getItem(
+        `bundle-purchased-products-${id}`
+      );
       const afterBundleProducts = JSON.parse(getAfterBundleProducts);
       const getBundleSettings = localStorage.getItem(`bundle-min-max-${id}`);
       const bundleSettings = JSON.parse(getBundleSettings);
@@ -721,10 +771,19 @@ class MainCartRemoveButton extends ProductForm {
         if (bundleDiscountString) {
           const bundleDiscounts = JSON.parse(bundleDiscountString);
           if (Array.isArray(bundleDiscounts) && bundleDiscounts.length > 0) {
-            discountPills.forEach(pill => {
+            discountPills.forEach((pill) => {
               const discountCode = pill.dataset.discountCode;
-              if (discountCode && bundleDiscounts.includes(discountCode) && afterBundleProducts.length < bundleMin) {                const removeDiscountButton = pill.querySelector("remove-discount");
-                if (removeDiscountButton && typeof removeDiscountButton.removeDiscount === 'function') {
+              if (
+                discountCode &&
+                bundleDiscounts.includes(discountCode) &&
+                afterBundleProducts.length < bundleMin
+              ) {
+                const removeDiscountButton =
+                  pill.querySelector("remove-discount");
+                if (
+                  removeDiscountButton &&
+                  typeof removeDiscountButton.removeDiscount === "function"
+                ) {
                   removeDiscountButton.removeDiscount();
                 }
               }
@@ -963,8 +1022,11 @@ class CartGiftWrap extends HTMLElement {
           const errors =
             document.getElementById("cart-errors") ||
             document.getElementById("CartDrawer-CartErrors");
+          const errorsMobile = document.getElementById("cart-errors-mobile");
           if (!errors) return;
           errors.textContent = window.cartStrings.error;
+          if (!errorsMobile) return;
+          errorsMobile.textContent = window.cartStrings.error;
         })
         .finally(() => {
           new NextSkyTheme.FSProgressBar("free-ship-progress-bar");
@@ -1436,7 +1498,7 @@ class CartDrawer extends HTMLElement {
         id: this.sectionId,
         section: this.sectionId,
         selector: ".drawer__footer-bottom-total",
-      }
+      },
     ];
   }
 
