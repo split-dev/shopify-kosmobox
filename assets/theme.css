@@ -3021,3 +3021,11 @@ main-cart-items .checkout__sticky__wrapper {
 .main-cart-totals .total_price-inner {
   display: flex !important;
 }
+
+.xb-wishlist-products {
+  padding: 0 15px;
+}
+
+.xb-wishlist-product__variant .xb-list-style__add-to-cart {
+  background-color: #e9a8b6;
+}
