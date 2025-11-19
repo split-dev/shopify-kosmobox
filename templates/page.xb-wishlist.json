@@ -58,11 +58,36 @@
         "xb_wishlist_wishlist_4ipGw8"
       ],
       "settings": {}
+    },
+    "flexible_section_dYL9Qa": {
+      "type": "flexible-section",
+      "name": "t:sections.custom_section.name",
+      "settings": {
+        "section_width": "fix_width",
+        "custom_layout": "vertical",
+        "vertical_on_mobile": false,
+        "horizontal_position": "center",
+        "content_alignment": "center",
+        "column_gap": "medium",
+        "color_scheme": "",
+        "background_media": "none",
+        "borders": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "enable_background_overlay": false,
+        "background_overlay_color": "#000000",
+        "background_overlay_style": "solid",
+        "background_overlay_gradient_direction": "to top",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     }
   },
   "order": [
     "breadcrumb",
     "heading",
-    "1763558075b226c209"
+    "1763558075b226c209",
+    "flexible_section_dYL9Qa"
   ]
 }
