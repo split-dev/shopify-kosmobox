@@ -3026,6 +3026,14 @@ main-cart-items .checkout__sticky__wrapper {
   padding: 0 15px;
 }
 
+.xb-wishlist-product__title a {
+  font-weight: 400;
+}
+
+.xb-wishlist-product__price {
+  font-family: var(--heading-font);
+}
+
 .xb-wishlist-product__variant .xb-list-style__add-to-cart {
   background-color: #e9a8b6;
 }
