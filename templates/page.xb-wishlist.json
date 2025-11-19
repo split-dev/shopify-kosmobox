@@ -57,6 +57,9 @@
       "block_order": [
         "xb_wishlist_wishlist_4ipGw8"
       ],
+      "custom_css": [
+        ".shopify-app-block {padding-bottom: 80px;}"
+      ],
       "settings": {}
     }
   },
