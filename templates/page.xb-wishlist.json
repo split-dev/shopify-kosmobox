@@ -23,19 +23,16 @@
       "blocks": {
         "heading_cVehNH": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "{{ page.title }}"
           }
-        },
-        "description_PdnN6k": {
-          "type": "description",
-          "settings": {}
         }
       },
       "block_order": [
-        "heading_cVehNH",
-        "description_PdnN6k"
+        "heading_cVehNH"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "",
@@ -43,10 +40,29 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "1763558075b226c209": {
+      "type": "apps",
+      "blocks": {
+        "xb_wishlist_wishlist_4ipGw8": {
+          "type": "shopify://apps/xb-wishlist/blocks/wishlist/cc07f1e9-907b-431d-99f8-4fce3efa75f1",
+          "settings": {
+            "container": 1100,
+            "heading": true,
+            "text_size": 32,
+            "price_color": "#ff0000"
+          }
+        }
+      },
+      "block_order": [
+        "xb_wishlist_wishlist_4ipGw8"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "breadcrumb",
-    "heading"
+    "heading",
+    "1763558075b226c209"
   ]
 }
