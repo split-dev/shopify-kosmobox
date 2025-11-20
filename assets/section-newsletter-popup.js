@@ -1,6 +1,7 @@
 import { LazyLoader } from "@NextSkyTheme/lazy-load";
 import * as NextSkyTheme from "@NextSkyTheme/global";
 import { eventModal, checkUrlParameters } from "@NextSkyTheme/modal";
+
 class NewsletterPopup extends HTMLElement {
   constructor() {
     super();
@@ -30,13 +31,14 @@ class NewsletterPopup extends HTMLElement {
       document.addEventListener("shopify:section:select", (event) => {
         _self.actionDesignMode(event);
       });
-      document.addEventListener("shopify:section:load", (event) => {
+      document.addEventListener("shopify:section:load", () => {
         _self.createPopup();
       });
       document.addEventListener("shopify:section:deselect", () => {
         _self.closePopup();
       });
     }
+
     if (this.initialized) return;
     this.initialized = true;
 
@@ -45,18 +47,58 @@ class NewsletterPopup extends HTMLElement {
       NextSkyTheme.setCookie("newsletter_popup", "true", 365);
       return;
     }
+
     const getCookie = NextSkyTheme.getCookie("newsletter_popup");
+
+    // ==========================================
+    // New trigger after 3 seconds
+    // ==========================================
+    if (getCookie === null) {
+      this.initTimeoutTrigger(); 
+    }
+    // ==========================================
+
     if (
       (this.enable === "show-on-homepage" || this.enable === "show-all-page") &&
       getCookie === null
     ) {
       this.initScrollTrigger();
     }
+
     document.addEventListener(
       "modal:opened",
       this.handleModalOpened.bind(this)
     );
+
     this.evenSubmitForm();
+  }
+
+  // ==========================================
+  // Display in 3 seconds
+  // ==========================================
+  initTimeoutTrigger() {
+
+    if (this._timeoutTriggered) return;
+
+    if (this.enable === "show-on-homepage" && document.body.classList.contains("template-index")) {
+      this._timeoutTriggered = true;
+
+      setTimeout(() => {
+        const activeModal = NextSkyTheme.getRoot().classList.contains("open-modal");
+        if (!activeModal) {
+          this.createPopup();
+        }
+      }, 3000);
+    } else if(this.enable === "show-all-page") {
+      this._timeoutTriggered = true;
+
+      setTimeout(() => {
+        const activeModal = NextSkyTheme.getRoot().classList.contains("open-modal");
+        if (!activeModal) {
+          this.createPopup();
+        }
+      }, 3000);
+    }
   }
 
   initInactivityTrigger() {
@@ -64,67 +106,81 @@ class NewsletterPopup extends HTMLElement {
     this._inactivityInitialized = true;
     this._inactivityTimer = null;
     this._inactivityTriggered = false;
+
     const events = ["scroll", "click", "mousemove", "keydown"];
     const _self = this;
+
     function resetTimer() {
       if (_self._inactivityTimer) clearTimeout(_self._inactivityTimer);
       if (_self._inactivityTriggered) return;
+
       _self._inactivityTimer = setTimeout(() => {
         if (!_self._inactivityTriggered) {
           _self._inactivityTriggered = true;
+
           if (_self._inactivityTimer) {
             clearTimeout(_self._inactivityTimer);
             _self._inactivityTimer = null;
           }
+
           const activeModal =
             NextSkyTheme.getRoot().classList.contains("open-modal");
+
           if (!activeModal) {
             _self.createPopup();
           }
+
           events.forEach((event) => {
             window.removeEventListener(event, resetTimer);
           });
         }
       }, 4000);
     }
+
     events.forEach((event) => {
       window.addEventListener(event, resetTimer, { passive: true });
     });
+
     resetTimer();
   }
 
   initScrollTrigger() {
     const _self = this;
+
     const scrollHandler = () => {
       if (_self.scrollTriggered) return;
 
       const featuredBanners = document.querySelectorAll(
         ".section-featured-product-banner"
       );
+
       if (featuredBanners.length > 0) {
         const currentScroll =
           window.pageYOffset || document.documentElement.scrollTop;
+
         let hasPassedAllBanners = true;
 
         featuredBanners.forEach((banner) => {
           const bannerRect = banner.getBoundingClientRect();
           const bannerBottom = bannerRect.bottom + window.pageYOffset;
+
           if (currentScroll < bannerBottom) {
             hasPassedAllBanners = false;
           }
         });
 
-        if (!hasPassedAllBanners) {
-          return;
-        }
+        if (!hasPassedAllBanners) return;
       }
 
       const scrollTop =
         window.pageYOffset || document.documentElement.scrollTop;
+
       const documentHeight =
         document.documentElement.scrollHeight -
         document.documentElement.clientHeight;
+
       const scrollPercentage = (scrollTop / documentHeight) * 100;
+
       if (scrollPercentage >= _self.spaceScroll) {
         _self.scrollTriggered = true;
         _self.initInactivityTrigger();
@@ -140,6 +196,7 @@ class NewsletterPopup extends HTMLElement {
     const currentTarget = event.target;
     const wrapper = document.querySelector("newsletter-modal-popup");
     const template = currentTarget.querySelector("newsletter-modal-popup");
+
     if (
       JSON.parse(currentTarget.dataset.shopifyEditorSection).id ===
       this.sectionId
@@ -156,20 +213,25 @@ class NewsletterPopup extends HTMLElement {
 
   createPopup(templateDesignMode) {
     let template;
+
     if (window.Shopify && window.Shopify.designMode) {
       const existingPopup = document.querySelector("newsletter-modal-popup");
       if (existingPopup.classList.contains("active")) {
         eventModal(existingPopup, "close", true);
       }
     }
+
     if (window.Shopify && window.Shopify.designMode) {
       template = templateDesignMode;
     } else {
       template = this.querySelector("newsletter-modal-popup");
     }
+
     if (!template) return;
+
     eventModal(template, "open", true, null, true);
     NextSkyTheme.global.rootToFocus = template;
+
     this.initNotShow(template);
   }
 
@@ -189,6 +251,7 @@ class NewsletterPopup extends HTMLElement {
   initNotShow(modal) {
     const notShowCheckbox = modal?.querySelector(".newsletter-action");
     if (!notShowCheckbox || notShowCheckbox.type !== "checkbox") return;
+
     const _self = this;
 
     notShowCheckbox.addEventListener("change", () => {
@@ -198,7 +261,7 @@ class NewsletterPopup extends HTMLElement {
 
   eventNotShow(checkbox) {
     if (checkbox.checked) {
-      NextSkyTheme.setCookie("newsletter_popup", "true", 1);
+      NextSkyTheme.setCookie("newsletter_popup", "true", 365);
     } else {
       NextSkyTheme.deleteCookie("newsletter_popup");
     }
@@ -210,6 +273,7 @@ class NewsletterPopup extends HTMLElement {
         const submitButton =
           e.submitter ||
           this.contact_form.querySelector('button[type="submit"]');
+
         const spinner = submitButton?.querySelector(".icon-load");
         const text = submitButton?.querySelector(
           ".hidden-on-load.transition-short"
@@ -222,4 +286,5 @@ class NewsletterPopup extends HTMLElement {
     }
   }
 }
+
 customElements.define("newsletter-popup", NewsletterPopup);
