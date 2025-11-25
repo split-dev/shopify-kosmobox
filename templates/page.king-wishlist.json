@@ -1,0 +1,62 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "section_width": "fix_width",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "heading": {
+      "type": "page-heading",
+      "blocks": {
+        "heading_cVehNH": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cVehNH"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "text_alignment": "none",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "1764060176e39a49bd": {
+      "type": "apps",
+      "blocks": {
+        "swish_formerly_wishlist_king_wishlist_page_block_yJr8Dh": {
+          "type": "shopify://apps/swish-formerly-wishlist-king/blocks/wishlist-page-block/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "swish_formerly_wishlist_king_wishlist_page_block_yJr8Dh"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "heading",
+    "1764060176e39a49bd"
+  ]
+}

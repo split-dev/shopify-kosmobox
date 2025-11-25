@@ -207,6 +207,24 @@
           },
           "blocks": {}
         },
+        "swish_formerly_wishlist_king_wishlist_button_block_EebPEh": {
+          "type": "shopify://apps/swish-formerly-wishlist-king/blocks/wishlist-button-block/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+          "settings": {
+            "button_style": "solid_accent_1",
+            "button_alignment": "center",
+            "button_content_alignment": "center",
+            "button_margin_top": 0,
+            "button_margin_bottom": 0,
+            "button_max_width": 0,
+            "button_padding_horizontal": 15,
+            "button_full_width": true,
+            "button_show_text": true,
+            "button_show_icon": true,
+            "icon_size": 18,
+            "icon_stroke_width": 1,
+            "icon_offset_vertical": 0
+          }
+        },
         "complementary_w4ymBE": {
           "type": "_complementary",
           "disabled": true,
@@ -243,32 +261,6 @@
             "text": "<p>* This is a demonstration store — no orders shall be fulfilled.</p>"
           },
           "blocks": {}
-        },
-        "wishlist_plus_wishlist_pdp_button_MFBFBm": {
-          "type": "shopify://apps/wishlist-plus/blocks/wishlist-pdp-button/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
-          "settings": {
-            "swym_atw_button_icon": "heart",
-            "swym_atw_icon_thickness": 1.7,
-            "swym_atw_display_btn_text": true,
-            "swym_button_position": "default",
-            "swym_atw_button_vertical_offset": 0,
-            "swym_atw_full_width": true,
-            "swym_atw_button_alignment": "center",
-            "swym_add_to_wishlist_color": "#e9a8b6",
-            "swym_added_to_wishlist_color": "#e9a8b6",
-            "swym_button_text_color": "#ffffff",
-            "swym_atw_border_color": "#e9a8b6",
-            "swym_atw_border_thickness": 0,
-            "swym_atw_button_border_radius": 0,
-            "swym_enable_hover_customization": false,
-            "swym_hover_add_to_wishlist_color": "#000000",
-            "swym_hover_added_to_wishlist_color": "#222222",
-            "swym_hover_button_text_color": "#ffffff",
-            "swym_hover_atw_border_color": "#000000",
-            "swym_hover_atw_border_thickness": 0,
-            "swym_hover_atw_button_border_radius": 0,
-            "swym_custom_css": ""
-          }
         }
       },
       "block_order": [
@@ -291,11 +283,11 @@
         "collapsible_row_RNg6W7",
         "collapsible_row_8dMWip",
         "icon_with_text_product_j8xicG",
+        "swish_formerly_wishlist_king_wishlist_button_block_EebPEh",
         "complementary_w4ymBE",
         "ask_question_product_aHy4Ed",
         "share_product_hjUAFY",
-        "text_product_pteFxD",
-        "wishlist_plus_wishlist_pdp_button_MFBFBm"
+        "text_product_pteFxD"
       ],
       "custom_css": [
         ".product__tax {display: none;}",
