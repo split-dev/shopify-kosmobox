@@ -3087,3 +3087,7 @@ wishlist-button-collection .wk-icon {
   padding: 6px;
   border-radius: 100%;
 }
+
+.section__bundle-product wishlist-button-collection {
+  display: none !important;
+}
