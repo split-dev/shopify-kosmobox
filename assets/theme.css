@@ -3081,3 +3081,9 @@ wishlist-product-card .wk-form {
 .template-product .wk-button:hover {
   opacity: 0.9;
 }
+
+wishlist-button-collection .wk-icon {
+  background: #fff;
+  padding: 6px;
+  border-radius: 100%;
+}
