@@ -3063,6 +3063,6 @@ wishlist-product-card .wk-meta {
 }
 
 .template-product .wk-button {
-  border-radius: var(--btn-radius);
+  border-radius: var(--btn-radius) !important;
   font-weight: var(--btn-weight);
 }
