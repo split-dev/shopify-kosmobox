@@ -3029,11 +3029,12 @@ wishlist-page .wk-text {
 .wk-product-card .wk-vendor {
   text-transform: uppercase;
   color: #e9a8b6;
+  font-size: calc(var(--body-font-size) - 2px) !important;
 }
 
 .wk-product-card .wk-text-link {
-  font-size: var(--product-name-size, 1.6rem);
-  line-height: var(--product-name-lh, 1.6);
+  font-size: var(--product-name-size, 1.6rem) !important;
+  line-height: var(--product-name-lh, 1.6) !important;
   --heading-weight: var(--subheading-weight);
 }
 
@@ -3049,5 +3050,5 @@ wishlist-page .wk-text {
   width: 30px;
   height: 2px;
   background-color: #e9a8b6;
-  margin: 0 0 8px;
+  margin: 0 auto 8px;
 }
