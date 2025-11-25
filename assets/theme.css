@@ -3031,6 +3031,10 @@ wishlist-product-card .wk-meta {
   margin: 1em 0.2em !important;
 }
 
+wishlist-product-card .wk-form {
+  justify-content: flex-end;
+}
+
 .wk-product-card .wk-vendor {
   text-transform: uppercase;
   color: #e9a8b6;
