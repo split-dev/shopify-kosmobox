@@ -3026,24 +3026,24 @@ wishlist-page .wk-text {
   font-family: var(--heading-font) !important;
 }
 
-wk-product-card .wk-vendor {
+.wk-product-card .wk-vendor {
   text-transform: uppercase;
   color: #e9a8b6;
 }
 
-wk-product-card .wk-text-link {
+.wk-product-card .wk-text-link {
   font-size: var(--product-name-size, 1.6rem);
   line-height: var(--product-name-lh, 1.6);
   --heading-weight: var(--subheading-weight);
 }
 
-wk-product-card .wk-current-price {
+.wk-product-card .wk-current-price {
   position: relative;
   font-family: var(--heading-font);
   font-size: var(--product-price-size, 1.4rem);
 }
 
-wk-product-card .wk-current-price::before {
+.wk-product-card .wk-current-price::before {
   content: "";
   display: block;
   width: 30px;
