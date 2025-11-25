@@ -3095,6 +3095,12 @@ wishlist-product-card .wk-form {
   opacity: 0.9;
 }
 
+wishlist-button-collection .wk-icon {
+  background: #fff;
+  padding: 6px;
+  border-radius: 100%;
+}
+
 .product-tooltip .loobook-product wishlist-button-collection {
   display: none !important;
 }
