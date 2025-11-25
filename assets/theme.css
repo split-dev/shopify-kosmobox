@@ -3049,9 +3049,22 @@ wishlist-product-card .wk-form {
 }
 
 .wk-product-card .wk-text-link {
+  display: inline !important;
   font-size: var(--product-name-size, 1.6rem) !important;
   line-height: var(--product-name-lh, 1.6) !important;
   --heading-weight: var(--subheading-weight);
+
+  position: relative;
+  background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+  background-size: var(--bg-size, 0) var(--height-outline, 1px);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  transition: background-size .55s cubic-bezier(.2, .75, .5, 1), color .3s;
+}
+
+.wk-product-card .wk-text-link:hover {
+  background-size: 100% var(--height-outline, 1px);
+  background-position: left bottom;
 }
 
 .wk-product-card .wk-cta-label {
