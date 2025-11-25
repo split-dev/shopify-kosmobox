@@ -3066,3 +3066,7 @@ wishlist-product-card .wk-meta {
   border-radius: var(--btn-radius) !important;
   font-weight: var(--btn-weight);
 }
+
+.template-product .wk-button:hover {
+  opacity: 0.9;
+}
