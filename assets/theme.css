@@ -3088,6 +3088,6 @@ wishlist-button-collection .wk-icon {
   border-radius: 100%;
 }
 
-.section__bundle-product wishlist-button-collection {
+.product-tooltip .loobook-product wishlist-button-collection {
   display: none !important;
 }
