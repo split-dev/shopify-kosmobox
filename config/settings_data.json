@@ -385,7 +385,7 @@
         "settings": {
           "column_width": "md",
           "wishlist_empty_link": "shopify://collections/all",
-          "page_max_width": 1260,
+          "page_max_width": 1240,
           "page_padding_top": 30,
           "page_padding_bottom": 80,
           "show_share_button": true,
