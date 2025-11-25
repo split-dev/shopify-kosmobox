@@ -3061,3 +3061,8 @@ wishlist-product-card .wk-meta {
   background-color: #e9a8b6;
   margin: 0 auto 8px;
 }
+
+.template-product .wk-button {
+  border-radius: var(--btn-radius);
+  font-weight: var(--btn-weight);
+}
