@@ -3027,8 +3027,8 @@ wishlist-page .wk-text {
 }
 
 wishlist-product-card .wk-meta {
-  gap: .6em;
-  margin: 1em 0.2em;
+  gap: .6em !important;
+  margin: 1em 0.2em !important;
 }
 
 .wk-product-card .wk-vendor {
