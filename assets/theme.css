@@ -3041,6 +3041,13 @@ wishlist-product-card .wk-form {
   font-size: calc(var(--body-font-size) - 2px) !important;
 }
 
+.wk-product-card .wk-button .wk-icon {
+  background: white;
+  padding: 8px;
+  border-radius: 100%;
+  --stroke: #e9a8b6 !important;
+}
+
 .wk-product-card .wk-text-link {
   font-size: var(--product-name-size, 1.6rem) !important;
   line-height: var(--product-name-lh, 1.6) !important;
