@@ -146,6 +146,10 @@
                   class="sec__inner flex{% if slide_height == 'adapt' and image_mobile != blank %} ratio-mobile{% endif %}{% if slide_height == 'adapt' or slide_height == 'full_screen' %} h-full{% endif %} h-{{ slide_height }}"
                   style="{% if slide_height == 'adapt' or slide_height == "full_screen" %}--aspect-ratio: {{ ratio_dk }};--aspect-ratio-mb: {{ ratio_mb }};{% endif %}"
                 >
+
+                {% if block.settings.first_button_link != blank %}
+                  <a href="{{ block.settings.first_button_link }}" aria-label="Banner link">
+                {% endif %}
                   <div
                     class="banner__media w-full h-full {{ rounded }} absolute inset-0 overlay-bg"
                     style="
@@ -253,6 +257,11 @@
                       -%}
                     {% endif %}
                   </div>
+
+                {% if block.settings.first_button_link != blank %}
+                  </a>
+                {% endif %}
+
                   {% if heading != blank
                     or subheading != blank
                     or description != blank
