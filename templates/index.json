@@ -14,6 +14,7 @@
       "blocks": {
         "image_6AndnX": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Pink_Black_Modern_Grunge_Ripped_Paper_Coming_Soon_Poster_1920_x_1080_px_3.gif",
             "image_mobile": "shopify://shop_images/Banners_Kosmobox_Mob.gif",
@@ -30,7 +31,33 @@
             "drawn_underline_color": "#fed3dc",
             "description": "",
             "first_button_label": "",
-            "first_button_link": "shopify://collections/best-sellers",
+            "first_button_link": "shopify://collections/christmas-boxes",
+            "first_button_type": "primary",
+            "desktop_content_position": "bottom-right",
+            "text_alignment": "right",
+            "content_position_mobile": "end",
+            "text_alignment_mobile": "start"
+          }
+        },
+        "image_iFi3Fb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BF_banner.png",
+            "image_mobile": "shopify://shop_images/BF_Insta_post.gif",
+            "overlay_opacity": 0,
+            "highlight_text": "",
+            "highlight_text_icon": "star",
+            "background_color": "#e3cea4",
+            "text_color": "#1d1d1f",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h4",
+            "drawn_underline": false,
+            "drawn_underline_type": "squiggle_underline",
+            "drawn_underline_color": "#fed3dc",
+            "description": "",
+            "first_button_label": "",
+            "first_button_link": "shopify://collections/black-friday-deals",
             "first_button_type": "primary",
             "desktop_content_position": "bottom-right",
             "text_alignment": "right",
@@ -40,7 +67,8 @@
         }
       },
       "block_order": [
-        "image_6AndnX"
+        "image_6AndnX",
+        "image_iFi3Fb"
       ],
       "settings": {
         "section_width": "full_width",

@@ -1,0 +1,74 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "section_width": "fix_width",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "heading": {
+      "type": "page-heading",
+      "blocks": {
+        "heading_cVehNH": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}"
+          }
+        },
+        "description_PdnN6k": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_cVehNH",
+        "description_PdnN6k"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "text_alignment": "none",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "newsletter_aKkQnm": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "heading": "<p>Black Friday Newsletter</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#FFB005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "left",
+        "email_placeholder": "Enter your email",
+        "button_label": "Subscribe",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "show_divider": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "heading",
+    "newsletter_aKkQnm"
+  ]
+}
