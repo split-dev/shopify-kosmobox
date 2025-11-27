@@ -26,16 +26,12 @@
           "settings": {
             "heading": "{{ page.title }}"
           }
-        },
-        "description_PdnN6k": {
-          "type": "description",
-          "settings": {}
         }
       },
       "block_order": [
-        "heading_cVehNH",
-        "description_PdnN6k"
+        "heading_cVehNH"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "",
@@ -43,10 +39,24 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "1764060176e39a49bd": {
+      "type": "apps",
+      "blocks": {
+        "swish_formerly_wishlist_king_wishlist_page_block_yJr8Dh": {
+          "type": "shopify://apps/swish-formerly-wishlist-king/blocks/wishlist-page-block/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "swish_formerly_wishlist_king_wishlist_page_block_yJr8Dh"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "breadcrumb",
-    "heading"
+    "heading",
+    "1764060176e39a49bd"
   ]
 }
