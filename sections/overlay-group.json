@@ -109,7 +109,6 @@
     },
     "newsletter-popup": {
       "type": "newsletter-popup",
-      "disabled": true,
       "settings": {
         "enable_on_homepage": true,
         "desktop_image_width": 46,
