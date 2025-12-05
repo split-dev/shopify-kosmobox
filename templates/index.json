@@ -2277,7 +2277,7 @@
         "klaviyo_email_marketing_sms_form_embed_block_UrWT3V": {
           "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
-            "formId": "<div class=\"klaviyo-form-Th7Awf\"></div>"
+            "formId": "<div class=\"klaviyo-form-RFndLc\"></div>"
           }
         }
       },
@@ -2302,8 +2302,8 @@
         "background_overlay_color": "#000000",
         "background_overlay_style": "solid",
         "background_overlay_gradient_direction": "to top",
-        "padding_top": 48,
-        "padding_bottom": 48
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "1764937637475dd5e5": {
@@ -2312,6 +2312,7 @@
     },
     "newsletter_xiREgC": {
       "type": "newsletter",
+      "disabled": true,
       "name": "t:sections.newsletter.name",
       "settings": {
         "section_width": "fix_width",
